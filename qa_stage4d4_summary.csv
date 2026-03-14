@@ -6,16 +6,15 @@
 "  no missing cluster labels (expected 0, got 0)",OK
 "  no duplicate patient_ids (expected 0, got 0)",OK
 "  no patients with follow_up_years <= 0 (expected 0, got 0)",OK
-  Model 0 fitted,OK
-  Model 1 fitted (GFR),OK
-  Model 2 fitted (Creatinine),OK
-  Model 3 fitted (Extended),OK
-"  At least 3 models in IRR table (expected 3, got 4)",OK
-  Fit stats collected for >= 3 models,OK
-  model_fit_comparison.csv saved,OK
-  zero_inflation_check.csv saved,OK
-  File saved: hospitalization_nb_multivariable_kmeans_K3.csv,OK
-  File saved: hospitalization_cluster_irr_comparison.csv,OK
-  File saved: collinearity_gfr_creatinine.csv,OK
-  File saved: model_fit_comparison.csv,OK
-  File saved: zero_inflation_check.csv,OK
+"  At least 5 sequential models run (expected 5, got 7)",OK
+"  Fit stats for >= 5 steps (expected 5, got 7)",OK
+  Step 1 fitted,OK
+  Step 6 (full) fitted,OK
+  Poisson sanity check run,OK
+  File saved: hosp_count_summary.csv,OK
+  File saved: hosp_count_table.csv,OK
+  File saved: hosp_count_distribution.png,OK
+  File saved: nb_sequential_fit_stats.csv,OK
+  File saved: nb_sequential_irr_all.csv,OK
+  File saved: nb_sequential_cluster_irr.csv,OK
+  File saved: poisson_sanity_irr.csv,OK

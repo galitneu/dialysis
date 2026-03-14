@@ -1,0 +1,3 @@
+﻿model,term,label,IRR,CI_lo,CI_hi,p_value,sig
+Poisson_robust_SE,cluster_cat[T.1],C1,1.517,0.984,2.338,0.0591,
+Poisson_robust_SE,cluster_cat[T.2],C2,1.335,1.013,1.76,0.0404,*
