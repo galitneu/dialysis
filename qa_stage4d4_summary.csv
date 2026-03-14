@@ -1,0 +1,21 @@
+﻿check,status
+"  base dataset rows (expected 645, got 645)",OK
+"  long-format rows (expected 645, got 645)",OK
+"  positional join length match (FALLBACK — see note) (expected 645, got 645)",OK
+"  rows after merge (expected 645, got 645)",OK
+"  no missing cluster labels (expected 0, got 0)",OK
+"  no duplicate patient_ids (expected 0, got 0)",OK
+"  no patients with follow_up_years <= 0 (expected 0, got 0)",OK
+  Model 0 fitted,OK
+  Model 1 fitted (GFR),OK
+  Model 2 fitted (Creatinine),OK
+  Model 3 fitted (Extended),OK
+"  At least 3 models in IRR table (expected 3, got 4)",OK
+  Fit stats collected for >= 3 models,OK
+  model_fit_comparison.csv saved,OK
+  zero_inflation_check.csv saved,OK
+  File saved: hospitalization_nb_multivariable_kmeans_K3.csv,OK
+  File saved: hospitalization_cluster_irr_comparison.csv,OK
+  File saved: collinearity_gfr_creatinine.csv,OK
+  File saved: model_fit_comparison.csv,OK
+  File saved: zero_inflation_check.csv,OK

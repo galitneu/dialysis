@@ -1,0 +1,2 @@
+﻿var1,var2,n_pairs,pearson_r,spearman_r,spearman_p,collinear
+GFR,creatinine-numeric result,644,-0.695,-0.794,0.0,False

@@ -1,0 +1,2 @@
+﻿model,obs_zeros,obs_zeros_pct,nb_predicted_zeros,nb_predicted_pct,excess_zeros,zi_ratio,zi_concern
+Model1_GFR,250,38.8,645.0,100.0,-395.0,0.388,False
