@@ -1,0 +1,80 @@
+column,dtype,vtype,n_missing,pct_missing,n_unique,sample_or_top_levels,clinical_axis,proposed_status
+patient_id,int64,continuous,0,0.0,645,"min=1, max=645, median=323.0",Admin,Excluded
+Dialysis_Start_Date,str,categorical / string / date,0,0.0,615,2016-07-19 00:00:00: 2 (0.3%); 2016-10-26 00:00:00: 2 (0.3%); 2011-07-12 00:00:00: 2 (0.3%); 2018-12-17 00:00:00: 2 (0.3%); 2016-02-08 00:00:00: 2 (0.3%); 2017-01-16 00:00:00: 2 (0.3%); 2013-09-23 00:00:00: 2 (0.3%); 2020-07-21 00:00:00: 2 (0.3%),Admin,Excluded
+selected_Echo_Date,str,categorical / string / date,0,0.0,644,2013-08-11 12:44:18: 2 (0.3%); 2021-12-13 09:31:53: 1 (0.2%); 2009-03-30 12:28:29: 1 (0.2%); 2016-04-12 13:33:31: 1 (0.2%); 2016-10-20 14:21:41: 1 (0.2%); 2017-07-17 12:52:01: 1 (0.2%); 2014-09-03 11:10:19: 1 (0.2%); 2016-01-13 11:34:32: 1 (0.2%),Admin,Excluded
+event,int64,binary,0,0.0,2,"min=0, max=1, median=1.0",Outcome,Outcome — secondary (Cox)
+time_to_event_days,float64,continuous,0,0.0,513,"min=1.0, max=5911.0, median=553.0",Outcome,Outcome — secondary (Cox)
+time_to_event_years,float64,continuous,0,0.0,513,"min=0.0027378507871321, max=16.18343600273785, median=1.514031485284052",Outcome,"Outcome — secondary (Cox, redundant)"
+followup_days,float64,continuous,0,0.0,513,"min=1.0, max=5911.0, median=553.0",Outcome,Outcome — denominator for hosp rate
+died_1year,float64,binary,27,4.2,2,"min=0.0, max=1.0, median=0.0",Outcome,Outcome — primary (1y mortality)
+hosp_total,int64,continuous,0,0.0,11,"min=0, max=10, median=1.0",Outcome,Outcome — primary (hosp rate)
+echo_to_dialysis_days,int64,continuous,0,0.0,297,"min=-68, max=365, median=69.0",Timing,Core clinical (covariate)
+echo_timing_class,str,categorical / string / date,0,0.0,3,before: 515 (79.8%); after: 117 (18.1%); same_day: 13 (2.0%),Timing,Descriptive only — used to define cohort
+echo_before_dialysis,int64,binary,0,0.0,2,"min=0, max=1, median=1.0",Timing,Descriptive only — redundant with class
+AgeAtFirstHFDate,float64,continuous,0,0.0,435,"min=26.0, max=95.4391244870039, median=71.0",Clinical,Core clinical
+Age_z,float64,continuous,0,0.0,435,"min=-3.8487021910970136, max=2.1511047390620583, median=0.0394705624014748",Clinical,"Excluded — pre-z-scored, redundant"
+sex_male,float64,binary,1,0.2,2,"min=0.0, max=1.0, median=1.0",Clinical,Core clinical
+HD_binary,int64,binary,0,0.0,2,"min=0, max=1, median=1.0",Clinical,Candidate covariate (full base)
+IHD_binary,int64,binary,0,0.0,2,"min=0, max=1, median=1.0",Clinical,Candidate covariate (full base)
+AFIB_binary,int64,binary,0,0.0,2,"min=0, max=1, median=0.0",Clinical,Candidate covariate (full base)
+Diabetes mellitus_binary,int64,binary,0,0.0,2,"min=0, max=1, median=1.0",Clinical,Candidate covariate (full base)
+MI_binary,int64,binary,0,0.0,2,"min=0, max=1, median=0.0",Clinical,Candidate covariate (full base)
+CABG_binary,int64,binary,0,0.0,2,"min=0, max=1, median=0.0",Clinical,Candidate covariate (full base)
+HTN_binary,int64,binary,0,0.0,2,"min=0, max=1, median=1.0",Clinical,Candidate covariate (full base)
+COPD_binary,int64,binary,0,0.0,2,"min=0, max=1, median=0.0",Clinical,Candidate covariate (full base)
+albumin-numeric result,float64,continuous,1,0.2,39,"min=1.5, max=4.79999999999999, median=3.1",Lab,Candidate covariate (full base)
+albumin_z,float64,continuous,1,0.2,39,"min=-2.898634370027047, max=3.1224562009645225, median=0.0206822704537228",Lab,Excluded — pre-z-scored
+creatinine-numeric result,float64,continuous,1,0.2,428,"min=0.959999999999999, max=13.83, median=5.07",Lab,Core clinical (parsimonious base)
+creatinine_z,float64,continuous,1,0.2,428,"min=-2.0380326470592167, max=4.177575464378642, median=-0.0530948585580818",Lab,Excluded — pre-z-scored
+GFR,float64,continuous,1,0.2,616,"min=1.433223141860765, max=114.5833333333335, median=14.047150312155313",Lab,Candidate covariate (alternative to creatinine)
+GFR_z,float64,continuous,1,0.2,616,"min=-1.2992457101554604, max=7.485773251530484, median=-0.31989545424458",Lab,Excluded — pre-z-scored
+hb-numeric result,float64,continuous,66,10.2,105,"min=4.5, max=16.0, median=9.69",Lab,Candidate covariate (full base)
+crp-numeric result,float64,continuous,25,3.9,595,"min=0.27, max=688.32, median=38.06",Lab,Candidate covariate (full base)
+sbp-numeric result,float64,continuous,164,25.4,115,"min=55.0, max=220.0, median=134.0",Lab,Sensitivity (>20% missing)
+dbp-numeric result,float64,continuous,137,21.2,77,"min=24.0, max=137.0, median=67.0",Lab,Sensitivity (>20% missing)
+LV_EF,float64,continuous,4,0.6,35,"min=7.0, max=75.0, median=50.0",Echo: Benchmark,Benchmark — fixed in all models
+LV_EF_z,float64,continuous,4,0.6,35,"min=-2.5158889430860043, max=1.7880639308413784, median=0.2057283154268995",Echo: Benchmark,Excluded — pre-z-scored
+LeftVentricleEstimatedMassIndex,float64,continuous,67,10.4,146,"min=23.0, max=294.0, median=113.5",Echo: LV structure / mass,Candidate (LVMI)
+LVMI_z,float64,continuous,67,10.4,146,"min=-2.7622114564393443, max=4.985711794706655, median=-0.17480535227435207",Echo: LV structure / mass,Excluded — pre-z-scored
+LeftVentricleInterventricularSeptumThickness,float64,continuous,8,1.2,117,"min=0.46000000834465, max=2.20000004768371, median=1.16999995708466",Echo: LV structure / mass,Sensitivity
+IVS_z,float64,continuous,8,1.2,117,"min=-3.3442279746977004, max=4.858922391386534, median=0.0030342136633637",Echo: LV structure / mass,Excluded — pre-z-scored
+LeftVentricleEndDiastolicDiameter,float64,continuous,8,1.2,247,"min=3.09999990463257, max=8.69999980926513, median=5.13000011444092",Echo: LV structure / mass,Sensitivity
+LVEDD_z,float64,continuous,8,1.2,247,"min=-2.672333170925566, max=4.325667339937717, median=-0.1355576803510681",Echo: LV structure / mass,Excluded — pre-z-scored
+MitralInflowPeakEWave,float64,continuous,63,9.8,302,"min=38.0, max=230.0, median=104.0",Echo: LV diastolic / filling,Candidate
+Ewave_z,float64,continuous,63,9.8,302,"min=-2.147675033226711, max=3.9723045866340745, median=-0.0439320388995659",Echo: LV diastolic / filling,Excluded — pre-z-scored
+TissueDopplerEERatioSeptal,float64,continuous,122,18.9,474,"min=4.30999994277954, max=66.9599990844727, median=19.7199993133545",Echo: LV diastolic / filling,Candidate
+EeRatioSep_z,float64,continuous,122,18.9,474,"min=-1.8199700821575855, max=4.8236700132214585, median=-0.1858361461527018",Echo: LV diastolic / filling,Excluded — pre-z-scored
+EstimatedSysPAPressure,float64,continuous,108,16.7,77,"min=19.0, max=105.0, median=49.0",Echo: Right-heart / congestion,Candidate (numeric SPAP)
+SPAP_z,float64,continuous,108,16.7,77,"min=-2.0657004923662194, max=3.6762936735440968, median=-0.0626792716998301",Echo: Right-heart / congestion,Excluded — pre-z-scored
+LACavitySize,str,categorical / string / date,14,2.2,5,Mildly dilated: 324 (50.2%); Moderately dilated: 170 (26.4%); Normal: 68 (10.5%); Severely dilated: 40 (6.2%); No Value: 29 (4.5%); nan: 14 (2.2%),Echo: LA / atrial,Candidate (categorical)
+MitralRegurgitation,str,categorical / string / date,19,2.9,7,Mild (I): 229 (35.5%); Trivial: 137 (21.2%); Mild-to-moderate (I-II): 106 (16.4%); Moderate (II): 67 (10.4%); Severe (IV): 34 (5.3%); No Value: 29 (4.5%); Moderately-severe (III): 24 (3.7%); nan: 19 (2.9%),Echo: Valves,"Candidate (categorical, merged)"
+TricuspidRegurgitation,str,categorical / string / date,19,2.9,7,Mild (I): 197 (30.5%); Trivial: 164 (25.4%); Mild-to-moderate (I-II): 93 (14.4%); Moderate (II): 64 (9.9%); Severe (IV): 51 (7.9%); Moderately-severe (III): 31 (4.8%); No Value: 26 (4.0%); nan: 19 (2.9%),Echo: Right-heart / congestion,"Candidate (categorical, merged)"
+TissueDopplerEVelositySeptal,float64,continuous,114,17.7,245,"min=2.0, max=16.0, median=5.0",Echo: LV diastolic / filling,Candidate (was previously OMITTED)
+TissueDopplerEVelosityLateral,float64,continuous,114,17.7,255,"min=2.0, max=18.0, median=7.0",Echo: LV diastolic / filling,Candidate (was previously OMITTED)
+LeftVentricleScoreIndex,float64,continuous,5,0.8,45,"min=1.0, max=2.88000011444092, median=1.0",Echo: LV systolic (other),Sensitivity (overlap with EF)
+LeftVentricleEstimatedMass,float64,continuous,16,2.5,562,"min=78.7604064941406, max=555.079406738281, median=218.0",Echo: LV structure / mass,Sensitivity (use LVMI instead)
+RVSize,str,categorical / string / date,150,23.3,5,No Value: 195 (30.2%); Normal: 152 (23.6%); nan: 150 (23.3%); Dilated: 90 (14.0%); Mildly dilated: 57 (8.8%); RVH: 1 (0.2%),Echo: Right-heart / congestion,"Candidate (categorical, RVH dropped)"
+RVSystolicFunction,str,categorical / string / date,147,22.8,5,No Value: 194 (30.1%); nan: 147 (22.8%); Normal: 144 (22.3%); Moderately reduced: 62 (9.6%); Mildly reduced: 57 (8.8%); Severely reduced: 41 (6.4%),Echo: Right-heart / congestion,Candidate (categorical)
+TissueDopplerEERatioLateral,float64,continuous,122,18.9,452,"min=4.44000005722045, max=45.0800018310546, median=14.25",Echo: LV diastolic / filling,Candidate
+EeRatio_avg,float64,continuous,119,18.4,516,"min=5.404999971389765, max=47.33500003814695, median=17.2950000762939",Echo: LV diastolic / filling,Candidate (derived)
+LeftVentricleEndSystolicDiameter,float64,continuous,9,1.4,272,"min=1.53999996185303, max=8.10000038146972, median=3.5",Echo: LV structure / mass,Sensitivity
+LeftVentriclePosteriorWallThickness,float64,continuous,13,2.0,99,"min=0.52999997138977, max=1.75999999046325, median=1.0",Echo: LV structure / mass,Sensitivity
+ECHO_SPAP,str,categorical / string / date,119,18.4,4,Severely increased: 150 (23.3%); Moderately increased: 142 (22.0%); Mildly increased: 135 (20.9%); nan: 119 (18.4%); Normal: 99 (15.3%),Echo: Right-heart / congestion,Candidate (categorical)
+LeftVentricleSystolicFunction,str,categorical / string / date,29,4.5,8,Normal: 292 (45.3%); Severely reduced: 112 (17.4%); Moderately reduced: 47 (7.3%); No Value: 46 (7.1%); Mildly reduced: 36 (5.6%); Mild-moderately reduced: 36 (5.6%); Moderate-severely reduced: 34 (5.3%); nan: 29 (4.5%),Echo: LV systolic (other),Candidate (categorical)
+LeftVentricleCavitySize,str,categorical / string / date,29,4.5,6,Normal: 363 (56.3%); Mildly dilated: 140 (21.7%); No Value: 45 (7.0%); Moderately dilated: 37 (5.7%); nan: 29 (4.5%); Severely dilated: 27 (4.2%); Small: 4 (0.6%),Echo: LV structure / mass,Sensitivity (categorical)
+LeftVentricleWallThickness,str,categorical / string / date,100,15.5,5,Mildly increased: 215 (33.3%); Normal: 143 (22.2%); No Value: 143 (22.2%); nan: 100 (15.5%); Moderately increased: 39 (6.0%); Severely increased: 5 (0.8%),Echo: LV structure / mass,Sensitivity (categorical)
+TissueDopplerSVelocitySeptal,float64,continuous,204,31.6,201,"min=2.0, max=13.5, median=5.69000005722045",Echo: LV systolic (other),Candidate
+TissueDopplerSVelocityLateral,float64,continuous,131,20.3,233,"min=2.0, max=14.0, median=6.490000009536745",Echo: LV systolic (other),Candidate
+flag_missing_dialysis_date,int64,binary,0,0.0,1,"min=0, max=0, median=0.0",QC flag,Excluded
+flag_missing_echo_date,int64,binary,0,0.0,1,"min=0, max=0, median=0.0",QC flag,Excluded
+flag_no_patient_level_followup_date,int64,binary,0,0.0,1,"min=1, max=1, median=1.0",QC flag,Excluded
+flag_death_before_dialysis,int64,binary,0,0.0,1,"min=0, max=0, median=0.0",QC flag,Excluded
+flag_negative_followup,int64,binary,0,0.0,1,"min=0, max=0, median=0.0",QC flag,Excluded
+flag_echo_after_dialysis,int64,binary,0,0.0,2,"min=0, max=1, median=0.0",QC flag,Used to define cohort
+flag_echo_same_day,int64,binary,0,0.0,2,"min=0, max=1, median=0.0",QC flag,Used to define cohort
+flag_echo_more_than_365d_before_dialysis,int64,binary,0,0.0,1,"min=0, max=0, median=0.0",QC flag,Used to define cohort
+flag_short_followup_for_1y_outcome,int64,binary,0,0.0,2,"min=0, max=1, median=0.0",QC flag,Used to define cohort
+flag_multiple_echo_records,int64,binary,0,0.0,1,"min=0, max=0, median=0.0",QC flag,Excluded
+flag_hosp_1y_not_computable,int64,binary,0,0.0,1,"min=1, max=1, median=1.0",QC flag,Excluded
+flag_manual_review_needed,int64,binary,0,0.0,1,"min=0, max=0, median=0.0",QC flag,Excluded
+flag_primary_analysis_exclusion_candidate,int64,binary,0,0.0,2,"min=0, max=1, median=0.0",QC flag,Used to define cohort
