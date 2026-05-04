@@ -1,0 +1,52 @@
+#,variable_name,domain,variable_type,n_missing,missing_pct
+1,HD/PD,Demographics,categorical,0,0.0
+2,m/f,Demographics,categorical,1,0.2
+3,AgeAtFirstHFDate,Demographics,continuous,0,0.0
+4,LeftVentricleCavitySize,Echo_Qualitative,categorical,74,11.5
+5,LeftVentricleWallThickness,Echo_Qualitative,categorical,243,37.7
+6,LeftVentricleSystolicFunction,Echo_Qualitative,categorical,75,11.6
+7,LV_EF,Echo_Quantitative,continuous,4,0.6
+8,LACavitySize,Echo_Qualitative,categorical,43,6.7
+9,AorticValveStructure,Echo_Qualitative,categorical,194,30.1
+10,MitralRegurgitation,Echo_Qualitative,categorical,48,7.4
+11,TricuspidRegurgitation,Echo_Qualitative,categorical,45,7.0
+12,ECHO_SPAP,Echo_Qualitative,categorical,119,18.4
+13,LeftVentricleEndDiastolicDiameter,Echo_Quantitative,continuous,8,1.2
+14,LeftVentricleEndSystolicDiameter,Echo_Quantitative,continuous,9,1.4
+15,LeftVentricleInterventricularSeptumThickness,Echo_Quantitative,continuous,8,1.2
+16,LeftVentriclePosteriorWallThickness,Echo_Quantitative,continuous,13,2.0
+17,LeftVentricleEstimatedMass,Echo_Quantitative,continuous,16,2.5
+18,LeftVentricleEstimatedMassIndex,Echo_Quantitative,continuous,67,10.4
+19,LeftVentricleScoreIndex,Echo_Quantitative,continuous,5,0.8
+20,EstimatedSysPAPressure,Echo_Quantitative,continuous,108,16.7
+21,MitralInflowPeakEWave,Echo_Quantitative,continuous,63,9.8
+22,TissueDopplerSVelocitySeptal,Echo_Quantitative,continuous,204,31.6
+23,TissueDopplerEVelositySeptal,Echo_Quantitative,continuous,114,17.7
+24,TissueDopplerEERatioSeptal,Echo_Quantitative,continuous,122,18.9
+25,TissueDopplerSVelocityLateral,Echo_Quantitative,continuous,131,20.3
+26,TissueDopplerEVelosityLateral,Echo_Quantitative,continuous,114,17.7
+27,TissueDopplerEERatioLateral,Echo_Quantitative,continuous,122,18.9
+28,Weight,Demographics,continuous,91,14.1
+29,BMI,Demographics,continuous,124,19.2
+30,sbp-numeric result,Lab_Vitals,continuous,164,25.4
+31,dbp-numeric result,Lab_Vitals,continuous,137,21.2
+32,GFR,Lab_Values,continuous,1,0.2
+33,na-numeric result,Lab_Values,continuous,3,0.5
+34,k-numeric result,Lab_Values,continuous,3,0.5
+35,albumin-numeric result,Lab_Values,continuous,1,0.2
+36,hb-numeric result,Lab_Values,continuous,66,10.2
+37,urea-numeric result,Lab_Values,continuous,4,0.6
+38,creatinine-numeric result,Lab_Values,continuous,1,0.2
+39,ca-numeric result,Lab_Values,continuous,1,0.2
+40,p-numeric result,Lab_Values,continuous,1,0.2
+41,ua-numeric result,Lab_Values,continuous,1,0.2
+42,crp-numeric result,Lab_Values,continuous,25,3.9
+43,hba1c-numeric result,Lab_Values,continuous,65,10.1
+44,MI_binary,Comorbidities_Binary,binary,0,0.0
+45,CABG_binary,Comorbidities_Binary,binary,0,0.0
+46,IHD_binary,Comorbidities_Binary,binary,0,0.0
+47,AFIB_binary,Comorbidities_Binary,binary,0,0.0
+48,HTN_binary,Comorbidities_Binary,binary,0,0.0
+49,Diabetes mellitus_binary,Comorbidities_Binary,binary,0,0.0
+50,DYSLIPIDEMIA_binary,Comorbidities_Binary,binary,0,0.0
+51,COPD_binary,Comorbidities_Binary,binary,0,0.0

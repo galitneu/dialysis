@@ -1,0 +1,84 @@
+variable_name,domain,variable_type,feature_status,reason_if_not_main,n_missing,missing_pct,miss_in_raw
+patient_id,Identifier,identifier,exclude,Identifier,0,0.0,0.0
+Dialysis_Start_Date,Dates_Raw,date,exclude,Raw date - use derived time vars,0,0.0,0.0
+Echo_Date,Dates_Raw,date,exclude,Raw date - use derived time vars,0,0.0,0.0
+DeathDate,Outcome,date,exclude,Outcome/future - leakage risk,139,21.6,21.550387596899228
+data_cutoff_date,Administrative,date,exclude,Administrative variable,0,0.0,0.0
+event,Outcome,binary,exclude,Outcome/future - leakage risk,0,0.0,0.0
+event_1y,Outcome,binary,exclude,Outcome/future - leakage risk,0,0.0,0.0
+time_to_event_days,Outcome,continuous,exclude,Outcome/future - leakage risk,0,0.0,0.0
+time_to_event_years,Outcome,continuous,exclude,Outcome/future - leakage risk,0,0.0,0.0
+days_echo_to_dialysis,Derived_Time,continuous,sensitivity_only,Derived timing variable; risk of technical/timing-driven clustering. Retain for sensitivity analysis,0,0.0,0.0
+months_echo_to_dialysis,Derived_Time,continuous,exclude,Redundant with days_echo_to_dialysis,0,0.0,0.0
+HD/PD,Demographics,categorical,main,,0,0.0,0.0
+m/f,Demographics,categorical,main,,1,0.2,0.15503875968992248
+AgeAtFirstHFDate,Demographics,continuous,main,,0,0.0,0.0
+LeftVentricleCavitySize,Echo_Qualitative,categorical,main,,74,11.5,4.496124031007752
+LeftVentricleWallThickness,Echo_Qualitative,categorical,main,,243,37.7,15.503875968992247
+LeftVentricleSystolicFunction,Echo_Qualitative,categorical,main,,75,11.6,4.496124031007752
+LeftVentricleSummary,Echo_Text,text,exclude,Free text - not suitable for clustering,452,70.1,69.76744186046511
+LV_EF,Echo_Quantitative,continuous,main,,4,0.6,0.6201550387596899
+RVSize,Echo_Qualitative,categorical,sensitivity_only,High missingness (53.5%),345,53.5,23.25581395348837
+RVSystolicFunction,Echo_Qualitative,categorical,sensitivity_only,High missingness (52.9%),341,52.9,22.790697674418606
+LACavitySize,Echo_Qualitative,categorical,main,,43,6.7,2.1705426356589146
+AorticValveStructure,Echo_Qualitative,categorical,main,,194,30.1,13.643410852713178
+AorticValveRegurgitation,Echo_Qualitative,categorical,sensitivity_only,High missingness (53.2%),343,53.2,28.992248062015502
+AorticValveSummary,Echo_Text,text,exclude,Free text - not suitable for clustering,508,78.8,78.6046511627907
+MitralValveStructure,Echo_Qualitative,categorical,sensitivity_only,High missingness (71%),458,71.0,30.54263565891473
+MitralRegurgitation,Echo_Qualitative,categorical,main,,48,7.4,2.945736434108527
+MitralValveSummary,Echo_Text,text,exclude,Free text - not suitable for clustering,443,68.7,68.68217054263566
+TricuspidValveStructure,Echo_Qualitative,categorical,sensitivity_only,High missingness (89%),574,89.0,36.434108527131784
+TricuspidRegurgitation,Echo_Qualitative,categorical,main,,45,7.0,2.945736434108527
+ECHO_SPAP,Echo_Qualitative,categorical,main,,119,18.4,18.449612403100776
+LeftVentricleEndDiastolicDiameter,Echo_Quantitative,continuous,main,,8,1.2,1.2403100775193798
+LeftVentricleEndSystolicDiameter,Echo_Quantitative,continuous,main,,9,1.4,1.3953488372093024
+LeftVentricleInterventricularSeptumThickness,Echo_Quantitative,continuous,main,,8,1.2,1.2403100775193798
+LeftVentriclePosteriorWallThickness,Echo_Quantitative,continuous,main,,13,2.0,2.0155038759689923
+LeftVentricleEstimatedMass,Echo_Quantitative,continuous,main,,16,2.5,2.4806201550387597
+LeftVentricleEstimatedMassIndex,Echo_Quantitative,continuous,main,,67,10.4,10.387596899224807
+LeftVentricleScoreIndex,Echo_Quantitative,continuous,main,,5,0.8,0.7751937984496124
+EstimatedSysPAPressure,Echo_Quantitative,continuous,main,,108,16.7,16.74418604651163
+MitralInflowPeakEWave,Echo_Quantitative,continuous,main,,63,9.8,9.767441860465116
+TissueDopplerSVelocitySeptal,Echo_Quantitative,continuous,main,,204,31.6,31.627906976744185
+TissueDopplerEVelositySeptal,Echo_Quantitative,continuous,main,,114,17.7,17.674418604651162
+TissueDopplerEERatioSeptal,Echo_Quantitative,continuous,main,,122,18.9,18.91472868217054
+TissueDopplerSVelocityLateral,Echo_Quantitative,continuous,main,,131,20.3,20.310077519379846
+TissueDopplerEVelosityLateral,Echo_Quantitative,continuous,main,,114,17.7,17.674418604651162
+TissueDopplerEERatioLateral,Echo_Quantitative,continuous,main,,122,18.9,18.91472868217054
+ProcedureSummary,Echo_Text,text,exclude,Free text - not suitable for clustering,0,0.0,0.0
+Weight,Demographics,continuous,main,,91,14.1,14.108527131782948
+BMI,Demographics,continuous,main,,124,19.2,19.224806201550386
+MI,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,452,70.1,70.07751937984497
+CABG,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,512,79.4,79.37984496124031
+IHD,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,249,38.6,38.604651162790695
+AFIB,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,342,53.0,53.02325581395348
+HTN,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,112,17.4,17.364341085271317
+Diabetes mellitus,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,235,36.4,36.434108527131784
+DYSLIPIDEMIA,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,334,51.8,51.78294573643411
+COPD,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,540,83.7,83.72093023255815
+OncologicalDiagnosis,Comorbidities_Raw,text,exclude,Raw text comorbidity - use binary version,502,77.8,77.82945736434108
+sbp-numeric result,Lab_Vitals,continuous,main,,164,25.4,25.426356589147286
+dbp-numeric result,Lab_Vitals,continuous,main,,137,21.2,21.240310077519382
+hospitalization-count,Outcome,continuous,exclude,Outcome/future - leakage risk,0,0.0,0.0
+GFR,Lab_Values,continuous,main,,1,0.2,0.15503875968992248
+na-numeric result,Lab_Values,continuous,main,,3,0.5,0.46511627906976744
+k-numeric result,Lab_Values,continuous,main,,3,0.5,0.46511627906976744
+albumin-numeric result,Lab_Values,continuous,main,,1,0.2,0.15503875968992248
+hb-numeric result,Lab_Values,continuous,main,,66,10.2,10.232558139534884
+urea-numeric result,Lab_Values,continuous,main,,4,0.6,0.6201550387596899
+creatinine-numeric result,Lab_Values,continuous,main,,1,0.2,0.15503875968992248
+ca-numeric result,Lab_Values,continuous,main,,1,0.2,0.15503875968992248
+p-numeric result,Lab_Values,continuous,main,,1,0.2,0.15503875968992248
+ua-numeric result,Lab_Values,continuous,main,,1,0.2,0.15503875968992248
+crp-numeric result,Lab_Values,continuous,main,,25,3.9,3.875968992248062
+hba1c-numeric result,Lab_Values,continuous,main,,65,10.1,10.077519379844961
+months_dialysis_to_echo,Derived_Time,continuous,exclude,Redundant direction/duplicate of echo-dialysis interval,0,0.0,0.0
+MI_binary,Comorbidities_Binary,binary,main,,0,0.0,0.0
+CABG_binary,Comorbidities_Binary,binary,main,,0,0.0,0.0
+IHD_binary,Comorbidities_Binary,binary,main,,0,0.0,0.0
+AFIB_binary,Comorbidities_Binary,binary,main,,0,0.0,0.0
+HTN_binary,Comorbidities_Binary,binary,main,,0,0.0,0.0
+Diabetes mellitus_binary,Comorbidities_Binary,binary,main,,0,0.0,0.0
+DYSLIPIDEMIA_binary,Comorbidities_Binary,binary,main,,0,0.0,0.0
+COPD_binary,Comorbidities_Binary,binary,main,,0,0.0,0.0
+years_since_MI,Derived_Time,continuous,sensitivity_only,High missingness (80.2%),517,80.2,80.15503875968992

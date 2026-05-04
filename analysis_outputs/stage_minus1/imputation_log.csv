@@ -1,0 +1,42 @@
+variable,method,imputed_value,n_imputed
+m/f,most_frequent,m,1
+LeftVentricleCavitySize,most_frequent,Normal,74
+LeftVentricleWallThickness,most_frequent,Mildly increased,243
+LeftVentricleSystolicFunction,most_frequent,Normal,75
+LV_EF,median,50,4
+LACavitySize,most_frequent,Mildly dilated,43
+AorticValveStructure,most_frequent,Calcified,194
+MitralRegurgitation,most_frequent,Mild (I),48
+TricuspidRegurgitation,most_frequent,Mild (I),45
+ECHO_SPAP,most_frequent,Severely increased,119
+LeftVentricleEndDiastolicDiameter,median,5.13000011444092,8
+LeftVentricleEndSystolicDiameter,median,3.5,9
+LeftVentricleInterventricularSeptumThickness,median,1.16999995708466,8
+LeftVentriclePosteriorWallThickness,median,1,13
+LeftVentricleEstimatedMass,median,218,16
+LeftVentricleEstimatedMassIndex,median,114,67
+LeftVentricleScoreIndex,median,1,5
+EstimatedSysPAPressure,median,49,108
+MitralInflowPeakEWave,median,104,63
+TissueDopplerSVelocitySeptal,median,5.69000005722045,204
+TissueDopplerEVelositySeptal,median,5,114
+TissueDopplerEERatioSeptal,median,19.7199993133545,122
+TissueDopplerSVelocityLateral,median,6.5,131
+TissueDopplerEVelosityLateral,median,7,114
+TissueDopplerEERatioLateral,median,14.25,122
+Weight,median,80,91
+BMI,median,27.9430976919727,124
+sbp-numeric result,median,134,164
+dbp-numeric result,median,67,137
+GFR,median,14.0485312899106,1
+na-numeric result,median,137,3
+k-numeric result,median,4.5,3
+albumin-numeric result,median,3.1,1
+hb-numeric result,median,9.69,66
+urea-numeric result,median,211,4
+creatinine-numeric result,median,5.07,1
+ca-numeric result,median,8.3,1
+p-numeric result,median,5.79999999999999,1
+ua-numeric result,median,9.4,1
+crp-numeric result,median,38.06,25
+hba1c-numeric result,median,6.09999999999999,65

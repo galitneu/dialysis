@@ -1,0 +1,52 @@
+original_variable,encoding_method,n_levels_in_data,n_columns_created,drop_first,full_encoding_verified,columns_created,all_categories
+HD/PD,full_one_hot (drop_first=False),2.0,2,False,✅,HD/PD_HD; HD/PD_PD,HD; PD
+m/f,full_one_hot (drop_first=False),2.0,2,False,✅,m/f_f; m/f_m,f; m
+AgeAtFirstHFDate,none,,1,False,,AgeAtFirstHFDate,
+LeftVentricleCavitySize,full_one_hot (drop_first=False),5.0,5,False,✅,LeftVentricleCavitySize_Mildly dilated; LeftVentricleCavitySize_Moderately dilated; LeftVentricleCavitySize_Normal; LeftVentricleCavitySize_Severely dilated; LeftVentricleCavitySize_Small,Mildly dilated; Moderately dilated; Normal; Severely dilated; Small
+LeftVentricleWallThickness,full_one_hot (drop_first=False),4.0,4,False,✅,LeftVentricleWallThickness_Mildly increased; LeftVentricleWallThickness_Moderately increased; LeftVentricleWallThickness_Normal; LeftVentricleWallThickness_Severely increased,Mildly increased; Moderately increased; Normal; Severely increased
+LeftVentricleSystolicFunction,full_one_hot (drop_first=False),7.0,7,False,✅,LeftVentricleSystolicFunction_Increased (hyperdynamic); LeftVentricleSystolicFunction_Mild-moderately reduced; LeftVentricleSystolicFunction_Mildly reduced; LeftVentricleSystolicFunction_Moderate-severely reduced; LeftVentricleSystolicFunction_Moderately reduced; LeftVentricleSystolicFunction_Normal; LeftVentricleSystolicFunction_Severely reduced,Increased (hyperdynamic); Mild-moderately reduced; Mildly reduced; Moderate-severely reduced; Moderately reduced; Normal; Severely reduced
+LV_EF,none,,1,False,,LV_EF,
+LACavitySize,full_one_hot (drop_first=False),4.0,4,False,✅,LACavitySize_Mildly dilated; LACavitySize_Moderately dilated; LACavitySize_Normal; LACavitySize_Severely dilated,Mildly dilated; Moderately dilated; Normal; Severely dilated
+AorticValveStructure,full_one_hot (drop_first=False),8.0,8,False,✅,AorticValveStructure_Bicuspid; AorticValveStructure_Bioprosthesis; AorticValveStructure_Calcified; AorticValveStructure_Focal calcification; AorticValveStructure_Normal; AorticValveStructure_Not well seen; AorticValveStructure_Prosthetic; AorticValveStructure_Thickened,Bicuspid; Bioprosthesis; Calcified; Focal calcification; Normal; Not well seen; Prosthetic; Thickened
+MitralRegurgitation,full_one_hot (drop_first=False),6.0,6,False,✅,MitralRegurgitation_Mild (I); MitralRegurgitation_Mild-to-moderate (I-II); MitralRegurgitation_Moderate (II); MitralRegurgitation_Moderately-severe (III); MitralRegurgitation_Severe (IV); MitralRegurgitation_Trivial,Mild (I); Mild-to-moderate (I-II); Moderate (II); Moderately-severe (III); Severe (IV); Trivial
+TricuspidRegurgitation,full_one_hot (drop_first=False),6.0,6,False,✅,TricuspidRegurgitation_Mild (I); TricuspidRegurgitation_Mild-to-moderate (I-II); TricuspidRegurgitation_Moderate (II); TricuspidRegurgitation_Moderately-severe (III); TricuspidRegurgitation_Severe (IV); TricuspidRegurgitation_Trivial,Mild (I); Mild-to-moderate (I-II); Moderate (II); Moderately-severe (III); Severe (IV); Trivial
+ECHO_SPAP,full_one_hot (drop_first=False),4.0,4,False,✅,ECHO_SPAP_Mildly increased; ECHO_SPAP_Moderately increased; ECHO_SPAP_Normal; ECHO_SPAP_Severely increased,Mildly increased; Moderately increased; Normal; Severely increased
+LeftVentricleEndDiastolicDiameter,none,,1,False,,LeftVentricleEndDiastolicDiameter,
+LeftVentricleEndSystolicDiameter,none,,1,False,,LeftVentricleEndSystolicDiameter,
+LeftVentricleInterventricularSeptumThickness,none,,1,False,,LeftVentricleInterventricularSeptumThickness,
+LeftVentriclePosteriorWallThickness,none,,1,False,,LeftVentriclePosteriorWallThickness,
+LeftVentricleEstimatedMass,none,,1,False,,LeftVentricleEstimatedMass,
+LeftVentricleEstimatedMassIndex,none,,1,False,,LeftVentricleEstimatedMassIndex,
+LeftVentricleScoreIndex,none,,1,False,,LeftVentricleScoreIndex,
+EstimatedSysPAPressure,none,,1,False,,EstimatedSysPAPressure,
+MitralInflowPeakEWave,none,,1,False,,MitralInflowPeakEWave,
+TissueDopplerSVelocitySeptal,none,,1,False,,TissueDopplerSVelocitySeptal,
+TissueDopplerEVelositySeptal,none,,1,False,,TissueDopplerEVelositySeptal,
+TissueDopplerEERatioSeptal,none,,1,False,,TissueDopplerEERatioSeptal,
+TissueDopplerSVelocityLateral,none,,1,False,,TissueDopplerSVelocityLateral,
+TissueDopplerEVelosityLateral,none,,1,False,,TissueDopplerEVelosityLateral,
+TissueDopplerEERatioLateral,none,,1,False,,TissueDopplerEERatioLateral,
+Weight,none,,1,False,,Weight,
+BMI,none,,1,False,,BMI,
+sbp-numeric result,none,,1,False,,sbp-numeric result,
+dbp-numeric result,none,,1,False,,dbp-numeric result,
+GFR,none,,1,False,,GFR,
+na-numeric result,none,,1,False,,na-numeric result,
+k-numeric result,none,,1,False,,k-numeric result,
+albumin-numeric result,none,,1,False,,albumin-numeric result,
+hb-numeric result,none,,1,False,,hb-numeric result,
+urea-numeric result,none,,1,False,,urea-numeric result,
+creatinine-numeric result,none,,1,False,,creatinine-numeric result,
+ca-numeric result,none,,1,False,,ca-numeric result,
+p-numeric result,none,,1,False,,p-numeric result,
+ua-numeric result,none,,1,False,,ua-numeric result,
+crp-numeric result,none,,1,False,,crp-numeric result,
+hba1c-numeric result,none,,1,False,,hba1c-numeric result,
+MI_binary,binary 0/1,2.0,1,False,,MI_binary,
+CABG_binary,binary 0/1,2.0,1,False,,CABG_binary,
+IHD_binary,binary 0/1,2.0,1,False,,IHD_binary,
+AFIB_binary,binary 0/1,2.0,1,False,,AFIB_binary,
+HTN_binary,binary 0/1,2.0,1,False,,HTN_binary,
+Diabetes mellitus_binary,binary 0/1,2.0,1,False,,Diabetes mellitus_binary,
+DYSLIPIDEMIA_binary,binary 0/1,2.0,1,False,,DYSLIPIDEMIA_binary,
+COPD_binary,binary 0/1,2.0,1,False,,COPD_binary,

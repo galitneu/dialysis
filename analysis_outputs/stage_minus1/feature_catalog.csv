@@ -1,0 +1,84 @@
+variable_name,domain,variable_type,feature_status,reason_if_not_main,n_missing,missing_pct
+patient_id,Identifier,identifier,exclude,Identifier,0,0.0
+Dialysis_Start_Date,Dates_Raw,date,exclude,Raw date - use derived time vars,0,0.0
+Echo_Date,Dates_Raw,date,exclude,Raw date - use derived time vars,0,0.0
+DeathDate,Outcome,date,exclude,Outcome/future - leakage risk,139,21.6
+data_cutoff_date,Administrative,date,exclude,Administrative variable,0,0.0
+event,Outcome,binary,exclude,Outcome/future - leakage risk,0,0.0
+event_1y,Outcome,binary,exclude,Outcome/future - leakage risk,0,0.0
+time_to_event_days,Outcome,continuous,exclude,Outcome/future - leakage risk,0,0.0
+time_to_event_years,Outcome,continuous,exclude,Outcome/future - leakage risk,0,0.0
+days_echo_to_dialysis,Derived_Time,continuous,sensitivity_only,Derived timing variable; risk of technical/timing-driven clustering. Retain for sensitivity analysis,0,0.0
+months_echo_to_dialysis,Derived_Time,continuous,exclude,Redundant with days_echo_to_dialysis,0,0.0
+HD/PD,Demographics,categorical,main,,0,0.0
+m/f,Demographics,categorical,main,,1,0.2
+AgeAtFirstHFDate,Demographics,continuous,main,,0,0.0
+LeftVentricleCavitySize,Echo_Qualitative,categorical,main,,74,11.5
+LeftVentricleWallThickness,Echo_Qualitative,categorical,main,,243,37.7
+LeftVentricleSystolicFunction,Echo_Qualitative,categorical,main,,75,11.6
+LeftVentricleSummary,Echo_Text,text,exclude,Free text - not suitable for clustering,452,70.1
+LV_EF,Echo_Quantitative,continuous,main,,4,0.6
+RVSize,Echo_Qualitative,categorical,sensitivity_only,High missingness (53.5%),345,53.5
+RVSystolicFunction,Echo_Qualitative,categorical,sensitivity_only,High missingness (52.9%),341,52.9
+LACavitySize,Echo_Qualitative,categorical,main,,43,6.7
+AorticValveStructure,Echo_Qualitative,categorical,main,,194,30.1
+AorticValveRegurgitation,Echo_Qualitative,categorical,sensitivity_only,High missingness (53.2%),343,53.2
+AorticValveSummary,Echo_Text,text,exclude,Free text - not suitable for clustering,508,78.8
+MitralValveStructure,Echo_Qualitative,categorical,sensitivity_only,High missingness (71%),458,71.0
+MitralRegurgitation,Echo_Qualitative,categorical,main,,48,7.4
+MitralValveSummary,Echo_Text,text,exclude,Free text - not suitable for clustering,443,68.7
+TricuspidValveStructure,Echo_Qualitative,categorical,sensitivity_only,High missingness (89%),574,89.0
+TricuspidRegurgitation,Echo_Qualitative,categorical,main,,45,7.0
+ECHO_SPAP,Echo_Qualitative,categorical,main,,119,18.4
+LeftVentricleEndDiastolicDiameter,Echo_Quantitative,continuous,main,,8,1.2
+LeftVentricleEndSystolicDiameter,Echo_Quantitative,continuous,main,,9,1.4
+LeftVentricleInterventricularSeptumThickness,Echo_Quantitative,continuous,main,,8,1.2
+LeftVentriclePosteriorWallThickness,Echo_Quantitative,continuous,main,,13,2.0
+LeftVentricleEstimatedMass,Echo_Quantitative,continuous,main,,16,2.5
+LeftVentricleEstimatedMassIndex,Echo_Quantitative,continuous,main,,67,10.4
+LeftVentricleScoreIndex,Echo_Quantitative,continuous,main,,5,0.8
+EstimatedSysPAPressure,Echo_Quantitative,continuous,main,,108,16.7
+MitralInflowPeakEWave,Echo_Quantitative,continuous,main,,63,9.8
+TissueDopplerSVelocitySeptal,Echo_Quantitative,continuous,main,,204,31.6
+TissueDopplerEVelositySeptal,Echo_Quantitative,continuous,main,,114,17.7
+TissueDopplerEERatioSeptal,Echo_Quantitative,continuous,main,,122,18.9
+TissueDopplerSVelocityLateral,Echo_Quantitative,continuous,main,,131,20.3
+TissueDopplerEVelosityLateral,Echo_Quantitative,continuous,main,,114,17.7
+TissueDopplerEERatioLateral,Echo_Quantitative,continuous,main,,122,18.9
+ProcedureSummary,Echo_Text,text,exclude,Free text - not suitable for clustering,0,0.0
+Weight,Demographics,continuous,main,,91,14.1
+BMI,Demographics,continuous,main,,124,19.2
+MI,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,452,70.1
+CABG,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,512,79.4
+IHD,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,249,38.6
+AFIB,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,342,53.0
+HTN,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,112,17.4
+Diabetes mellitus,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,235,36.4
+DYSLIPIDEMIA,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,334,51.8
+COPD,Comorbidities_Raw,text_date,exclude,Raw text comorbidity - use binary version,540,83.7
+OncologicalDiagnosis,Comorbidities_Raw,text,exclude,Raw text comorbidity - use binary version,502,77.8
+sbp-numeric result,Lab_Vitals,continuous,main,,164,25.4
+dbp-numeric result,Lab_Vitals,continuous,main,,137,21.2
+hospitalization-count,Outcome,continuous,exclude,Outcome/future - leakage risk,0,0.0
+GFR,Lab_Values,continuous,main,,1,0.2
+na-numeric result,Lab_Values,continuous,main,,3,0.5
+k-numeric result,Lab_Values,continuous,main,,3,0.5
+albumin-numeric result,Lab_Values,continuous,main,,1,0.2
+hb-numeric result,Lab_Values,continuous,main,,66,10.2
+urea-numeric result,Lab_Values,continuous,main,,4,0.6
+creatinine-numeric result,Lab_Values,continuous,main,,1,0.2
+ca-numeric result,Lab_Values,continuous,main,,1,0.2
+p-numeric result,Lab_Values,continuous,main,,1,0.2
+ua-numeric result,Lab_Values,continuous,main,,1,0.2
+crp-numeric result,Lab_Values,continuous,main,,25,3.9
+hba1c-numeric result,Lab_Values,continuous,main,,65,10.1
+months_dialysis_to_echo,Derived_Time,continuous,exclude,Redundant direction/duplicate of echo-dialysis interval,0,0.0
+MI_binary,Comorbidities_Binary,binary,main,,0,0.0
+CABG_binary,Comorbidities_Binary,binary,main,,0,0.0
+IHD_binary,Comorbidities_Binary,binary,main,,0,0.0
+AFIB_binary,Comorbidities_Binary,binary,main,,0,0.0
+HTN_binary,Comorbidities_Binary,binary,main,,0,0.0
+Diabetes mellitus_binary,Comorbidities_Binary,binary,main,,0,0.0
+DYSLIPIDEMIA_binary,Comorbidities_Binary,binary,main,,0,0.0
+COPD_binary,Comorbidities_Binary,binary,main,,0,0.0
+years_since_MI,Derived_Time,continuous,sensitivity_only,High missingness (80.2%),517,80.2

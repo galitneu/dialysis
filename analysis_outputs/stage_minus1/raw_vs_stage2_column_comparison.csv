@@ -1,0 +1,118 @@
+column,in_raw,in_stage2,raw_pct_missing,s2_pct_missing
+AFIB,True,False,53.0,
+AFIB_binary,True,True,0.0,0.0
+AgeAtFirstHFDate,True,True,0.0,0.0
+Age_z,False,True,,0.0
+AorticValveRegurgitation,True,False,29.0,
+AorticValveStructure,True,False,13.6,
+AorticValveSummary,True,False,78.6,
+BMI,True,False,19.2,
+CABG,True,False,79.4,
+CABG_binary,True,True,0.0,0.0
+COPD,True,False,83.7,
+COPD_binary,True,True,0.0,0.0
+DYSLIPIDEMIA,True,False,51.8,
+DYSLIPIDEMIA_binary,True,False,0.0,
+DeathDate,True,False,21.6,
+Diabetes mellitus,True,False,36.4,
+Diabetes mellitus_binary,True,True,0.0,0.0
+Dialysis_Start_Date,True,True,0.0,0.0
+ECHO_SPAP,True,True,18.4,18.4
+Echo_Date,True,False,0.0,
+EeRatioSep_z,False,True,,18.9
+EeRatio_avg,False,True,,18.4
+EstimatedSysPAPressure,True,True,16.7,16.7
+Ewave_z,False,True,,9.8
+GFR,True,True,0.2,0.2
+GFR_z,False,True,,0.2
+HD/PD,True,False,0.0,
+HD_binary,False,True,,0.0
+HTN,True,False,17.4,
+HTN_binary,True,True,0.0,0.0
+IHD,True,False,38.6,
+IHD_binary,True,True,0.0,0.0
+IVS_z,False,True,,1.2
+LACavitySize,True,True,2.2,2.2
+LVEDD_z,False,True,,1.2
+LVMI_z,False,True,,10.4
+LV_EF,True,True,0.6,0.6
+LV_EF_z,False,True,,0.6
+LeftVentricleCavitySize,True,True,4.5,4.5
+LeftVentricleEndDiastolicDiameter,True,True,1.2,1.2
+LeftVentricleEndSystolicDiameter,True,True,1.4,1.4
+LeftVentricleEstimatedMass,True,True,2.5,2.5
+LeftVentricleEstimatedMassIndex,True,True,10.4,10.4
+LeftVentricleInterventricularSeptumThickness,True,True,1.2,1.2
+LeftVentriclePosteriorWallThickness,True,True,2.0,2.0
+LeftVentricleScoreIndex,True,True,0.8,0.8
+LeftVentricleSummary,True,False,69.8,
+LeftVentricleSystolicFunction,True,True,4.5,4.5
+LeftVentricleWallThickness,True,True,15.5,15.5
+MI,True,False,70.1,
+MI_binary,True,True,0.0,0.0
+MitralInflowPeakEWave,True,True,9.8,9.8
+MitralRegurgitation,True,True,2.9,2.9
+MitralValveStructure,True,False,30.5,
+MitralValveSummary,True,False,68.7,
+OncologicalDiagnosis,True,False,77.8,
+ProcedureSummary,True,False,0.0,
+RVSize,True,True,23.3,23.3
+RVSystolicFunction,True,True,22.8,22.8
+SPAP_z,False,True,,16.7
+TissueDopplerEERatioLateral,True,True,18.9,18.9
+TissueDopplerEERatioSeptal,True,True,18.9,18.9
+TissueDopplerEVelosityLateral,True,True,17.7,17.7
+TissueDopplerEVelositySeptal,True,True,17.7,17.7
+TissueDopplerSVelocityLateral,True,True,20.3,20.3
+TissueDopplerSVelocitySeptal,True,True,31.6,31.6
+TricuspidRegurgitation,True,True,2.9,2.9
+TricuspidValveStructure,True,False,36.4,
+Weight,True,False,14.1,
+albumin-numeric result,True,True,0.2,0.2
+albumin_z,False,True,,0.2
+ca-numeric result,True,False,0.2,
+creatinine-numeric result,True,True,0.2,0.2
+creatinine_z,False,True,,0.2
+crp-numeric result,True,True,3.9,3.9
+data_cutoff_date,True,False,0.0,
+days_echo_to_dialysis,True,False,0.0,
+dbp-numeric result,True,True,21.2,21.2
+died_1year,False,True,,4.2
+echo_before_dialysis,False,True,,0.0
+echo_timing_class,False,True,,0.0
+echo_to_dialysis_days,False,True,,0.0
+event,True,True,0.0,0.0
+event_1y,True,False,0.0,
+flag_death_before_dialysis,False,True,,0.0
+flag_echo_after_dialysis,False,True,,0.0
+flag_echo_more_than_365d_before_dialysis,False,True,,0.0
+flag_echo_same_day,False,True,,0.0
+flag_hosp_1y_not_computable,False,True,,0.0
+flag_manual_review_needed,False,True,,0.0
+flag_missing_dialysis_date,False,True,,0.0
+flag_missing_echo_date,False,True,,0.0
+flag_multiple_echo_records,False,True,,0.0
+flag_negative_followup,False,True,,0.0
+flag_no_patient_level_followup_date,False,True,,0.0
+flag_primary_analysis_exclusion_candidate,False,True,,0.0
+flag_short_followup_for_1y_outcome,False,True,,0.0
+followup_days,False,True,,0.0
+hb-numeric result,True,True,10.2,10.2
+hba1c-numeric result,True,False,10.1,
+hosp_total,False,True,,0.0
+hospitalization-count,True,False,0.0,
+k-numeric result,True,False,0.5,
+m/f,True,False,0.2,
+months_dialysis_to_echo,True,False,0.0,
+months_echo_to_dialysis,True,False,0.0,
+na-numeric result,True,False,0.5,
+p-numeric result,True,False,0.2,
+patient_id,True,True,0.0,0.0
+sbp-numeric result,True,True,25.4,25.4
+selected_Echo_Date,False,True,,0.0
+sex_male,False,True,,0.2
+time_to_event_days,True,True,0.0,0.0
+time_to_event_years,True,True,0.0,0.0
+ua-numeric result,True,False,0.2,
+urea-numeric result,True,False,0.6,
+years_since_MI,True,False,80.2,

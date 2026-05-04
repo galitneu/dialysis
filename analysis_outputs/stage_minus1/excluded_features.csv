@@ -1,0 +1,26 @@
+#,variable_name,domain,variable_type,reason
+1,patient_id,Identifier,identifier,Identifier
+2,Dialysis_Start_Date,Dates_Raw,date,Raw date - use derived time vars
+3,Echo_Date,Dates_Raw,date,Raw date - use derived time vars
+4,DeathDate,Outcome,date,Outcome/future - leakage risk
+5,data_cutoff_date,Administrative,date,Administrative variable
+6,event,Outcome,binary,Outcome/future - leakage risk
+7,event_1y,Outcome,binary,Outcome/future - leakage risk
+8,time_to_event_days,Outcome,continuous,Outcome/future - leakage risk
+9,time_to_event_years,Outcome,continuous,Outcome/future - leakage risk
+10,months_echo_to_dialysis,Derived_Time,continuous,Redundant with days_echo_to_dialysis
+11,LeftVentricleSummary,Echo_Text,text,Free text - not suitable for clustering
+12,AorticValveSummary,Echo_Text,text,Free text - not suitable for clustering
+13,MitralValveSummary,Echo_Text,text,Free text - not suitable for clustering
+14,ProcedureSummary,Echo_Text,text,Free text - not suitable for clustering
+15,MI,Comorbidities_Raw,text_date,Raw text comorbidity - use binary version
+16,CABG,Comorbidities_Raw,text_date,Raw text comorbidity - use binary version
+17,IHD,Comorbidities_Raw,text_date,Raw text comorbidity - use binary version
+18,AFIB,Comorbidities_Raw,text_date,Raw text comorbidity - use binary version
+19,HTN,Comorbidities_Raw,text_date,Raw text comorbidity - use binary version
+20,Diabetes mellitus,Comorbidities_Raw,text_date,Raw text comorbidity - use binary version
+21,DYSLIPIDEMIA,Comorbidities_Raw,text_date,Raw text comorbidity - use binary version
+22,COPD,Comorbidities_Raw,text_date,Raw text comorbidity - use binary version
+23,OncologicalDiagnosis,Comorbidities_Raw,text,Raw text comorbidity - use binary version
+24,hospitalization-count,Outcome,continuous,Outcome/future - leakage risk
+25,months_dialysis_to_echo,Derived_Time,continuous,Redundant direction/duplicate of echo-dialysis interval

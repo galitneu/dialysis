@@ -1,0 +1,8 @@
+#,variable_name,domain,variable_type,n_missing,missing_pct,reason
+1,days_echo_to_dialysis,Derived_Time,continuous,0,0.0,Derived timing variable; risk of technical/timing-driven clustering. Retain for sensitivity analysis
+2,RVSize,Echo_Qualitative,categorical,345,53.5,High missingness (53.5%)
+3,RVSystolicFunction,Echo_Qualitative,categorical,341,52.9,High missingness (52.9%)
+4,AorticValveRegurgitation,Echo_Qualitative,categorical,343,53.2,High missingness (53.2%)
+5,MitralValveStructure,Echo_Qualitative,categorical,458,71.0,High missingness (71%)
+6,TricuspidValveStructure,Echo_Qualitative,categorical,574,89.0,High missingness (89%)
+7,years_since_MI,Derived_Time,continuous,517,80.2,High missingness (80.2%)
