@@ -137,4 +137,33 @@ The original notebook used the dataset-max date (2025-08-16) as a proxy administ
 
 ---
 
-*Awaiting OPEN-001, OPEN-002, OPEN-003 before Stage 0 commences.*
+## DEC-018 | 2026-05-05 | Stage -1 → Stage 0 | Galit
+**DECISION**: In LV Systolic Function, merge `Preserved` (and whitespace variants) into `Normal`.
+**RATIONALE**: "Preserved systolic function" and "normal systolic function" describe the same clinical state; the duplication reflects reporting-style variation, not a distinct phenotype. Harmonization, not classification.
+**SOURCE**: Galit, OPEN-001 resolution
+**OUTCOME_INFORMED**: N
+
+## DEC-019 | 2026-05-05 | Stage -1 → Stage 0 | Galit
+**DECISION**: For MitralRegurgitation, harmonize plain-English entries to the Roman-numeral grading scale:
+- `Trace` → `Trivial`
+- `Mild` → `Mild (I)`
+- `Moderate` → `Moderate (II)`
+- `Severe` → `Severe (IV)`
+**RATIONALE**: Same grading semantics, different reporter conventions. Mapping is conservative (plain `Moderate` → `Moderate (II)` rather than the higher `Moderately-severe (III)`). Pre-outcome decision based on grading-scale equivalence.
+**SOURCE**: Galit, OPEN-002 resolution
+**OUTCOME_INFORMED**: N
+
+## DEC-020 | 2026-05-05 | Stage -1 → Stage 0 | Galit
+**DECISION**: Use `2025-08-16` as the **working** administrative censor date, derived from the dataset maximum. This is **not** confirmed as the official data cutoff. All time-to-event computations and any survival language in the report must label it as a working / candidate cutoff pending source confirmation.
+**RATIONALE**: Allows the analysis pipeline to proceed without blocking on an external confirmation, while preserving transparency that the value is provisional.
+**SOURCE**: Galit, OPEN-003 resolution
+**OUTCOME_INFORMED**: N
+**FOLLOW-UP REQUIRED**: confirm with data source whether 2025-08-16 is the true administrative cutoff before report finalization.
+
+---
+
+## DEC-021 | 2026-05-05 | Stage 0 commencing | Claude
+**DECISION**: Stage 0 begins. Tasks: apply data-cleaning decisions DEC-011 through DEC-020 to the raw file `echo_project_update.xlsx`; produce a cleaned flat file (one row per patient); produce variable inventory with clinical axis and proposed status. **No outcome modeling, no clinical category merging** (clinical merging belongs to Stage 1).
+**RATIONALE**: Per locked SAP and Galit instruction "ולהמשיך ל־Stage 0 בלבד".
+**SOURCE**: Locked SAP + Galit go-ahead
+**OUTCOME_INFORMED**: N
