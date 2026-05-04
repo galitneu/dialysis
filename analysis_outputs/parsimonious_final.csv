@@ -1,0 +1,5 @@
+outcome,model,metric,apparent,optimism_corrected
+1y_mortality,Base (clin+EF),AUC,0.7537234339264796,0.7537234339264796
+1y_mortality,Base + TR_ord,AUC,0.7614956955058478,0.7614956955058478
+hosp_rate,Base (clin+EF),McFadden R^2,0.12504706376110442,-0.026021817397698266
+hosp_rate,Base + EeRatio_avg + TR_ord,McFadden R^2,0.185752521890458,0.019168366867890974

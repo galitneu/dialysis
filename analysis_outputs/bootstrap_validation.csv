@@ -1,0 +1,9 @@
+metric,value
+AUC_apparent_base,0.7681997973260108
+AUC_apparent_full,0.7811284364682423
+optimism_base,0.03192086703705903
+optimism_full,0.0451707968990463
+AUC_corrected_base,0.7362789302889519
+AUC_corrected_full,0.7359576395691959
+delta_AUC_apparent,0.012928639142231413
+delta_AUC_corrected,-0.00032129071975595114
