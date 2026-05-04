@@ -1,0 +1,111 @@
+column,level,n,pct
+LeftVentricleCavitySize,Normal,363,56.28
+LeftVentricleCavitySize,Mildly dilated,140,21.71
+LeftVentricleCavitySize,No Value,45,6.98
+LeftVentricleCavitySize,Moderately dilated,37,5.74
+LeftVentricleCavitySize,nan,29,4.5
+LeftVentricleCavitySize,Severely dilated,27,4.19
+LeftVentricleCavitySize,Small,4,0.62
+LeftVentricleWallThickness,Mildly increased,210,32.56
+LeftVentricleWallThickness,No Value,143,22.17
+LeftVentricleWallThickness,Normal,142,22.02
+LeftVentricleWallThickness,nan,100,15.5
+LeftVentricleWallThickness,Moderately increased,39,6.05
+LeftVentricleWallThickness,See below,6,0.93
+LeftVentricleWallThickness,Severely increased,5,0.78
+LeftVentricleSystolicFunction,Normal,234,36.28
+LeftVentricleSystolicFunction,Severely reduced,112,17.36
+LeftVentricleSystolicFunction,Moderately reduced,47,7.29
+LeftVentricleSystolicFunction,No Value,46,7.13
+LeftVentricleSystolicFunction,Mildly reduced,36,5.58
+LeftVentricleSystolicFunction,Mild-moderately reduced,36,5.58
+LeftVentricleSystolicFunction,Moderate-severely reduced,34,5.27
+LeftVentricleSystolicFunction,Preserved,33,5.12
+LeftVentricleSystolicFunction,nan,29,4.5
+LeftVentricleSystolicFunction,Preserved ,25,3.88
+LeftVentricleSystolicFunction,Increased (hyperdynamic),13,2.02
+RVSize,No Value,195,30.23
+RVSize,Normal,152,23.57
+RVSize,nan,150,23.26
+RVSize,Dilated,90,13.95
+RVSize,Mildly dilated,57,8.84
+RVSize,RVH,1,0.16
+RVSystolicFunction,No Value,194,30.08
+RVSystolicFunction,nan,147,22.79
+RVSystolicFunction,Normal,144,22.33
+RVSystolicFunction,Moderately reduced,62,9.61
+RVSystolicFunction,Mildly reduced,57,8.84
+RVSystolicFunction,Severely reduced,41,6.36
+LACavitySize,Mildly dilated,324,50.23
+LACavitySize,Moderately dilated,170,26.36
+LACavitySize,Normal,68,10.54
+LACavitySize,Severely dilated,40,6.2
+LACavitySize,No Value,29,4.5
+LACavitySize,nan,14,2.17
+AorticValveStructure,Calcified,297,46.05
+AorticValveStructure,No Value,106,16.43
+AorticValveStructure,nan,88,13.64
+AorticValveStructure,Thickened,33,5.12
+AorticValveStructure,Thickened ,32,4.96
+AorticValveStructure,Normal,31,4.81
+AorticValveStructure,Bioprosthesis,24,3.72
+AorticValveStructure,Focal calcification,21,3.26
+AorticValveStructure,Prosthetic,9,1.4
+AorticValveStructure,See below,1,0.16
+AorticValveStructure,Prosthetic ,1,0.16
+AorticValveStructure,Bicuspid,1,0.16
+AorticValveStructure,Not well seen,1,0.16
+AorticValveRegurgitation,nan,187,28.99
+AorticValveRegurgitation,No Value,156,24.19
+AorticValveRegurgitation,Trivial,141,21.86
+AorticValveRegurgitation,Mild (I),128,19.84
+AorticValveRegurgitation,Mild-to-moderate (I-II),23,3.57
+AorticValveRegurgitation,Moderate (II),6,0.93
+AorticValveRegurgitation,Moderately-severe (III),3,0.47
+AorticValveRegurgitation,Severe (IV),1,0.16
+MitralValveStructure,No Value,261,40.47
+MitralValveStructure,nan,197,30.54
+MitralValveStructure,Thickened / sclerotic,65,10.08
+MitralValveStructure,Calcified,62,9.61
+MitralValveStructure,Normal,20,3.1
+MitralValveStructure,Prosthetic,14,2.17
+MitralValveStructure,S/P Repair,10,1.55
+MitralValveStructure,Bioprosthetic,6,0.93
+MitralValveStructure,See below,5,0.78
+MitralValveStructure,Rheumatic,3,0.47
+MitralValveStructure,Rheumatic ,2,0.31
+MitralRegurgitation,Mild (I),220,34.11
+MitralRegurgitation,Trivial,131,20.31
+MitralRegurgitation,Mild-to-moderate (I-II),102,15.81
+MitralRegurgitation,Moderate (II),64,9.92
+MitralRegurgitation,Severe (IV),32,4.96
+MitralRegurgitation,No Value,29,4.5
+MitralRegurgitation,Moderately-severe (III),22,3.41
+MitralRegurgitation,nan,19,2.95
+MitralRegurgitation,Mild ,9,1.4
+MitralRegurgitation,Trace,6,0.93
+MitralRegurgitation,Mild to moderate,4,0.62
+MitralRegurgitation,Moderate,3,0.47
+MitralRegurgitation,Moderate to severe,2,0.31
+MitralRegurgitation,Severe,2,0.31
+TricuspidValveStructure,No Value,339,52.56
+TricuspidValveStructure,nan,235,36.43
+TricuspidValveStructure,Normal,30,4.65
+TricuspidValveStructure,Normal ,24,3.72
+TricuspidValveStructure,s/p Repair,11,1.71
+TricuspidValveStructure,Bioprosthetic,3,0.47
+TricuspidValveStructure,Thickened,2,0.31
+TricuspidValveStructure,Thickened ,1,0.16
+TricuspidRegurgitation,Mild (I),197,30.54
+TricuspidRegurgitation,Trivial,164,25.43
+TricuspidRegurgitation,Mild-to-moderate (I-II),93,14.42
+TricuspidRegurgitation,Moderate (II),64,9.92
+TricuspidRegurgitation,Severe (IV),51,7.91
+TricuspidRegurgitation,Moderately-severe (III),31,4.81
+TricuspidRegurgitation,No Value,26,4.03
+TricuspidRegurgitation,nan,19,2.95
+ECHO_SPAP,Severely increased,150,23.26
+ECHO_SPAP,Moderately increased,142,22.02
+ECHO_SPAP,Mildly increased,135,20.93
+ECHO_SPAP,nan,119,18.45
+ECHO_SPAP,Normal,99,15.35

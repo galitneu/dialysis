@@ -1,0 +1,12 @@
+column,extra_in_data,missing_from_data,has_NoValue_string
+LeftVentricleCavitySize,[],[],True
+LeftVentricleWallThickness,['See below'],[],True
+LeftVentricleSystolicFunction,"['Preserved', 'Preserved ']",[],True
+RVSize,[],[],True
+AorticValveStructure,"['Prosthetic ', 'See below', 'Thickened ']",[],True
+AorticValveRegurgitation,[],[],True
+MitralRegurgitation,"['Mild ', 'Mild to moderate', 'Moderate', 'Moderate to severe', 'Severe', 'Trace']",[],True
+TricuspidRegurgitation,[],[],True
+LACavitySize,[],[],True
+RVSystolicFunction,[],[],True
+ECHO_SPAP,[],[],False
