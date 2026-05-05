@@ -1,0 +1,9 @@
+decision_id,decision
+DEC-052,Stage 3 is univariable descriptive screening only; no final selection.
+DEC-053,Continuous predictors modeled per 1 SD.
+DEC-054,Categorical predictors dummy-coded vs most-frequent reference; explicit term/reference/contrast.
+DEC-055,Logistic for 1y mortality; Cox for survival; NB with log(followup_years) offset for hospitalization.
+DEC-056,BH q-values reported as descriptive context only.
+DEC-057,Timing variable echo_to_dialysis_timing_category is timing_sensitivity_only.
+DEC-058,Stage 2 DEC044/DEC051 FIXED v2 expected as input; provenance recorded.
+DEC-059,Negative Binomial alpha=1.0 fixed for Stage 3 screening only; Stage 5 will refit dispersion.

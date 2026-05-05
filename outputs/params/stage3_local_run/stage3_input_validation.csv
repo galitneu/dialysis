@@ -1,0 +1,7 @@
+check,value,expected,passed
+stage1_main_analysis_rows,644,644,True
+stage1_oneyear_rows,617,617,True
+stage1_survival_rows,644,644,True
+stage1_hospitalization_rows,644,644,True
+n_main_candidates,27,27,True
+n_predictors_total,28,28,True

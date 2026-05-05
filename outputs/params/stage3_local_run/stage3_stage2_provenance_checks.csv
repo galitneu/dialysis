@@ -1,11 +1,4 @@
-check,passed
-stage2_version_label_is_FIXED_v2,True
-stage2_collinearity_method_is_spearman,True
-DEC-044_in_decisions,True
-DEC-051_in_decisions,True
-stage1_n_main_predictors_is_27,True
-predictor_list_len_is_27,True
-oneyear_n_is_617,True
-survival_n_is_644,True
-hosp_n_is_644,True
-hosp_has_followup_years,True
+check,value,expected,passed
+stage2_version_label,stage2_DEC044_FIXED_v2,stage2_DEC044_FIXED_v2,True
+stage2_collinearity_method,Spearman rank correlation,Spearman rank correlation,True
+stage2_decisions_include_DEC051,"DEC-044,DEC-045,DEC-046,DEC-047,DEC-048,DEC-049,DEC-050,DEC-051",contains DEC-051,True

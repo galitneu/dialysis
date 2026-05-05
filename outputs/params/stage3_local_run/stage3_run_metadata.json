@@ -1,48 +1,93 @@
 {
-  "stage": "stage3_univariable_screening",
-  "implementation": "independent_local_run",
-  "run_datetime_utc": "2026-05-05T13:43:51Z",
-  "decisions_applied": [
-    "DEC-052 (univariable screening only, no selection)",
-    "DEC-053 (3 outcomes)",
-    "DEC-054 (continuous standardized per 1 SD)",
-    "DEC-055 (categorical: most-frequent level reference, contrasts)",
-    "DEC-056 (NB alpha=1.0 screening approximation)",
-    "DEC-057 (BH FDR within outcome, advisory)",
-    "DEC-058 (q-values descriptive only)",
-    "DEC-059 (timing variables flagged sensitivity, not main)"
-  ],
+  "stage": "Stage 3",
+  "run_timestamp": "2026-05-05T14:04:39",
   "stage1_input_dir": "/home/user/dialysis/outputs/params/stage1",
   "stage2_input_dir": "/home/user/dialysis/outputs/params/stage2_DEC044_FIXED_v2",
-  "stage2_version_label": "stage2_DEC044_FIXED_v2",
-  "stage1_version_provenance": "FIXED_v2 (DEC-044)",
-  "n_predictors_screened": 27,
-  "n_main_candidates": 26,
-  "n_timing_sensitivity_only": 1,
-  "datasets": {
-    "oneyear": {
-      "n_rows": 617,
-      "outcome": "died_1year",
-      "events": 239
-    },
-    "survival": {
-      "n_rows": 644,
-      "events": 505
-    },
-    "hospitalization": {
-      "n_rows": 644,
-      "total_hosp": 1177,
-      "person_years": 1623.4880219028064
-    }
+  "stage3_output_dir": "/home/user/dialysis/outputs/params/stage3_local_run",
+  "n_main_predictors": 27,
+  "main_predictors": [
+    "AgeAtFirstHFDate",
+    "albumin-numeric result",
+    "creatinine-numeric result",
+    "crp-numeric result",
+    "hb-numeric result",
+    "LV_EF",
+    "LeftVentricleEstimatedMassIndex",
+    "MitralInflowPeakEWave",
+    "TissueDopplerEERatioLateral",
+    "TissueDopplerEERatioSeptal",
+    "TissueDopplerEVelosityLateral",
+    "TissueDopplerEVelositySeptal",
+    "EstimatedSysPAPressure",
+    "days_echo_to_dialysis",
+    "AFIB_binary",
+    "CABG_binary",
+    "COPD_binary",
+    "Diabetes mellitus_binary",
+    "HD/PD",
+    "HTN_binary",
+    "IHD_binary",
+    "MI_binary",
+    "m/f",
+    "LACavitySize",
+    "ECHO_SPAP",
+    "tricuspid_regurgitation_clin_grouped",
+    "mitral_regurgitation_clin_grouped"
+  ],
+  "n_sensitivity_only_predictors": 1,
+  "sensitivity_only_predictors": [
+    "echo_to_dialysis_timing_category"
+  ],
+  "all_screened_predictors": [
+    "AgeAtFirstHFDate",
+    "albumin-numeric result",
+    "creatinine-numeric result",
+    "crp-numeric result",
+    "hb-numeric result",
+    "LV_EF",
+    "LeftVentricleEstimatedMassIndex",
+    "MitralInflowPeakEWave",
+    "TissueDopplerEERatioLateral",
+    "TissueDopplerEERatioSeptal",
+    "TissueDopplerEVelosityLateral",
+    "TissueDopplerEVelositySeptal",
+    "EstimatedSysPAPressure",
+    "days_echo_to_dialysis",
+    "AFIB_binary",
+    "CABG_binary",
+    "COPD_binary",
+    "Diabetes mellitus_binary",
+    "HD/PD",
+    "HTN_binary",
+    "IHD_binary",
+    "MI_binary",
+    "m/f",
+    "LACavitySize",
+    "ECHO_SPAP",
+    "tricuspid_regurgitation_clin_grouped",
+    "mitral_regurgitation_clin_grouped",
+    "echo_to_dialysis_timing_category"
+  ],
+  "stage2_expected_version": "stage2_DEC044_FIXED_v2 with DEC-051 Spearman collinearity screening",
+  "stage1_version": "DEC-038 through DEC-044 plus prior Stage 0 decisions",
+  "nb_alpha_screening_fixed": 1.0,
+  "nb_alpha_note": "Negative Binomial alpha=1.0 fixed for Stage 3 screening only; final dispersion will be handled in Stage 5.",
+  "methodological_boundary": "Univariable screening outputs are advisory only and should not be interpreted as final variable selection.",
+  "model_software": {
+    "logistic": "statsmodels.GLM Binomial",
+    "cox": "statsmodels.duration.PHReg (Breslow ties)",
+    "negative_binomial": "statsmodels.GLM NegativeBinomial(alpha=1.0)"
   },
-  "models": {
-    "one_year_mortality": "Logit (statsmodels)",
-    "survival": "PHReg ties=efron (statsmodels Cox)",
-    "hospitalization": "GLM NegativeBinomial alpha=1.0 with offset=log(followup_years)"
-  },
-  "input_hashes": {
-    "stage1_main_predictor_list.csv": "9d86bc356799d958f59826f10b666eb096bd23bf8ff245adab8b40f9bc11ccbe",
-    "stage2_run_metadata.json": "13a928bd4b5f6d649e1eebec02b3b52667cce568cd4e404640b4c6ab05a924eb"
-  },
-  "no_files_written_to_drive": true
+  "outputs": [
+    "stage3_input_validation.csv",
+    "stage3_univariable_effect_estimates.csv",
+    "stage3_univariable_variable_summary.csv",
+    "stage3_model_fit_status.csv",
+    "stage3_stage4_triage_table.csv",
+    "stage3_decision_log.csv",
+    "stage3_run_metadata.json",
+    "stage3_predictor_roles.csv",
+    "stage3_stage2_provenance_checks.csv",
+    "stage3_readiness_report.md"
+  ]
 }
