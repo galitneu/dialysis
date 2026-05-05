@@ -1,0 +1,82 @@
+predictor,outcome,model,status,n,events,n_terms,person_years
+AFIB_binary,one_year_mortality,logistic,ok,617,239,1,
+AFIB_binary,survival,cox,ok,644,505,1,
+AFIB_binary,hospitalization,negbin,ok,644,1177,1,1623.4880219028064
+AgeAtFirstHFDate,one_year_mortality,logistic,ok,617,239,1,
+AgeAtFirstHFDate,survival,cox,ok,644,505,1,
+AgeAtFirstHFDate,hospitalization,negbin,ok,644,1177,1,1623.4880219028064
+CABG_binary,one_year_mortality,logistic,ok,617,239,1,
+CABG_binary,survival,cox,ok,644,505,1,
+CABG_binary,hospitalization,negbin,ok,644,1177,1,1623.4880219028064
+COPD_binary,one_year_mortality,logistic,ok,617,239,1,
+COPD_binary,survival,cox,ok,644,505,1,
+COPD_binary,hospitalization,negbin,ok,644,1177,1,1623.4880219028064
+Diabetes mellitus_binary,one_year_mortality,logistic,ok,617,239,1,
+Diabetes mellitus_binary,survival,cox,ok,644,505,1,
+Diabetes mellitus_binary,hospitalization,negbin,ok,644,1177,1,1623.4880219028064
+HD/PD,one_year_mortality,logistic,ok,617,239,1,
+HD/PD,survival,cox,ok,644,505,1,
+HD/PD,hospitalization,negbin,ok,644,1177,1,1623.4880219028064
+HTN_binary,one_year_mortality,logistic,ok,617,239,1,
+HTN_binary,survival,cox,ok,644,505,1,
+HTN_binary,hospitalization,negbin,ok,644,1177,1,1623.4880219028064
+IHD_binary,one_year_mortality,logistic,ok,617,239,1,
+IHD_binary,survival,cox,ok,644,505,1,
+IHD_binary,hospitalization,negbin,ok,644,1177,1,1623.4880219028064
+MI_binary,one_year_mortality,logistic,ok,617,239,1,
+MI_binary,survival,cox,ok,644,505,1,
+MI_binary,hospitalization,negbin,ok,644,1177,1,1623.4880219028064
+albumin-numeric result,one_year_mortality,logistic,ok,616,239,1,
+albumin-numeric result,survival,cox,ok,643,505,1,
+albumin-numeric result,hospitalization,negbin,ok,643,1177,1,1619.7234770704995
+creatinine-numeric result,one_year_mortality,logistic,ok,616,239,1,
+creatinine-numeric result,survival,cox,ok,643,505,1,
+creatinine-numeric result,hospitalization,negbin,ok,643,1177,1,1619.7234770704995
+crp-numeric result,one_year_mortality,logistic,ok,592,234,1,
+crp-numeric result,survival,cox,ok,619,485,1,
+crp-numeric result,hospitalization,negbin,ok,619,1137,1,1503.1403148528407
+hb-numeric result,one_year_mortality,logistic,ok,551,207,1,
+hb-numeric result,survival,cox,ok,578,450,1,
+hb-numeric result,hospitalization,negbin,ok,578,1095,1,1445.9739904175221
+m/f,one_year_mortality,logistic,ok,616,239,1,
+m/f,survival,cox,ok,643,505,1,
+m/f,hospitalization,negbin,ok,643,1177,1,1619.7234770704995
+LV_EF,one_year_mortality,logistic,ok,613,237,1,
+LV_EF,survival,cox,ok,640,501,1,
+LV_EF,hospitalization,negbin,ok,640,1164,1,1615.2470910335387
+LeftVentricleEstimatedMassIndex,one_year_mortality,logistic,ok,556,209,1,
+LeftVentricleEstimatedMassIndex,survival,cox,ok,578,453,1,
+LeftVentricleEstimatedMassIndex,hospitalization,negbin,ok,578,1078,1,1512.249144421629
+MitralInflowPeakEWave,one_year_mortality,logistic,ok,558,213,1,
+MitralInflowPeakEWave,survival,cox,ok,581,456,1,
+MitralInflowPeakEWave,hospitalization,negbin,ok,581,1099,1,1479.0828199863108
+TissueDopplerEERatioLateral,one_year_mortality,logistic,ok,501,185,1,
+TissueDopplerEERatioLateral,survival,cox,ok,522,408,1,
+TissueDopplerEERatioLateral,hospitalization,negbin,ok,522,973,1,1357.5605749486654
+TissueDopplerEERatioSeptal,one_year_mortality,logistic,ok,501,187,1,
+TissueDopplerEERatioSeptal,survival,cox,ok,522,408,1,
+TissueDopplerEERatioSeptal,hospitalization,negbin,ok,522,968,1,1353.467488021903
+TissueDopplerEVelosityLateral,one_year_mortality,logistic,ok,509,189,1,
+TissueDopplerEVelosityLateral,survival,cox,ok,530,414,1,
+TissueDopplerEVelosityLateral,hospitalization,negbin,ok,530,991,1,1367.6550308008214
+TissueDopplerEVelositySeptal,one_year_mortality,logistic,ok,509,191,1,
+TissueDopplerEVelositySeptal,survival,cox,ok,530,414,1,
+TissueDopplerEVelositySeptal,hospitalization,negbin,ok,530,986,1,1363.5619438740587
+LACavitySize,one_year_mortality,logistic,ok,578,229,3,
+LACavitySize,survival,cox,ok,601,478,3,
+LACavitySize,hospitalization,negbin,ok,601,1127,3,1503.9096509240246
+ECHO_SPAP,one_year_mortality,logistic,ok,501,212,3,
+ECHO_SPAP,survival,cox,ok,525,425,3,
+ECHO_SPAP,hospitalization,negbin,ok,525,962,3,1224.78302532512
+EstimatedSysPAPressure,one_year_mortality,logistic,ok,512,216,1,
+EstimatedSysPAPressure,survival,cox,ok,536,434,1,
+EstimatedSysPAPressure,hospitalization,negbin,ok,536,983,1,1254.4804928131416
+tricuspid_regurgitation_clin_grouped,one_year_mortality,logistic,ok,573,228,3,
+tricuspid_regurgitation_clin_grouped,survival,cox,ok,599,473,3,
+tricuspid_regurgitation_clin_grouped,hospitalization,negbin,ok,599,1079,3,1495.6495550992472
+mitral_regurgitation_clin_grouped,one_year_mortality,logistic,ok,571,221,3,
+mitral_regurgitation_clin_grouped,survival,cox,ok,596,471,3,
+mitral_regurgitation_clin_grouped,hospitalization,negbin,ok,596,1100,3,1502.710472279261
+days_echo_to_dialysis,one_year_mortality,logistic,ok,617,239,1,
+days_echo_to_dialysis,survival,cox,ok,644,505,1,
+days_echo_to_dialysis,hospitalization,negbin,ok,644,1177,1,1623.4880219028064

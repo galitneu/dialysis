@@ -1,0 +1,28 @@
+predictor,stage2_type,role
+AFIB_binary,categorical,main_candidate
+AgeAtFirstHFDate,continuous,main_candidate
+CABG_binary,categorical,main_candidate
+COPD_binary,categorical,main_candidate
+Diabetes mellitus_binary,categorical,main_candidate
+HD/PD,categorical,main_candidate
+HTN_binary,categorical,main_candidate
+IHD_binary,categorical,main_candidate
+MI_binary,categorical,main_candidate
+albumin-numeric result,continuous,main_candidate
+creatinine-numeric result,continuous,main_candidate
+crp-numeric result,continuous,main_candidate
+hb-numeric result,continuous,main_candidate
+m/f,categorical,main_candidate
+LV_EF,continuous,main_candidate
+LeftVentricleEstimatedMassIndex,continuous,main_candidate
+MitralInflowPeakEWave,continuous,main_candidate
+TissueDopplerEERatioLateral,continuous,main_candidate
+TissueDopplerEERatioSeptal,continuous,main_candidate
+TissueDopplerEVelosityLateral,continuous,main_candidate
+TissueDopplerEVelositySeptal,continuous,main_candidate
+LACavitySize,categorical,main_candidate
+ECHO_SPAP,categorical,main_candidate
+EstimatedSysPAPressure,continuous,main_candidate
+tricuspid_regurgitation_clin_grouped,categorical,main_candidate
+mitral_regurgitation_clin_grouped,categorical,main_candidate
+days_echo_to_dialysis,continuous,timing_sensitivity_only
