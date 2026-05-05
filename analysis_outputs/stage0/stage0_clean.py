@@ -99,22 +99,23 @@ for english, roman in mr_map.items():
         log('mr_english_to_roman', f'MR: {n}× "{english}" -> "{roman}"')
 
 # ============================================================
-# DEC-013 — comorbidities stored as dates: NaN = no condition; create binary
+# DEC-013 — comorbidities: NaN = no condition; create binary
+# Use original column notna() (works for both date and text storage).
+# Then for date-stored columns, also coerce to datetime for reference.
 # ============================================================
-print('\n=== DEC-013: comorbidity dates -> binary indicators ===')
+print('\n=== DEC-013: comorbidity NULL=no condition -> binary indicators ===')
 COMORB_COLS = ['MI','CABG','IHD','AFIB','HTN','Diabetes mellitus',
                'DYSLIPIDEMIA','COPD','OncologicalDiagnosis']
 for c in COMORB_COLS:
     if c not in df.columns: continue
-    # Coerce to datetime; non-parseable -> NaT
-    parsed = pd.to_datetime(df[c], errors='coerce')
-    # binary = has a date (= condition diagnosed)
     bin_col = f'{c}_binary'
-    df[bin_col] = parsed.notna().astype(int)
+    df[bin_col] = df[c].notna().astype(int)  # binary derived from "has any value"
     n_pos = df[bin_col].sum()
-    log('comorb_date_to_binary', f'{c} -> {bin_col} (n_pos={n_pos}, {100*n_pos/N0:.1f}%)')
-    # also keep the parsed date for reference
-    df[c] = parsed
+    log('comorb_null_to_binary', f'{c} -> {bin_col} (n_pos={n_pos}, {100*n_pos/N0:.1f}%)')
+    # If stored as date, coerce for reference; else leave as-is
+    parsed = pd.to_datetime(df[c], errors='coerce')
+    if parsed.notna().sum() > 0:
+        df[c] = parsed
 
 # ============================================================
 # DEC-020 — censor date 2025-08-16 (working)
