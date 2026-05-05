@@ -1,0 +1,9 @@
+gate,status,severity,details
+Gate 1 - Stage 2 critical files exist,PASS,info,all present
+Gate 2 - Stage 3 critical files exist,PASS,info,all present
+Gate 3 - DEC-059B (categorical complete-case) enforced,PASS,info,DEC-059B explicit in Stage 3 metadata
+Gate 4 - Exactly 27 main_candidate predictors,PASS,info,"main_candidate=27, timing_sensitivity_only=1"
+Gate 5 - No silent missing-as-reference coding,PASS,info,All categoricals with missingness use variable-level complete-case.
+Gate 6 - All Stage 3 univariable fits succeeded,PASS,info,all 84 fits ok
+Gate 7 - Stage 3 contrasts documented (term/reference_level/contrast),PASS,info,columns present
+Gate 8 - Three outcome families present,PASS,info,"present: ['hospitalization_negative_binomial', 'one_year_mortality_logistic', 'survival_cox']"

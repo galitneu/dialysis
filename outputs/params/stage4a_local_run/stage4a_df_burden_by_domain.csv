@@ -1,0 +1,12 @@
+clinical_domain,n_variables,total_approx_df,variables
+Comorbidity,7,7,AFIB_binary; CABG_binary; COPD_binary; Diabetes mellitus_binary; HTN_binary; IHD_binary; MI_binary
+Demographics,2,2,AgeAtFirstHFDate; m/f
+Dialysis modality,1,1,HD/PD
+Diastolic / filling pressure,5,5,MitralInflowPeakEWave; TissueDopplerEERatioLateral; TissueDopplerEERatioSeptal; TissueDopplerEVelosityLateral; TissueDopplerEVelositySeptal
+Echo timing / provenance,2,7,days_echo_to_dialysis; echo_to_dialysis_timing_category
+LA / chronic filling burden,1,3,LACavitySize
+LV structure / remodeling,1,1,LeftVentricleEstimatedMassIndex
+LV systolic function,1,1,LV_EF
+Pulmonary pressure / right-sided burden,2,4,ECHO_SPAP; EstimatedSysPAPressure
+Renal / labs / inflammation,4,4,albumin-numeric result; creatinine-numeric result; crp-numeric result; hb-numeric result
+Valvular disease,2,6,mitral_regurgitation_clin_grouped; tricuspid_regurgitation_clin_grouped

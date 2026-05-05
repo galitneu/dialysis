@@ -1,0 +1,16 @@
+decision_id,decision
+DEC-060,"Stage 4a is evidence preparation, not automated variable selection."
+DEC-061,"Model capacity is evaluated using approximate degrees of freedom, not only predictor names."
+DEC-062,Stage 3 p-values/q-values are descriptive only.
+DEC-063,Predictors are grouped into clinical domains/families.
+DEC-064,"Statistical collinearity, soft correlations, and clinical overlap are reviewed as separate layers."
+DEC-065,"Timing variables are adjustment/sensitivity candidates, not ordinary main predictors."
+DEC-066,LASSO/penalized regression may be used later only as sensitivity analysis.
+DEC-067,Final model specs are generated only after explicit committee lock-in decisions.
+DEC-068,Stage 3 DEC-059B is a prerequisite for Stage 4a.
+DEC-069,Stage 4a includes missingness/n_model audit to prevent silent missing-as-reference errors.
+DEC-070,Stage 4a outputs a committee lock-in template with blank final decision fields.
+DEC-071,Stage 4a explicitly balances cardiology-prioritized predictors with data-informed discovery candidates.
+DEC-071A,v3.1: Candidate-logic hierarchy (core_adjustment / primary_echo_domain / outcome_specific_exploratory / sensitivity_or_timing / primary_clinical_supporting) documented per predictor.
+DEC-071B,v3.1: Outcome-relevance flags + per-outcome rationales replace any 'selected_for_outcome' framing; final include columns left blank.
+DEC-071C,"v3.1: Lock-in template includes decision_basis, decision_reason_free_text, and reviewer_defensibility_note as required justification fields."

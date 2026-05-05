@@ -1,0 +1,19 @@
+{
+  "stage": "Stage 3",
+  "run_timestamp": "2026-05-05T16:50:17",
+  "stage1_input_dir": "/content/drive/MyDrive/dialysis/outputs/params/stage1",
+  "stage2_input_dir": "/content/drive/MyDrive/dialysis/outputs/params/stage2",
+  "stage3_output_dir": "/content/drive/MyDrive/dialysis/outputs/params/stage3",
+  "n_main_predictors": 27,
+  "main_predictors": [
+    "AgeAtFirstHFDate","albumin-numeric result","creatinine-numeric result","crp-numeric result","hb-numeric result",
+    "LV_EF","LeftVentricleEstimatedMassIndex","MitralInflowPeakEWave","TissueDopplerEERatioLateral",
+    "TissueDopplerEERatioSeptal","TissueDopplerEVelosityLateral","TissueDopplerEVelositySeptal",
+    "EstimatedSysPAPressure","days_echo_to_dialysis","AFIB_binary","CABG_binary","COPD_binary",
+    "Diabetes mellitus_binary","HD/PD","HTN_binary","IHD_binary","MI_binary","m/f","LACavitySize",
+    "ECHO_SPAP","tricuspid_regurgitation_clin_grouped","mitral_regurgitation_clin_grouped"
+  ],
+  "n_sensitivity_only_predictors": 1,
+  "sensitivity_only_predictors": ["echo_to_dialysis_timing_category"],
+  "decisions_marker": "DEC-059B Categorical predictors use variable-level complete-case analysis; missing categorical values are dropped before dummy coding and are never silently coded as the reference category."
+}

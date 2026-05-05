@@ -1,0 +1,4 @@
+outcome,n,events,epv10_capacity_parameters,epv15_capacity_parameters,main_candidate_total_approx_df,timing_sensitivity_total_approx_df,capacity_note
+one_year_mortality_logistic,617,239,23,15,35,6,EPV-based capacity is a soft cap; final adjustment set must respect it.
+survival_cox,644,505,50,33,35,6,EPV-based capacity is a soft cap; final adjustment set must respect it.
+hospitalization_negative_binomial,644,1177,,,35,6,"NB capacity should be judged by convergence, dispersion, person-time, total counts (n_events=1177), and model stability; classic EPV not directly applicable. Stage 2 var/mean ratio=2.78."

@@ -1,0 +1,111 @@
+{
+  "stage": "Stage 4a",
+  "notebook_version": "stage4a_v3.1_local",
+  "run_timestamp": "2026-05-05T19:20:12",
+  "stage2_input_dir": "/home/user/dialysis/outputs/params/stage2_DEC044_FIXED_v2",
+  "stage3_input_dir": "/home/user/dialysis/outputs/params/stage3_drive_v2",
+  "stage4a_output_dir": "/home/user/dialysis/outputs/params/stage4a_local_run",
+  "required_decisions": [
+    "DEC-059B",
+    "DEC-060",
+    "DEC-061",
+    "DEC-062",
+    "DEC-063",
+    "DEC-064",
+    "DEC-065",
+    "DEC-066",
+    "DEC-067",
+    "DEC-068",
+    "DEC-069",
+    "DEC-070",
+    "DEC-071",
+    "DEC-071A",
+    "DEC-071B",
+    "DEC-071C"
+  ],
+  "qa_gate_summary": [
+    {
+      "gate": "Gate 1 - Stage 2 critical files exist",
+      "status": "PASS",
+      "severity": "info"
+    },
+    {
+      "gate": "Gate 2 - Stage 3 critical files exist",
+      "status": "PASS",
+      "severity": "info"
+    },
+    {
+      "gate": "Gate 3 - DEC-059B (categorical complete-case) enforced",
+      "status": "PASS",
+      "severity": "info"
+    },
+    {
+      "gate": "Gate 4 - Exactly 27 main_candidate predictors",
+      "status": "PASS",
+      "severity": "info"
+    },
+    {
+      "gate": "Gate 5 - No silent missing-as-reference coding",
+      "status": "PASS",
+      "severity": "info"
+    },
+    {
+      "gate": "Gate 6 - All Stage 3 univariable fits succeeded",
+      "status": "PASS",
+      "severity": "info"
+    },
+    {
+      "gate": "Gate 7 - Stage 3 contrasts documented (term/reference_level/contrast)",
+      "status": "PASS",
+      "severity": "info"
+    },
+    {
+      "gate": "Gate 8 - Three outcome families present",
+      "status": "PASS",
+      "severity": "info"
+    }
+  ],
+  "n_main_candidates": 27,
+  "n_timing_sensitivity": 1,
+  "committee_lockin_template_final_decision_fields_blank": [
+    "include_1y_main",
+    "include_survival_main",
+    "include_hosp_main",
+    "sensitivity_only",
+    "exclude_from_main",
+    "final_decision",
+    "decision_reason",
+    "committee_notes",
+    "representative_variable_reason",
+    "retain_despite_not_cardiology_prioritized",
+    "reason_to_exclude_despite_cardiology_priority",
+    "final_include_1y",
+    "final_include_survival",
+    "final_include_hosp",
+    "decision_basis",
+    "decision_reason_free_text",
+    "reviewer_defensibility_note"
+  ],
+  "outputs_created": [
+    "stage4a_committee_QA_gates.csv",
+    "stage4a_predictor_evidence_matrix.csv",
+    "stage4a_committee_lockin_template.csv",
+    "stage4a_committee_lockin_template_COMPACT.csv",
+    "stage4a_epv_capacity_dashboard.csv",
+    "stage4a_df_burden_by_domain.csv",
+    "stage4a_missingness_and_n_model_audit_from_stage3.csv",
+    "stage4a_top_missingness_stage3_audit.csv",
+    "stage4a_soft_correlation_review_table.csv",
+    "stage4a_clinical_overlap_review_table.csv",
+    "stage4a_statistical_collinearity_review_table.csv",
+    "stage4a_cardiology_priorities_and_discovery_review_table.csv",
+    "stage4a_domain_review_table.csv",
+    "stage4a_timing_sensitivity_plan.csv",
+    "stage4a_decision_log_DEC060_DEC071.csv",
+    "stage4a_status.csv",
+    "stage4a_run_metadata.json",
+    "stage4a_readiness_report.md"
+  ],
+  "stage2_version_label": "stage2_DEC044_FIXED_v2",
+  "stage3_decisions_marker": "DEC-059B Categorical predictors use variable-level complete-case analysis; missing categorical values are dropped before dummy coding and are never silently coded as the reference category."
+}

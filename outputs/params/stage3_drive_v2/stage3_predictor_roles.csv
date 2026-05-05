@@ -1,0 +1,29 @@
+dataset,variable,stage2_type,predictor_role
+main,AgeAtFirstHFDate,continuous,main_candidate
+main,albumin-numeric result,continuous,main_candidate
+main,creatinine-numeric result,continuous,main_candidate
+main,crp-numeric result,continuous,main_candidate
+main,hb-numeric result,continuous,main_candidate
+main,LV_EF,continuous,main_candidate
+main,LeftVentricleEstimatedMassIndex,continuous,main_candidate
+main,MitralInflowPeakEWave,continuous,main_candidate
+main,TissueDopplerEERatioLateral,continuous,main_candidate
+main,TissueDopplerEERatioSeptal,continuous,main_candidate
+main,TissueDopplerEVelosityLateral,continuous,main_candidate
+main,TissueDopplerEVelositySeptal,continuous,main_candidate
+main,EstimatedSysPAPressure,continuous,main_candidate
+main,days_echo_to_dialysis,continuous,main_candidate
+main,AFIB_binary,categorical,main_candidate
+main,CABG_binary,categorical,main_candidate
+main,COPD_binary,categorical,main_candidate
+main,Diabetes mellitus_binary,categorical,main_candidate
+main,HD/PD,categorical,main_candidate
+main,HTN_binary,categorical,main_candidate
+main,IHD_binary,categorical,main_candidate
+main,MI_binary,categorical,main_candidate
+main,m/f,categorical,main_candidate
+main,LACavitySize,categorical,main_candidate
+main,ECHO_SPAP,categorical,main_candidate
+main,tricuspid_regurgitation_clin_grouped,categorical,main_candidate
+main,mitral_regurgitation_clin_grouped,categorical,main_candidate
+main,echo_to_dialysis_timing_category,categorical,timing_sensitivity_only

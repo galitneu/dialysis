@@ -1,0 +1,13 @@
+check,passed,severity,detail
+stage3_DEC059B_present,True,error,Stage 3 must document complete-case handling for categorical missingness.
+stage3_missing_audit_required_columns,True,error,"Need columns: {'n_model', 'n_missing_predictor', 'missing_handling', 'n_available_predictor', 'variable', 'outcome_family'}"
+stage3_exactly_27_main_candidates,True,error,"role_counts={'main_candidate': 27, 'timing_sensitivity_only': 1}"
+stage3_has_timing_sensitivity_or_timing_flag,True,warning,Timing should be explicitly reviewed in Stage 4.
+stage3_expected_outcome_families_present,True,error,"['hospitalization_negative_binomial', 'one_year_mortality_logistic', 'survival_cox']"
+stage3_all_model_fits_ok,True,error,failed_rows=0
+no_missing_coded_as_reference_in_stage3,True,error,bad_rows=0
+n_model_not_greater_than_n_available_predictor,True,error,bad_rows=0
+stage3_effects_have_contrast_reference_fields,True,error,missing=set()
+stage2_metadata_mentions_spearman_or_DEC051,True,warning,"If folder was renamed, content should still document DEC-051/Spearman."
+stage2_clinical_overlap_file_nonempty,True,warning,rows=6
+stage2_top30_spearman_file_nonempty,True,warning,rows=30

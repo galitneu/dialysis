@@ -1,0 +1,7 @@
+var1,var2,clinical_family,var1_present,var2_present,advisory_flag,note
+creatinine-numeric result,GFR,kidney_function,True,True,True,"Do not include creatinine and GFR together in the same main model; main uses creatinine, sensitivity may use GFR."
+EstimatedSysPAPressure,ECHO_SPAP,pulmonary_pressure,True,True,True,Numeric and categorical SPAP alternatives; avoid simultaneous inclusion without a specific plan.
+LeftVentricleEstimatedMass,LeftVentricleEstimatedMassIndex,lv_mass,True,True,True,Prefer LVMI when available; LV mass may be sensitivity/descriptive.
+LV_EF,LeftVentricleSystolicFunction,lv_systolic_function,True,True,True,EF benchmark and categorical systolic function overlap clinically.
+days_echo_to_dialysis,months_echo_to_dialysis,timing_duplicate,True,False,False,Use days_echo_to_dialysis only.
+hospitalization-count,hosp_total,outcome_duplicate,False,True,False,hosp_total is the hospitalization outcome; do not use hospitalization-count separately.

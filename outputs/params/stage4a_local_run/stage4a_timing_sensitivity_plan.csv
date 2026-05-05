@@ -1,0 +1,3 @@
+variable,role,primary_model_use,recommended_sensitivity_use,do_not_combine_with,notes
+days_echo_to_dialysis,main_candidate (continuous timing),single timing covariate if needed; do not combine with category,compare with echo_to_dialysis_timing_category in sensitivity,echo_to_dialysis_timing_category,Continuous form preserves df=1 and avoids categorical degeneracy.
+echo_to_dialysis_timing_category,timing_sensitivity_only,not in main models,categorical timing as sensitivity vs continuous form,days_echo_to_dialysis,Use to probe non-linearity / regime effects; do not include alongside continuous timing.

@@ -1,0 +1,14 @@
+decision_id,stage,decision,rationale
+DEC-060,Stage 4a,"Stage 4 is a clinical-methodological predictor lock-in stage, not automated variable selection.",The final models must be clinically interpretable and protected from data-driven selection.
+DEC-061,Stage 4a,"Model capacity is assessed using approximate degrees of freedom and event counts, not only number of variable names.",Categorical variables can consume multiple parameters; 1-year mortality is EPV-limited.
+DEC-062,Stage 4a,Stage 3 p-values and q-values are descriptive evidence only and do not determine inclusion automatically.,Avoid data-driven selection and overfitting.
+DEC-063,Stage 4a,Predictors are organized by clinical domains/families to manage overlap.,Clinical overlap can exist even when pairwise statistical collinearity is below threshold.
+DEC-064,Stage 4a,"Statistical collinearity, soft correlation, and clinical overlap are reviewed as separate advisory layers.",Each layer captures a different risk and should not be collapsed into one metric.
+DEC-065,Stage 4a,"Timing variables are handled as adjustment/sensitivity candidates, not ordinary predictors by default.",Echo timing relates to provenance and possible bias; more than one timing representation should not enter the same main model without justification.
+DEC-066,Stage 4a,"LASSO/penalized regression may be used later only as sensitivity analysis, not as the primary lock-in strategy.",The primary analysis is clinically informed and interpretable.
+DEC-067,Stage 4a,Stage 4a produces committee lock-in templates first; final model specifications are generated only after explicit decisions are filled.,Preserves transparent human/committee accountability.
+DEC-068,Stage 4a,Stage 4a requires Stage 3 DEC-059B and missing-handling audit outputs before proceeding.,External replication found that silent categorical missing-as-reference coding can materially change Stage 3 estimates.
+DEC-069,Stage 4a,Stage 4a exports n-model and missingness audit tables as formal QA outputs.,Prevents recurrence of hidden sample-size/missingness issues.
+DEC-070,Stage 4a,"Stage 4a approval means readiness for committee review, not approval of final Stage 5 model terms.",Final inclusion/exclusion requires manual completion of the lock-in template.
+DEC-071,Stage 4a,Stage 4a explicitly balances cardiology-prioritized clinical priors with data-informed discovery candidates.,The project must respect established cardiology expertise while preserving the ability to identify less intuitive dialysis-relevant predictors; neither clinical priors nor p-values automatically determine inclusion.
+DEC-072,Stage 4a,"Stage 4a separates candidate availability, outcome-specific evidence support, and final model inclusion.","Reviewer 2 risk is reduced by documenting a candidate-logic hierarchy, outcome-specific rationales, and final inclusion fields that remain blank until explicit committee justification in Stage 4b."
