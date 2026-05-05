@@ -1,0 +1,4 @@
+metric,n,pct_of_645
+n_echo_after_death,0,0.0
+n_echo_same_day_as_death,1,0.16
+n_excluded_same_day_or_after_death,1,0.16

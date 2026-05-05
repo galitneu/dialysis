@@ -1,0 +1,12 @@
+variable,new_variable,action,decision,note
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,clinician_category_mapping_applied,DEC-037/DEC-043,"Unmapped categories retained as original labels: ['Mild-to-moderate (I-II)', 'Moderately-severe (III)']"
+AorticValveStructure,aortic_valve_structure_clin_grouped,clinician_category_mapping_applied,DEC-037/DEC-043,All observed mapped categories were covered.
+ECHO_SPAP,ECHO_SPAP,clinician_category_mapping_applied,DEC-037/DEC-043,"Unmapped categories retained as original labels: ['Mildly increased', 'Moderately increased', 'Normal', 'Severely increased']"
+LACavitySize,LACavitySize,clinician_category_mapping_applied,DEC-037/DEC-043,"Unmapped categories retained as original labels: ['Mildly dilated', 'Moderately dilated', 'Normal', 'Severely dilated']"
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,clinician_category_mapping_applied,DEC-037/DEC-043,All observed mapped categories were covered.
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,clinician_category_mapping_applied,DEC-037/DEC-043,"Unmapped categories retained as original labels: ['Increased (hyperdynamic)', 'Mild-moderately reduced', 'Mildly reduced', 'Moderate-severely reduced', 'Moderately reduced', 'Normal', 'Severely reduced']"
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,clinician_category_mapping_applied,DEC-037/DEC-043,All observed mapped categories were covered.
+MitralRegurgitation,mitral_regurgitation_clin_grouped,clinician_category_mapping_applied,DEC-037/DEC-043,"Unmapped categories retained as original labels: ['Mild-to-moderate (I-II)', 'Moderately-severe (III)']"
+RVSize,rv_size_clin_grouped,clinician_category_mapping_applied,DEC-037/DEC-043,All observed mapped categories were covered.
+RVSystolicFunction,RVSystolicFunction,clinician_category_mapping_applied,DEC-037/DEC-043,"Unmapped categories retained as original labels: ['Mildly reduced', 'Moderately reduced', 'Normal', 'Severely reduced']"
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,clinician_category_mapping_applied,DEC-037/DEC-043,"Unmapped categories retained as original labels: ['Mild-to-moderate (I-II)', 'Moderately-severe (III)']"

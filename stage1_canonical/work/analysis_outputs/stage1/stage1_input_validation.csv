@@ -1,0 +1,6 @@
+check,passed,detail
+n_rows_645,True,645
+patient_id_present,True,True
+patient_id_unique,True,0
+decision_log_loaded,True,stage0_decision_log_FINAL_DEC038_DEC043.csv
+category_mapping_loaded,True,stage1_clinician_category_mapping_DEC037.csv

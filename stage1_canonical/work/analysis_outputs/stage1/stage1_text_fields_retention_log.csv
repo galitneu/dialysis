@@ -1,0 +1,5 @@
+variable,n_nonmissing,n_unique_nonmissing,stage1_role,decision
+LeftVentricleSummary,195,52,retained_for_future_text_or_NLP_review_not_modeled,DEC-042
+AorticValveSummary,138,42,retained_for_future_text_or_NLP_review_not_modeled,DEC-042
+MitralValveSummary,202,57,retained_for_future_text_or_NLP_review_not_modeled,DEC-042
+ProcedureSummary,645,644,retained_for_future_text_or_NLP_review_not_modeled,DEC-042

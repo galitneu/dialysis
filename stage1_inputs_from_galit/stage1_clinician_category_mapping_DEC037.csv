@@ -1,0 +1,44 @@
+﻿original_variable,grouped_variable,original_category,grouped_category,action,model_use_note,clinician_decision_source
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,Normal,Normal,keep,eligible if variable role allows,Echo categories.docx
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,Mildly dilated,Mildly dilated,keep,eligible if variable role allows,Echo categories.docx
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,Moderately dilated,Moderate-Severe dilated,merge,eligible if variable role allows,Echo categories.docx
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,Severely dilated,Moderate-Severe dilated,merge,eligible if variable role allows,Echo categories.docx
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,Small,Rare/ignored,rare_ignore,not independent model level; preserve original,Echo categories.docx
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,Normal,Normal,keep,eligible if variable role allows,Echo categories.docx
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,Mildly increased,Mildly increased,keep,eligible if variable role allows,Echo categories.docx
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,Moderately increased,Moderate-Severe increased,merge,eligible if variable role allows,Echo categories.docx
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,Severely increased,Moderate-Severe increased,merge,eligible if variable role allows,Echo categories.docx
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,ALL_CURRENT_CATEGORIES,No change,keep_original,do not regroup in Stage 1; preserve current categories,Echo categories.docx
+RVSize,rv_size_clin_grouped,Normal,Normal,keep,sensitivity/exploratory only per missingness decision,Echo categories.docx
+RVSize,rv_size_clin_grouped,Mildly dilated,Mildly dilated,keep,sensitivity/exploratory only per missingness decision,Echo categories.docx
+RVSize,rv_size_clin_grouped,Dilated,Dilated,keep,sensitivity/exploratory only per missingness decision,Echo categories.docx
+RVSize,rv_size_clin_grouped,RVH,Rare/ignored,rare_ignore,not independent model level; preserve original,Echo categories.docx
+AorticValveStructure,aortic_valve_structure_clin_grouped,Calcified,Calcified,keep,sensitivity/descriptive unless approved,Echo categories.docx
+AorticValveStructure,aortic_valve_structure_clin_grouped,Thickened,Thickened,keep,sensitivity/descriptive unless approved,Echo categories.docx
+AorticValveStructure,aortic_valve_structure_clin_grouped,Normal,Normal,keep,sensitivity/descriptive unless approved,Echo categories.docx
+AorticValveStructure,aortic_valve_structure_clin_grouped,Bioprosthesis,Prosthetic/Bioprosthetic,merge,sensitivity/descriptive unless approved,Echo categories.docx
+AorticValveStructure,aortic_valve_structure_clin_grouped,Prosthetic,Prosthetic/Bioprosthetic,merge,sensitivity/descriptive unless approved,Echo categories.docx
+AorticValveStructure,aortic_valve_structure_clin_grouped,Focal calcification,Rare/ignored,rare_ignore,not independent model level; preserve original,Echo categories.docx
+AorticValveStructure,aortic_valve_structure_clin_grouped,Bicuspid,Rare/ignored,rare_ignore,not independent model level; preserve original,Echo categories.docx
+AorticValveStructure,aortic_valve_structure_clin_grouped,Not well seen,Rare/ignored,rare_ignore,not independent model level; preserve original,Echo categories.docx
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,Trivial,Trivial,keep,sensitivity/exploratory only per missingness decision,Echo categories.docx
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,Mild (I),Mild-or-MildModerate,merge,sensitivity/exploratory only per missingness decision,Echo categories.docx
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,Mild-to-moderate,Mild-or-MildModerate,merge,sensitivity/exploratory only per missingness decision,Echo categories.docx
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,Moderate (II),Moderate-to-Severe,merge,sensitivity/exploratory only per missingness decision,Echo categories.docx
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,Mod-severe (III),Moderate-to-Severe,merge,sensitivity/exploratory only per missingness decision,Echo categories.docx
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,Severe (IV),Moderate-to-Severe,merge,sensitivity/exploratory only per missingness decision,Echo categories.docx
+MitralRegurgitation,mitral_regurgitation_clin_grouped,Trivial,Trivial,keep,eligible if variable role allows,Echo categories.docx
+MitralRegurgitation,mitral_regurgitation_clin_grouped,Mild (I),Mild (I),keep,eligible if variable role allows,Echo categories.docx
+MitralRegurgitation,mitral_regurgitation_clin_grouped,Mild-to-mod,Mild-to-mod,keep,eligible if variable role allows,Echo categories.docx
+MitralRegurgitation,mitral_regurgitation_clin_grouped,Moderate (II),Moderate-to-Severe,merge,eligible if variable role allows,Echo categories.docx
+MitralRegurgitation,mitral_regurgitation_clin_grouped,Mod-severe (III),Moderate-to-Severe,merge,eligible if variable role allows,Echo categories.docx
+MitralRegurgitation,mitral_regurgitation_clin_grouped,Severe (IV),Moderate-to-Severe,merge,eligible if variable role allows,Echo categories.docx
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,Trivial,Trivial,keep,eligible if variable role allows,Echo categories.docx
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,Mild (I),Mild (I),keep,eligible if variable role allows,Echo categories.docx
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,Mild-to-mod,Mild-to-mod,keep,eligible if variable role allows,Echo categories.docx
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,Moderate (II),Moderate-to-Severe,merge,eligible if variable role allows,Echo categories.docx
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,Mod-severe (III),Moderate-to-Severe,merge,eligible if variable role allows,Echo categories.docx
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,Severe (IV),Moderate-to-Severe,merge,eligible if variable role allows,Echo categories.docx
+LACavitySize,LACavitySize,ALL_CURRENT_CATEGORIES,No change,keep_original,all categories above threshold; use original,Echo categories.docx
+RVSystolicFunction,RVSystolicFunction,ALL_CURRENT_CATEGORIES,No change,keep_original,sensitivity/exploratory only per missingness decision,Echo categories.docx
+ECHO_SPAP,ECHO_SPAP,ALL_CURRENT_CATEGORIES,No change,keep_original,use original; all categories above threshold,Echo categories.docx

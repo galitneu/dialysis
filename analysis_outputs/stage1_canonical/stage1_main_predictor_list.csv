@@ -1,0 +1,28 @@
+stage1_main_predictor
+AFIB_binary
+AgeAtFirstHFDate
+CABG_binary
+COPD_binary
+Diabetes mellitus_binary
+HD/PD
+HTN_binary
+IHD_binary
+MI_binary
+albumin-numeric result
+creatinine-numeric result
+crp-numeric result
+hb-numeric result
+m/f
+LV_EF
+LeftVentricleEstimatedMassIndex
+MitralInflowPeakEWave
+TissueDopplerEERatioLateral
+TissueDopplerEERatioSeptal
+TissueDopplerEVelosityLateral
+TissueDopplerEVelositySeptal
+LACavitySize
+ECHO_SPAP
+EstimatedSysPAPressure
+tricuspid_regurgitation_clin_grouped
+mitral_regurgitation_clin_grouped
+days_echo_to_dialysis

@@ -1,0 +1,2 @@
+n_nonmissing,mean_days,median_days,sd_days,min_days,q25_days,q75_days,max_days,n_after_dialysis,n_same_day,n_before_dialysis,decision
+645,-117.26046511627906,-70.0,125.08972085570615,-366,-227.0,-5.0,67,107,11,527,DEC-041: no maximum gap cutoff at Stage 1; summarize and present distribution.

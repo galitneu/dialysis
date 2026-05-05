@@ -1,0 +1,10 @@
+source_column,binary_column,source_present,binary_present_after_processing,n_positive_binary,n_missing_source_interpreted_as_absence,action,note
+MI,MI_binary,True,True,193,452,verified_existing_binary,DEC-038: missing comorbidity documentation interpreted as absence for binary covariates.
+CABG,CABG_binary,True,True,133,512,verified_existing_binary,DEC-038: missing comorbidity documentation interpreted as absence for binary covariates.
+IHD,IHD_binary,True,True,396,249,verified_existing_binary,DEC-038: missing comorbidity documentation interpreted as absence for binary covariates.
+AFIB,AFIB_binary,True,True,303,342,verified_existing_binary,DEC-038: missing comorbidity documentation interpreted as absence for binary covariates.
+HTN,HTN_binary,True,True,533,112,verified_existing_binary,DEC-038: missing comorbidity documentation interpreted as absence for binary covariates.
+Diabetes mellitus,Diabetes mellitus_binary,True,True,410,235,verified_existing_binary,DEC-038: missing comorbidity documentation interpreted as absence for binary covariates.
+DYSLIPIDEMIA,DYSLIPIDEMIA_binary,True,True,311,334,verified_existing_binary,DEC-038: missing comorbidity documentation interpreted as absence for binary covariates.
+COPD,COPD_binary,True,True,105,540,verified_existing_binary,DEC-038: missing comorbidity documentation interpreted as absence for binary covariates.
+OncologicalDiagnosis,OncologicalDiagnosis_binary,True,True,143,502,verified_existing_binary,DEC-038: missing comorbidity documentation interpreted as absence for binary covariates.

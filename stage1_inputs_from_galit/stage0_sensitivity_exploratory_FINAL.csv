@@ -1,0 +1,31 @@
+column,dtype,vtype,n_available,pct_available,n_missing,pct_missing,n_unique_nonmissing,clinical_axis,proposed_status,sample_or_distribution,requires_review
+BMI,float64,continuous,521,80.8,124,19.2,471,Clinical core/covariate,Descriptive/sensitivity — held out of parsimonious base,"min=3.746, median=27.94, max=81.22",False
+DYSLIPIDEMIA_binary,int64,binary,645,100.0,0,0.0,2,Clinical core/covariate,Descriptive/sensitivity — held out of parsimonious base,0: 334 (51.8%); 1: 311 (48.2%),False
+OncologicalDiagnosis_binary,int64,binary,645,100.0,0,0.0,2,Clinical core/covariate,Descriptive/sensitivity — held out of parsimonious base,0: 502 (77.8%); 1: 143 (22.2%),False
+Weight,float64,continuous,554,85.9,91,14.1,232,Clinical core/covariate,Descriptive/sensitivity — held out of parsimonious base,"min=42, median=80, max=166.5",False
+LeftVentricleScoreIndex,float64,continuous,640,99.2,5,0.8,45,A1 LV systolic beyond EF,Sensitivity — overlap with EF / wall motion,"min=1, median=1, max=2.88",False
+LeftVentricleSystolicFunction,object,categorical/text,616,95.5,29,4.5,8,A1 LV systolic beyond EF,Sensitivity/review — categorical LV systolic function; do not use in main until Preserved/Normal handling is confirmed,Normal: 292 (45.3%); Severely reduced: 112 (17.4%); Moderately reduced: 47 (7.3%); No Value: 46 (7.1%); Mildly reduced: 36 (5.6%); Mild-moderately reduced: 36 (5.6%),True
+TissueDopplerSVelocityLateral,float64,continuous,514,79.7,131,20.3,233,A1 LV systolic beyond EF,Sensitivity — missingness/overlap,"min=2, median=6.49, max=14",False
+TissueDopplerSVelocitySeptal,float64,continuous,441,68.4,204,31.6,201,A1 LV systolic beyond EF,Sensitivity — high missingness/overlap,"min=2, median=5.69, max=13.5",False
+LeftVentricleCavitySize,object,categorical/text,616,95.5,29,4.5,6,A2 LV structure/mass/dilation,Sensitivity — categorical LV cavity,Normal: 363 (56.3%); Mildly dilated: 140 (21.7%); No Value: 45 (7.0%); Moderately dilated: 37 (5.7%); NaN: 29 (4.5%); Severely dilated: 27 (4.2%),False
+LeftVentricleEndDiastolicDiameter,float64,continuous,637,98.8,8,1.2,247,A2 LV structure/mass/dilation,Sensitivity — avoid overlap with LVMI/cavity in same model,"min=3.1, median=5.13, max=8.7",False
+LeftVentricleEndSystolicDiameter,float64,continuous,636,98.6,9,1.4,272,A2 LV structure/mass/dilation,Sensitivity — avoid overlap with EF/LVEDD,"min=1.54, median=3.5, max=8.1",False
+LeftVentricleEstimatedMass,float64,continuous,629,97.5,16,2.5,562,A2 LV structure/mass/dilation,Sensitivity — use LVMI preferentially,"min=78.76, median=218, max=555.1",False
+LeftVentricleInterventricularSeptumThickness,float64,continuous,637,98.8,8,1.2,117,A2 LV structure/mass/dilation,Sensitivity — QA for unit/outliers,"min=0.46, median=1.17, max=2.2",False
+LeftVentriclePosteriorWallThickness,float64,continuous,632,98.0,13,2.0,99,A2 LV structure/mass/dilation,Sensitivity — QA for unit/outliers,"min=0.53, median=1, max=1.76",False
+LeftVentricleWallThickness,object,categorical/text,545,84.5,100,15.5,5,A2 LV structure/mass/dilation,Sensitivity — categorical wall thickness; high missingness,Mildly increased: 215 (33.3%); Normal: 143 (22.2%); No Value: 143 (22.2%); NaN: 100 (15.5%); Moderately increased: 39 (6.0%); Severely increased: 5 (0.8%),False
+RVSize,object,categorical/text,495,76.7,150,23.3,5,A5 Right-heart/pulmonary/congestion,Exploratory/sensitivity only — high effective missingness (>50% when No Value counted as missing),No Value: 195 (30.2%); Normal: 152 (23.6%); NaN: 150 (23.3%); Dilated: 90 (14.0%); Mildly dilated: 57 (8.8%); RVH: 1 (0.2%),False
+RVSystolicFunction,object,categorical/text,498,77.2,147,22.8,5,A5 Right-heart/pulmonary/congestion,Exploratory/sensitivity only — high effective missingness (>50% when No Value counted as missing),No Value: 194 (30.1%); NaN: 147 (22.8%); Normal: 144 (22.3%); Moderately reduced: 62 (9.6%); Mildly reduced: 57 (8.8%); Severely reduced: 41 (6.4%),False
+AorticValveRegurgitation,object,categorical/text,458,71.0,187,29.0,7,A6 Other valves,Exploratory/sensitivity only — high effective missingness (>50% when No Value counted as missing),NaN: 187 (29.0%); No Value: 156 (24.2%); Trivial: 141 (21.9%); Mild (I): 128 (19.8%); Mild-to-moderate (I-II): 23 (3.6%); Moderate (II): 6 (0.9%),False
+AorticValveStructure,object,categorical/text,557,86.4,88,13.6,9,A6 Other valves,Sensitivity — categorical; missingness/overlap,Calcified: 298 (46.2%); No Value: 106 (16.4%); NaN: 88 (13.6%); Thickened: 65 (10.1%); Normal: 31 (4.8%); Bioprosthesis: 24 (3.7%),False
+GFR,float64,continuous,644,99.8,1,0.2,616,Labs,Sensitivity covariate — renal function alternative; do not include together with creatinine in the same base model,"min=1.433, median=14.05, max=114.6",False
+ca-numeric result,float64,continuous,644,99.8,1,0.2,58,Labs,Descriptive/sensitivity — held out of parsimonious base,"min=4.8, median=8.3, max=12.8",False
+dbp-numeric result,float64,continuous,508,78.8,137,21.2,77,Labs,"Sensitivity covariate — blood pressure, >20% missing","min=24, median=67, max=137",False
+hba1c-numeric result,float64,continuous,580,89.9,65,10.1,71,Labs,Descriptive/sensitivity — held out of parsimonious base,"min=4, median=6.1, max=18.7",False
+k-numeric result,float64,continuous,642,99.5,3,0.5,69,Labs,Descriptive/sensitivity — held out of parsimonious base,"min=2.56, median=4.5, max=8.2",False
+na-numeric result,float64,continuous,642,99.5,3,0.5,56,Labs,Descriptive/sensitivity — held out of parsimonious base,"min=116, median=137, max=159",False
+p-numeric result,float64,continuous,644,99.8,1,0.2,129,Labs,Descriptive/sensitivity — held out of parsimonious base,"min=1.9, median=5.8, max=13",False
+sbp-numeric result,float64,continuous,481,74.6,164,25.4,115,Labs,"Sensitivity covariate — blood pressure, >20% missing","min=55, median=134, max=220",False
+ua-numeric result,float64,continuous,644,99.8,1,0.2,149,Labs,Descriptive/sensitivity — held out of parsimonious base,"min=1.7, median=9.35, max=22.2",False
+urea-numeric result,float64,continuous,641,99.4,4,0.6,267,Labs,Descriptive/sensitivity — held out of parsimonious base,"min=25, median=211, max=472",False
+years_since_MI,float64,continuous,128,19.8,517,80.2,117,Other/unmapped,Exploratory/descriptive only — conditional on MI and high missingness,"min=0, median=4.375, max=43.27",False

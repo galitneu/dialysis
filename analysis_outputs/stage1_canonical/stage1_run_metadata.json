@@ -1,0 +1,17 @@
+{
+  "run_datetime": "2026-05-05T10:52:49",
+  "input_data": "stage0_updated_clean_flat.csv",
+  "output_dir": "analysis_outputs/stage1",
+  "notebook": "stage1_prepare_analytic_datasets.ipynb",
+  "decision_scope": "DEC-038 through DEC-043 plus prior Stage 0 decisions",
+  "input_shape_rows": 645,
+  "input_shape_columns": 91,
+  "processed_shape_rows": 645,
+  "processed_shape_columns": 107,
+  "n_excluded_same_day_or_after_death": 1,
+  "n_main_predictors": 27,
+  "n_sensitivity_exploratory_predictors": 30,
+  "n_one_year_mortality": 617,
+  "n_survival": 644,
+  "n_hospitalization": 644
+}

@@ -1,0 +1,313 @@
+dataset,variable,role,n,n_missing,pct_missing,n_nonmissing,n_unique_nonmissing
+full_input_processed,AFIB_binary,main_predictor,645,0,0.0,645,2
+full_input_processed,AgeAtFirstHFDate,main_predictor,645,0,0.0,645,435
+full_input_processed,CABG_binary,main_predictor,645,0,0.0,645,2
+full_input_processed,COPD_binary,main_predictor,645,0,0.0,645,2
+full_input_processed,Diabetes mellitus_binary,main_predictor,645,0,0.0,645,2
+full_input_processed,HD/PD,main_predictor,645,0,0.0,645,2
+full_input_processed,HTN_binary,main_predictor,645,0,0.0,645,2
+full_input_processed,IHD_binary,main_predictor,645,0,0.0,645,2
+full_input_processed,MI_binary,main_predictor,645,0,0.0,645,2
+full_input_processed,albumin-numeric result,main_predictor,645,1,0.16,644,39
+full_input_processed,creatinine-numeric result,main_predictor,645,1,0.16,644,428
+full_input_processed,crp-numeric result,main_predictor,645,25,3.88,620,595
+full_input_processed,hb-numeric result,main_predictor,645,66,10.23,579,105
+full_input_processed,m/f,main_predictor,645,1,0.16,644,2
+full_input_processed,LV_EF,main_predictor,645,4,0.62,641,35
+full_input_processed,LeftVentricleEstimatedMassIndex,main_predictor,645,67,10.39,578,146
+full_input_processed,MitralInflowPeakEWave,main_predictor,645,63,9.77,582,302
+full_input_processed,TissueDopplerEERatioLateral,main_predictor,645,122,18.91,523,452
+full_input_processed,TissueDopplerEERatioSeptal,main_predictor,645,122,18.91,523,474
+full_input_processed,TissueDopplerEVelosityLateral,main_predictor,645,114,17.67,531,255
+full_input_processed,TissueDopplerEVelositySeptal,main_predictor,645,114,17.67,531,245
+full_input_processed,LACavitySize,main_predictor,645,43,6.67,602,4
+full_input_processed,ECHO_SPAP,main_predictor,645,119,18.45,526,4
+full_input_processed,EstimatedSysPAPressure,main_predictor,645,108,16.74,537,77
+full_input_processed,tricuspid_regurgitation_clin_grouped,main_predictor,645,45,6.98,600,5
+full_input_processed,mitral_regurgitation_clin_grouped,main_predictor,645,48,7.44,597,5
+full_input_processed,days_echo_to_dialysis,main_predictor,645,0,0.0,645,296
+full_input_processed,BMI,sensitivity_exploratory_predictor,645,126,19.53,519,469
+full_input_processed,DYSLIPIDEMIA_binary,sensitivity_exploratory_predictor,645,0,0.0,645,2
+full_input_processed,OncologicalDiagnosis_binary,sensitivity_exploratory_predictor,645,0,0.0,645,2
+full_input_processed,Weight,sensitivity_exploratory_predictor,645,91,14.11,554,232
+full_input_processed,LeftVentricleScoreIndex,sensitivity_exploratory_predictor,645,5,0.78,640,45
+full_input_processed,LeftVentricleSystolicFunction,sensitivity_exploratory_predictor,645,75,11.63,570,7
+full_input_processed,TissueDopplerSVelocityLateral,sensitivity_exploratory_predictor,645,131,20.31,514,233
+full_input_processed,TissueDopplerSVelocitySeptal,sensitivity_exploratory_predictor,645,204,31.63,441,201
+full_input_processed,lv_cavity_size_clin_grouped,sensitivity_exploratory_predictor,645,74,11.47,571,4
+full_input_processed,LeftVentricleEndDiastolicDiameter,sensitivity_exploratory_predictor,645,8,1.24,637,247
+full_input_processed,LeftVentricleEndSystolicDiameter,sensitivity_exploratory_predictor,645,9,1.4,636,272
+full_input_processed,LeftVentricleEstimatedMass,sensitivity_exploratory_predictor,645,16,2.48,629,562
+full_input_processed,LeftVentricleInterventricularSeptumThickness,sensitivity_exploratory_predictor,645,8,1.24,637,117
+full_input_processed,LeftVentriclePosteriorWallThickness,sensitivity_exploratory_predictor,645,13,2.02,632,99
+full_input_processed,lv_wall_thickness_clin_grouped,sensitivity_exploratory_predictor,645,243,37.67,402,3
+full_input_processed,rv_size_clin_grouped,sensitivity_exploratory_predictor,645,345,53.49,300,4
+full_input_processed,RVSystolicFunction,sensitivity_exploratory_predictor,645,341,52.87,304,4
+full_input_processed,aortic_regurgitation_clin_grouped,sensitivity_exploratory_predictor,645,343,53.18,302,5
+full_input_processed,aortic_valve_structure_clin_grouped,sensitivity_exploratory_predictor,645,195,30.23,450,5
+full_input_processed,GFR,sensitivity_exploratory_predictor,645,1,0.16,644,616
+full_input_processed,ca-numeric result,sensitivity_exploratory_predictor,645,1,0.16,644,58
+full_input_processed,dbp-numeric result,sensitivity_exploratory_predictor,645,137,21.24,508,77
+full_input_processed,hba1c-numeric result,sensitivity_exploratory_predictor,645,65,10.08,580,71
+full_input_processed,k-numeric result,sensitivity_exploratory_predictor,645,3,0.47,642,69
+full_input_processed,na-numeric result,sensitivity_exploratory_predictor,645,3,0.47,642,56
+full_input_processed,p-numeric result,sensitivity_exploratory_predictor,645,1,0.16,644,129
+full_input_processed,sbp-numeric result,sensitivity_exploratory_predictor,645,164,25.43,481,115
+full_input_processed,ua-numeric result,sensitivity_exploratory_predictor,645,1,0.16,644,149
+full_input_processed,urea-numeric result,sensitivity_exploratory_predictor,645,4,0.62,641,267
+full_input_processed,years_since_MI,sensitivity_exploratory_predictor,645,517,80.16,128,117
+full_input_processed,died_1year,outcome_or_denominator,645,27,4.19,618,2
+full_input_processed,event,outcome_or_denominator,645,0,0.0,645,2
+full_input_processed,time_to_event_days,outcome_or_denominator,645,0,0.0,645,511
+full_input_processed,hosp_total,outcome_or_denominator,645,0,0.0,645,11
+full_input_processed,followup_days,outcome_or_denominator,645,0,0.0,645,511
+analysis_base,AFIB_binary,main_predictor,644,0,0.0,644,2
+analysis_base,AgeAtFirstHFDate,main_predictor,644,0,0.0,644,435
+analysis_base,CABG_binary,main_predictor,644,0,0.0,644,2
+analysis_base,COPD_binary,main_predictor,644,0,0.0,644,2
+analysis_base,Diabetes mellitus_binary,main_predictor,644,0,0.0,644,2
+analysis_base,HD/PD,main_predictor,644,0,0.0,644,2
+analysis_base,HTN_binary,main_predictor,644,0,0.0,644,2
+analysis_base,IHD_binary,main_predictor,644,0,0.0,644,2
+analysis_base,MI_binary,main_predictor,644,0,0.0,644,2
+analysis_base,albumin-numeric result,main_predictor,644,1,0.16,643,39
+analysis_base,creatinine-numeric result,main_predictor,644,1,0.16,643,428
+analysis_base,crp-numeric result,main_predictor,644,25,3.88,619,594
+analysis_base,hb-numeric result,main_predictor,644,66,10.25,578,105
+analysis_base,m/f,main_predictor,644,1,0.16,643,2
+analysis_base,LV_EF,main_predictor,644,4,0.62,640,35
+analysis_base,LeftVentricleEstimatedMassIndex,main_predictor,644,66,10.25,578,146
+analysis_base,MitralInflowPeakEWave,main_predictor,644,63,9.78,581,302
+analysis_base,TissueDopplerEERatioLateral,main_predictor,644,122,18.94,522,451
+analysis_base,TissueDopplerEERatioSeptal,main_predictor,644,122,18.94,522,473
+analysis_base,TissueDopplerEVelosityLateral,main_predictor,644,114,17.7,530,254
+analysis_base,TissueDopplerEVelositySeptal,main_predictor,644,114,17.7,530,244
+analysis_base,LACavitySize,main_predictor,644,43,6.68,601,4
+analysis_base,ECHO_SPAP,main_predictor,644,119,18.48,525,4
+analysis_base,EstimatedSysPAPressure,main_predictor,644,108,16.77,536,77
+analysis_base,tricuspid_regurgitation_clin_grouped,main_predictor,644,45,6.99,599,5
+analysis_base,mitral_regurgitation_clin_grouped,main_predictor,644,48,7.45,596,5
+analysis_base,days_echo_to_dialysis,main_predictor,644,0,0.0,644,296
+analysis_base,BMI,sensitivity_exploratory_predictor,644,125,19.41,519,469
+analysis_base,DYSLIPIDEMIA_binary,sensitivity_exploratory_predictor,644,0,0.0,644,2
+analysis_base,OncologicalDiagnosis_binary,sensitivity_exploratory_predictor,644,0,0.0,644,2
+analysis_base,Weight,sensitivity_exploratory_predictor,644,90,13.98,554,232
+analysis_base,LeftVentricleScoreIndex,sensitivity_exploratory_predictor,644,5,0.78,639,45
+analysis_base,LeftVentricleSystolicFunction,sensitivity_exploratory_predictor,644,75,11.65,569,7
+analysis_base,TissueDopplerSVelocityLateral,sensitivity_exploratory_predictor,644,131,20.34,513,232
+analysis_base,TissueDopplerSVelocitySeptal,sensitivity_exploratory_predictor,644,203,31.52,441,201
+analysis_base,lv_cavity_size_clin_grouped,sensitivity_exploratory_predictor,644,74,11.49,570,4
+analysis_base,LeftVentricleEndDiastolicDiameter,sensitivity_exploratory_predictor,644,8,1.24,636,246
+analysis_base,LeftVentricleEndSystolicDiameter,sensitivity_exploratory_predictor,644,9,1.4,635,272
+analysis_base,LeftVentricleEstimatedMass,sensitivity_exploratory_predictor,644,16,2.48,628,561
+analysis_base,LeftVentricleInterventricularSeptumThickness,sensitivity_exploratory_predictor,644,8,1.24,636,117
+analysis_base,LeftVentriclePosteriorWallThickness,sensitivity_exploratory_predictor,644,13,2.02,631,99
+analysis_base,lv_wall_thickness_clin_grouped,sensitivity_exploratory_predictor,644,243,37.73,401,3
+analysis_base,rv_size_clin_grouped,sensitivity_exploratory_predictor,644,345,53.57,299,4
+analysis_base,RVSystolicFunction,sensitivity_exploratory_predictor,644,341,52.95,303,4
+analysis_base,aortic_regurgitation_clin_grouped,sensitivity_exploratory_predictor,644,342,53.11,302,5
+analysis_base,aortic_valve_structure_clin_grouped,sensitivity_exploratory_predictor,644,195,30.28,449,5
+analysis_base,GFR,sensitivity_exploratory_predictor,644,1,0.16,643,615
+analysis_base,ca-numeric result,sensitivity_exploratory_predictor,644,1,0.16,643,58
+analysis_base,dbp-numeric result,sensitivity_exploratory_predictor,644,137,21.27,507,77
+analysis_base,hba1c-numeric result,sensitivity_exploratory_predictor,644,64,9.94,580,71
+analysis_base,k-numeric result,sensitivity_exploratory_predictor,644,3,0.47,641,69
+analysis_base,na-numeric result,sensitivity_exploratory_predictor,644,3,0.47,641,56
+analysis_base,p-numeric result,sensitivity_exploratory_predictor,644,1,0.16,643,129
+analysis_base,sbp-numeric result,sensitivity_exploratory_predictor,644,164,25.47,480,115
+analysis_base,ua-numeric result,sensitivity_exploratory_predictor,644,1,0.16,643,148
+analysis_base,urea-numeric result,sensitivity_exploratory_predictor,644,4,0.62,640,267
+analysis_base,years_since_MI,sensitivity_exploratory_predictor,644,516,80.12,128,117
+analysis_base,died_1year,outcome_or_denominator,644,27,4.19,617,2
+analysis_base,event,outcome_or_denominator,644,0,0.0,644,2
+analysis_base,time_to_event_days,outcome_or_denominator,644,0,0.0,644,511
+analysis_base,hosp_total,outcome_or_denominator,644,0,0.0,644,11
+analysis_base,followup_days,outcome_or_denominator,644,0,0.0,644,511
+one_year_mortality,AFIB_binary,main_predictor,617,0,0.0,617,2
+one_year_mortality,AgeAtFirstHFDate,main_predictor,617,0,0.0,617,408
+one_year_mortality,CABG_binary,main_predictor,617,0,0.0,617,2
+one_year_mortality,COPD_binary,main_predictor,617,0,0.0,617,2
+one_year_mortality,Diabetes mellitus_binary,main_predictor,617,0,0.0,617,2
+one_year_mortality,HD/PD,main_predictor,617,0,0.0,617,2
+one_year_mortality,HTN_binary,main_predictor,617,0,0.0,617,2
+one_year_mortality,IHD_binary,main_predictor,617,0,0.0,617,2
+one_year_mortality,MI_binary,main_predictor,617,0,0.0,617,2
+one_year_mortality,albumin-numeric result,main_predictor,617,1,0.16,616,39
+one_year_mortality,creatinine-numeric result,main_predictor,617,1,0.16,616,415
+one_year_mortality,crp-numeric result,main_predictor,617,25,4.05,592,570
+one_year_mortality,hb-numeric result,main_predictor,617,66,10.7,551,103
+one_year_mortality,m/f,main_predictor,617,1,0.16,616,2
+one_year_mortality,LV_EF,main_predictor,617,4,0.65,613,35
+one_year_mortality,LeftVentricleEstimatedMassIndex,main_predictor,617,61,9.89,556,145
+one_year_mortality,MitralInflowPeakEWave,main_predictor,617,59,9.56,558,297
+one_year_mortality,TissueDopplerEERatioLateral,main_predictor,617,116,18.8,501,434
+one_year_mortality,TissueDopplerEERatioSeptal,main_predictor,617,116,18.8,501,455
+one_year_mortality,TissueDopplerEVelosityLateral,main_predictor,617,108,17.5,509,241
+one_year_mortality,TissueDopplerEVelositySeptal,main_predictor,617,108,17.5,509,235
+one_year_mortality,LACavitySize,main_predictor,617,39,6.32,578,4
+one_year_mortality,ECHO_SPAP,main_predictor,617,116,18.8,501,4
+one_year_mortality,EstimatedSysPAPressure,main_predictor,617,105,17.02,512,77
+one_year_mortality,tricuspid_regurgitation_clin_grouped,main_predictor,617,44,7.13,573,5
+one_year_mortality,mitral_regurgitation_clin_grouped,main_predictor,617,46,7.46,571,5
+one_year_mortality,days_echo_to_dialysis,main_predictor,617,0,0.0,617,293
+one_year_mortality,BMI,sensitivity_exploratory_predictor,617,117,18.96,500,455
+one_year_mortality,DYSLIPIDEMIA_binary,sensitivity_exploratory_predictor,617,0,0.0,617,2
+one_year_mortality,OncologicalDiagnosis_binary,sensitivity_exploratory_predictor,617,0,0.0,617,2
+one_year_mortality,Weight,sensitivity_exploratory_predictor,617,85,13.78,532,224
+one_year_mortality,LeftVentricleScoreIndex,sensitivity_exploratory_predictor,617,4,0.65,613,44
+one_year_mortality,LeftVentricleSystolicFunction,sensitivity_exploratory_predictor,617,69,11.18,548,7
+one_year_mortality,TissueDopplerSVelocityLateral,sensitivity_exploratory_predictor,617,121,19.61,496,223
+one_year_mortality,TissueDopplerSVelocitySeptal,sensitivity_exploratory_predictor,617,178,28.85,439,200
+one_year_mortality,lv_cavity_size_clin_grouped,sensitivity_exploratory_predictor,617,68,11.02,549,4
+one_year_mortality,LeftVentricleEndDiastolicDiameter,sensitivity_exploratory_predictor,617,7,1.13,610,240
+one_year_mortality,LeftVentricleEndSystolicDiameter,sensitivity_exploratory_predictor,617,8,1.3,609,266
+one_year_mortality,LeftVentricleEstimatedMass,sensitivity_exploratory_predictor,617,15,2.43,602,539
+one_year_mortality,LeftVentricleInterventricularSeptumThickness,sensitivity_exploratory_predictor,617,7,1.13,610,115
+one_year_mortality,LeftVentriclePosteriorWallThickness,sensitivity_exploratory_predictor,617,12,1.94,605,98
+one_year_mortality,lv_wall_thickness_clin_grouped,sensitivity_exploratory_predictor,617,230,37.28,387,3
+one_year_mortality,rv_size_clin_grouped,sensitivity_exploratory_predictor,617,326,52.84,291,4
+one_year_mortality,RVSystolicFunction,sensitivity_exploratory_predictor,617,322,52.19,295,4
+one_year_mortality,aortic_regurgitation_clin_grouped,sensitivity_exploratory_predictor,617,328,53.16,289,5
+one_year_mortality,aortic_valve_structure_clin_grouped,sensitivity_exploratory_predictor,617,185,29.98,432,5
+one_year_mortality,GFR,sensitivity_exploratory_predictor,617,1,0.16,616,590
+one_year_mortality,ca-numeric result,sensitivity_exploratory_predictor,617,1,0.16,616,57
+one_year_mortality,dbp-numeric result,sensitivity_exploratory_predictor,617,134,21.72,483,75
+one_year_mortality,hba1c-numeric result,sensitivity_exploratory_predictor,617,63,10.21,554,70
+one_year_mortality,k-numeric result,sensitivity_exploratory_predictor,617,3,0.49,614,69
+one_year_mortality,na-numeric result,sensitivity_exploratory_predictor,617,3,0.49,614,56
+one_year_mortality,p-numeric result,sensitivity_exploratory_predictor,617,1,0.16,616,129
+one_year_mortality,sbp-numeric result,sensitivity_exploratory_predictor,617,147,23.82,470,115
+one_year_mortality,ua-numeric result,sensitivity_exploratory_predictor,617,1,0.16,616,146
+one_year_mortality,urea-numeric result,sensitivity_exploratory_predictor,617,4,0.65,613,266
+one_year_mortality,years_since_MI,sensitivity_exploratory_predictor,617,493,79.9,124,113
+one_year_mortality,died_1year,outcome_or_denominator,617,0,0.0,617,2
+one_year_mortality,event,outcome_or_denominator,617,0,0.0,617,2
+one_year_mortality,time_to_event_days,outcome_or_denominator,617,0,0.0,617,495
+one_year_mortality,hosp_total,outcome_or_denominator,617,0,0.0,617,11
+one_year_mortality,followup_days,outcome_or_denominator,617,0,0.0,617,495
+survival,AFIB_binary,main_predictor,644,0,0.0,644,2
+survival,AgeAtFirstHFDate,main_predictor,644,0,0.0,644,435
+survival,CABG_binary,main_predictor,644,0,0.0,644,2
+survival,COPD_binary,main_predictor,644,0,0.0,644,2
+survival,Diabetes mellitus_binary,main_predictor,644,0,0.0,644,2
+survival,HD/PD,main_predictor,644,0,0.0,644,2
+survival,HTN_binary,main_predictor,644,0,0.0,644,2
+survival,IHD_binary,main_predictor,644,0,0.0,644,2
+survival,MI_binary,main_predictor,644,0,0.0,644,2
+survival,albumin-numeric result,main_predictor,644,1,0.16,643,39
+survival,creatinine-numeric result,main_predictor,644,1,0.16,643,428
+survival,crp-numeric result,main_predictor,644,25,3.88,619,594
+survival,hb-numeric result,main_predictor,644,66,10.25,578,105
+survival,m/f,main_predictor,644,1,0.16,643,2
+survival,LV_EF,main_predictor,644,4,0.62,640,35
+survival,LeftVentricleEstimatedMassIndex,main_predictor,644,66,10.25,578,146
+survival,MitralInflowPeakEWave,main_predictor,644,63,9.78,581,302
+survival,TissueDopplerEERatioLateral,main_predictor,644,122,18.94,522,451
+survival,TissueDopplerEERatioSeptal,main_predictor,644,122,18.94,522,473
+survival,TissueDopplerEVelosityLateral,main_predictor,644,114,17.7,530,254
+survival,TissueDopplerEVelositySeptal,main_predictor,644,114,17.7,530,244
+survival,LACavitySize,main_predictor,644,43,6.68,601,4
+survival,ECHO_SPAP,main_predictor,644,119,18.48,525,4
+survival,EstimatedSysPAPressure,main_predictor,644,108,16.77,536,77
+survival,tricuspid_regurgitation_clin_grouped,main_predictor,644,45,6.99,599,5
+survival,mitral_regurgitation_clin_grouped,main_predictor,644,48,7.45,596,5
+survival,days_echo_to_dialysis,main_predictor,644,0,0.0,644,296
+survival,BMI,sensitivity_exploratory_predictor,644,125,19.41,519,469
+survival,DYSLIPIDEMIA_binary,sensitivity_exploratory_predictor,644,0,0.0,644,2
+survival,OncologicalDiagnosis_binary,sensitivity_exploratory_predictor,644,0,0.0,644,2
+survival,Weight,sensitivity_exploratory_predictor,644,90,13.98,554,232
+survival,LeftVentricleScoreIndex,sensitivity_exploratory_predictor,644,5,0.78,639,45
+survival,LeftVentricleSystolicFunction,sensitivity_exploratory_predictor,644,75,11.65,569,7
+survival,TissueDopplerSVelocityLateral,sensitivity_exploratory_predictor,644,131,20.34,513,232
+survival,TissueDopplerSVelocitySeptal,sensitivity_exploratory_predictor,644,203,31.52,441,201
+survival,lv_cavity_size_clin_grouped,sensitivity_exploratory_predictor,644,74,11.49,570,4
+survival,LeftVentricleEndDiastolicDiameter,sensitivity_exploratory_predictor,644,8,1.24,636,246
+survival,LeftVentricleEndSystolicDiameter,sensitivity_exploratory_predictor,644,9,1.4,635,272
+survival,LeftVentricleEstimatedMass,sensitivity_exploratory_predictor,644,16,2.48,628,561
+survival,LeftVentricleInterventricularSeptumThickness,sensitivity_exploratory_predictor,644,8,1.24,636,117
+survival,LeftVentriclePosteriorWallThickness,sensitivity_exploratory_predictor,644,13,2.02,631,99
+survival,lv_wall_thickness_clin_grouped,sensitivity_exploratory_predictor,644,243,37.73,401,3
+survival,rv_size_clin_grouped,sensitivity_exploratory_predictor,644,345,53.57,299,4
+survival,RVSystolicFunction,sensitivity_exploratory_predictor,644,341,52.95,303,4
+survival,aortic_regurgitation_clin_grouped,sensitivity_exploratory_predictor,644,342,53.11,302,5
+survival,aortic_valve_structure_clin_grouped,sensitivity_exploratory_predictor,644,195,30.28,449,5
+survival,GFR,sensitivity_exploratory_predictor,644,1,0.16,643,615
+survival,ca-numeric result,sensitivity_exploratory_predictor,644,1,0.16,643,58
+survival,dbp-numeric result,sensitivity_exploratory_predictor,644,137,21.27,507,77
+survival,hba1c-numeric result,sensitivity_exploratory_predictor,644,64,9.94,580,71
+survival,k-numeric result,sensitivity_exploratory_predictor,644,3,0.47,641,69
+survival,na-numeric result,sensitivity_exploratory_predictor,644,3,0.47,641,56
+survival,p-numeric result,sensitivity_exploratory_predictor,644,1,0.16,643,129
+survival,sbp-numeric result,sensitivity_exploratory_predictor,644,164,25.47,480,115
+survival,ua-numeric result,sensitivity_exploratory_predictor,644,1,0.16,643,148
+survival,urea-numeric result,sensitivity_exploratory_predictor,644,4,0.62,640,267
+survival,years_since_MI,sensitivity_exploratory_predictor,644,516,80.12,128,117
+survival,died_1year,outcome_or_denominator,644,27,4.19,617,2
+survival,event,outcome_or_denominator,644,0,0.0,644,2
+survival,time_to_event_days,outcome_or_denominator,644,0,0.0,644,511
+survival,hosp_total,outcome_or_denominator,644,0,0.0,644,11
+survival,followup_days,outcome_or_denominator,644,0,0.0,644,511
+hospitalization,AFIB_binary,main_predictor,644,0,0.0,644,2
+hospitalization,AgeAtFirstHFDate,main_predictor,644,0,0.0,644,435
+hospitalization,CABG_binary,main_predictor,644,0,0.0,644,2
+hospitalization,COPD_binary,main_predictor,644,0,0.0,644,2
+hospitalization,Diabetes mellitus_binary,main_predictor,644,0,0.0,644,2
+hospitalization,HD/PD,main_predictor,644,0,0.0,644,2
+hospitalization,HTN_binary,main_predictor,644,0,0.0,644,2
+hospitalization,IHD_binary,main_predictor,644,0,0.0,644,2
+hospitalization,MI_binary,main_predictor,644,0,0.0,644,2
+hospitalization,albumin-numeric result,main_predictor,644,1,0.16,643,39
+hospitalization,creatinine-numeric result,main_predictor,644,1,0.16,643,428
+hospitalization,crp-numeric result,main_predictor,644,25,3.88,619,594
+hospitalization,hb-numeric result,main_predictor,644,66,10.25,578,105
+hospitalization,m/f,main_predictor,644,1,0.16,643,2
+hospitalization,LV_EF,main_predictor,644,4,0.62,640,35
+hospitalization,LeftVentricleEstimatedMassIndex,main_predictor,644,66,10.25,578,146
+hospitalization,MitralInflowPeakEWave,main_predictor,644,63,9.78,581,302
+hospitalization,TissueDopplerEERatioLateral,main_predictor,644,122,18.94,522,451
+hospitalization,TissueDopplerEERatioSeptal,main_predictor,644,122,18.94,522,473
+hospitalization,TissueDopplerEVelosityLateral,main_predictor,644,114,17.7,530,254
+hospitalization,TissueDopplerEVelositySeptal,main_predictor,644,114,17.7,530,244
+hospitalization,LACavitySize,main_predictor,644,43,6.68,601,4
+hospitalization,ECHO_SPAP,main_predictor,644,119,18.48,525,4
+hospitalization,EstimatedSysPAPressure,main_predictor,644,108,16.77,536,77
+hospitalization,tricuspid_regurgitation_clin_grouped,main_predictor,644,45,6.99,599,5
+hospitalization,mitral_regurgitation_clin_grouped,main_predictor,644,48,7.45,596,5
+hospitalization,days_echo_to_dialysis,main_predictor,644,0,0.0,644,296
+hospitalization,BMI,sensitivity_exploratory_predictor,644,125,19.41,519,469
+hospitalization,DYSLIPIDEMIA_binary,sensitivity_exploratory_predictor,644,0,0.0,644,2
+hospitalization,OncologicalDiagnosis_binary,sensitivity_exploratory_predictor,644,0,0.0,644,2
+hospitalization,Weight,sensitivity_exploratory_predictor,644,90,13.98,554,232
+hospitalization,LeftVentricleScoreIndex,sensitivity_exploratory_predictor,644,5,0.78,639,45
+hospitalization,LeftVentricleSystolicFunction,sensitivity_exploratory_predictor,644,75,11.65,569,7
+hospitalization,TissueDopplerSVelocityLateral,sensitivity_exploratory_predictor,644,131,20.34,513,232
+hospitalization,TissueDopplerSVelocitySeptal,sensitivity_exploratory_predictor,644,203,31.52,441,201
+hospitalization,lv_cavity_size_clin_grouped,sensitivity_exploratory_predictor,644,74,11.49,570,4
+hospitalization,LeftVentricleEndDiastolicDiameter,sensitivity_exploratory_predictor,644,8,1.24,636,246
+hospitalization,LeftVentricleEndSystolicDiameter,sensitivity_exploratory_predictor,644,9,1.4,635,272
+hospitalization,LeftVentricleEstimatedMass,sensitivity_exploratory_predictor,644,16,2.48,628,561
+hospitalization,LeftVentricleInterventricularSeptumThickness,sensitivity_exploratory_predictor,644,8,1.24,636,117
+hospitalization,LeftVentriclePosteriorWallThickness,sensitivity_exploratory_predictor,644,13,2.02,631,99
+hospitalization,lv_wall_thickness_clin_grouped,sensitivity_exploratory_predictor,644,243,37.73,401,3
+hospitalization,rv_size_clin_grouped,sensitivity_exploratory_predictor,644,345,53.57,299,4
+hospitalization,RVSystolicFunction,sensitivity_exploratory_predictor,644,341,52.95,303,4
+hospitalization,aortic_regurgitation_clin_grouped,sensitivity_exploratory_predictor,644,342,53.11,302,5
+hospitalization,aortic_valve_structure_clin_grouped,sensitivity_exploratory_predictor,644,195,30.28,449,5
+hospitalization,GFR,sensitivity_exploratory_predictor,644,1,0.16,643,615
+hospitalization,ca-numeric result,sensitivity_exploratory_predictor,644,1,0.16,643,58
+hospitalization,dbp-numeric result,sensitivity_exploratory_predictor,644,137,21.27,507,77
+hospitalization,hba1c-numeric result,sensitivity_exploratory_predictor,644,64,9.94,580,71
+hospitalization,k-numeric result,sensitivity_exploratory_predictor,644,3,0.47,641,69
+hospitalization,na-numeric result,sensitivity_exploratory_predictor,644,3,0.47,641,56
+hospitalization,p-numeric result,sensitivity_exploratory_predictor,644,1,0.16,643,129
+hospitalization,sbp-numeric result,sensitivity_exploratory_predictor,644,164,25.47,480,115
+hospitalization,ua-numeric result,sensitivity_exploratory_predictor,644,1,0.16,643,148
+hospitalization,urea-numeric result,sensitivity_exploratory_predictor,644,4,0.62,640,267
+hospitalization,years_since_MI,sensitivity_exploratory_predictor,644,516,80.12,128,117
+hospitalization,died_1year,outcome_or_denominator,644,27,4.19,617,2
+hospitalization,event,outcome_or_denominator,644,0,0.0,644,2
+hospitalization,time_to_event_days,outcome_or_denominator,644,0,0.0,644,511
+hospitalization,hosp_total,outcome_or_denominator,644,0,0.0,644,11
+hospitalization,followup_days,outcome_or_denominator,644,0,0.0,644,511
+hospitalization,followup_years,outcome_or_denominator,644,0,0.0,644,511
+hospitalization,log_followup_years,outcome_or_denominator,644,0,0.0,644,511
