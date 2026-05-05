@@ -1,0 +1,2 @@
+column,dtype,vtype,n_missing,pct_missing,n_unique,clinical_axis,proposed_status,bucket
+patient_id,int64,continuous,0,0.0,645,Admin,Excluded,identifier

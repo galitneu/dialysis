@@ -1,0 +1,7 @@
+column,dtype,vtype,n_missing,pct_missing,n_unique,clinical_axis,proposed_status,bucket
+hosp_total,int64,continuous,0,0.0,11,Outcome,Outcome — primary (hosp rate),outcome
+death_event,int64,binary,0,0.0,2,Outcome,Outcome — secondary (Cox),outcome
+time_to_event_days,int64,continuous,0,0.0,513,Outcome,Outcome — secondary (Cox),outcome
+followup_days,int64,continuous,0,0.0,513,Outcome,Outcome — denominator for hosp rate,outcome
+died_1year,float64,binary,27,4.2,2,Outcome,Outcome — primary (1y mortality),outcome
+flag_echo_after_death,int64,binary,0,0.0,2,Outcome QC,Used to define cohort exclusion,outcome

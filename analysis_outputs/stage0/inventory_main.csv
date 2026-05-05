@@ -1,0 +1,30 @@
+column,dtype,vtype,n_missing,pct_missing,n_unique,clinical_axis,proposed_status,bucket
+HD/PD,str,categorical,0,0.0,3,Clinical,Candidate covariate (full base),main
+m/f,str,categorical,1,0.2,3,Clinical,Core clinical,main
+AgeAtFirstHFDate,float64,continuous,0,0.0,435,Clinical,Core clinical,main
+LeftVentricleSystolicFunction,str,categorical,75,11.6,8,Echo: LV systolic (other),Candidate (categorical),main
+LV_EF,float64,continuous,4,0.6,35,Echo: Benchmark,Benchmark — fixed in all models,main
+LACavitySize,str,categorical,43,6.7,4,Echo: LA / atrial,Candidate (categorical),main
+MitralRegurgitation,str,categorical,48,7.4,9,Echo: Valves,Candidate (categorical),main
+TricuspidRegurgitation,str,categorical,45,7.0,6,Echo: Right-heart / congestion,Candidate (categorical),main
+ECHO_SPAP,str,categorical,119,18.4,4,Echo: Right-heart / congestion,Candidate (categorical),main
+LeftVentricleEstimatedMassIndex,float64,continuous,62,9.6,151,Echo: LV structure / mass,Candidate (LVMI),main
+EstimatedSysPAPressure,float64,continuous,108,16.7,77,Echo: Right-heart / congestion,Candidate (numeric SPAP),main
+MitralInflowPeakEWave,float64,continuous,63,9.8,302,Echo: LV diastolic / filling,Candidate,main
+TissueDopplerEVelositySeptal,float64,continuous,114,17.7,245,Echo: LV diastolic / filling,Candidate (was OMITTED previously),main
+TissueDopplerEERatioSeptal,float64,continuous,122,18.9,474,Echo: LV diastolic / filling,Candidate,main
+TissueDopplerEVelosityLateral,float64,continuous,114,17.7,256,Echo: LV diastolic / filling,Candidate (was OMITTED previously),main
+TissueDopplerEERatioLateral,float64,continuous,122,18.9,452,Echo: LV diastolic / filling,Candidate,main
+GFR,float64,continuous,1,0.2,616,Lab,Candidate covariate (alternative to creatinine),main
+albumin-numeric result,float64,continuous,1,0.2,39,Lab,Candidate covariate (full base),main
+hb-numeric result,float64,continuous,66,10.2,105,Lab,Candidate covariate (full base),main
+creatinine-numeric result,float64,continuous,1,0.2,428,Lab,Core clinical (parsimonious base),main
+crp-numeric result,float64,continuous,25,3.9,595,Lab,Candidate covariate (full base),main
+MI_binary,int64,binary,0,0.0,2,Clinical,Candidate covariate (full base),main
+CABG_binary,int64,binary,0,0.0,2,Clinical,Candidate covariate (full base),main
+IHD_binary,int64,binary,0,0.0,2,Clinical,Candidate covariate (full base),main
+AFIB_binary,int64,binary,0,0.0,2,Clinical,Candidate covariate (full base),main
+HTN_binary,int64,binary,0,0.0,2,Clinical,Candidate covariate (full base),main
+Diabetes mellitus_binary,int64,binary,0,0.0,2,Clinical,Candidate covariate (full base),main
+COPD_binary,int64,binary,0,0.0,2,Clinical,Candidate covariate (full base),main
+gap_echo_to_dial_days,int64,continuous,0,0.0,297,Timing,Core clinical (covariate),main

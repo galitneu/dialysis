@@ -1,0 +1,16 @@
+column,dtype,vtype,n_missing,pct_missing,n_unique,clinical_axis,proposed_status,bucket
+LeftVentricleSummary,str,categorical,450,69.8,52,Echo: Text,Descriptive only — Hebrew text,excluded
+AorticValveSummary,str,categorical,507,78.6,42,Echo: Text,Descriptive only — Hebrew text,excluded
+MitralValveStructure,str,categorical,463,71.8,8,Echo: Valves,Excluded (>60% miss after No Value→NaN),excluded
+MitralValveSummary,str,categorical,443,68.7,57,Echo: Text,Descriptive only — Hebrew text,excluded
+TricuspidValveStructure,str,categorical,574,89.0,6,Echo: Valves,Excluded (>85% miss),excluded
+ProcedureSummary,str,categorical,0,0.0,644,Echo: Text,Descriptive only — Hebrew text,excluded
+MI,datetime64[us],date,452,70.1,175,Clinical (date),Excluded — date kept; binary used,excluded
+CABG,datetime64[us],date,512,79.4,108,Clinical (date),Excluded — date kept; binary used,excluded
+IHD,datetime64[us],date,249,38.6,394,Clinical (date),Excluded — date kept; binary used,excluded
+AFIB,datetime64[us],date,342,53.0,300,Clinical (date),Excluded — date kept; binary used,excluded
+HTN,datetime64[us],date,112,17.4,529,Clinical (date),Excluded — date kept; binary used,excluded
+Diabetes mellitus,datetime64[us],date,235,36.4,409,Clinical (date),Excluded — date kept; binary used,excluded
+DYSLIPIDEMIA,datetime64[us],date,334,51.8,308,Clinical (date),Excluded — date kept; binary used,excluded
+COPD,datetime64[us],date,540,83.7,105,Clinical (date),Excluded — date kept; binary used,excluded
+OncologicalDiagnosis,str,categorical,502,77.8,1,Clinical (date),Excluded — date kept; binary used,excluded

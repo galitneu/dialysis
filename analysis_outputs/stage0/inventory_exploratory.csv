@@ -1,0 +1,5 @@
+column,dtype,vtype,n_missing,pct_missing,n_unique,clinical_axis,proposed_status,bucket
+Weight,float64,continuous,90,14.0,233,Clinical,Held for Stage 4 per DEC-017,exploratory
+BMI,float64,continuous,121,18.8,488,Clinical,Held for Stage 4 per DEC-017,exploratory
+DYSLIPIDEMIA_binary,int64,binary,0,0.0,2,Clinical,Held for Stage 4 per DEC-017,exploratory
+OncologicalDiagnosis_binary,int64,binary,0,0.0,2,Clinical,Held for Stage 4 per DEC-017,exploratory

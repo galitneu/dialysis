@@ -1,0 +1,24 @@
+column,dtype,vtype,n_missing,pct_missing,n_unique,clinical_axis,proposed_status,bucket
+LeftVentricleCavitySize,str,categorical,74,11.5,5,Echo: LV structure / mass,Sensitivity (categorical),sensitivity
+LeftVentricleWallThickness,str,categorical,249,38.6,4,Echo: LV structure / mass,Sensitivity (categorical),sensitivity
+RVSize,str,categorical,345,53.5,4,Echo: Right-heart / congestion,Sensitivity / exploratory (>50% miss per DEC-023),sensitivity
+RVSystolicFunction,str,categorical,341,52.9,4,Echo: Right-heart / congestion,Sensitivity / exploratory (>50% miss per DEC-023),sensitivity
+AorticValveStructure,str,categorical,195,30.2,10,Echo: Valves,Sensitivity (categorical),sensitivity
+AorticValveRegurgitation,str,categorical,343,53.2,6,Echo: Valves,Sensitivity / exploratory (>50% miss per DEC-023),sensitivity
+LeftVentricleEndDiastolicDiameter,float64,continuous,8,1.2,247,Echo: LV structure / mass,Sensitivity,sensitivity
+LeftVentricleEndSystolicDiameter,float64,continuous,9,1.4,272,Echo: LV structure / mass,Sensitivity,sensitivity
+LeftVentricleInterventricularSeptumThickness,float64,continuous,8,1.2,118,Echo: LV structure / mass,Sensitivity,sensitivity
+LeftVentriclePosteriorWallThickness,float64,continuous,10,1.6,102,Echo: LV structure / mass,Sensitivity,sensitivity
+LeftVentricleEstimatedMass,float64,continuous,11,1.7,567,Echo: LV structure / mass,Sensitivity (use LVMI),sensitivity
+LeftVentricleScoreIndex,float64,continuous,5,0.8,45,Echo: LV systolic (other),Sensitivity (overlap with EF),sensitivity
+TissueDopplerSVelocitySeptal,float64,continuous,204,31.6,201,Echo: LV systolic (other),Sensitivity (>30% miss),sensitivity
+TissueDopplerSVelocityLateral,float64,continuous,131,20.3,233,Echo: LV systolic (other),Sensitivity (~20% miss),sensitivity
+sbp-numeric result,float64,continuous,164,25.4,115,Lab,Sensitivity (>20% missing),sensitivity
+dbp-numeric result,float64,continuous,137,21.2,77,Lab,Sensitivity (>20% missing),sensitivity
+na-numeric result,float64,continuous,3,0.5,56,Lab,Held for Stage 4,sensitivity
+k-numeric result,float64,continuous,3,0.5,69,Lab,Held for Stage 4,sensitivity
+urea-numeric result,float64,continuous,4,0.6,267,Lab,Held for Stage 4,sensitivity
+ca-numeric result,float64,continuous,1,0.2,58,Lab,Held for Stage 4,sensitivity
+p-numeric result,float64,continuous,1,0.2,129,Lab,Held for Stage 4,sensitivity
+ua-numeric result,float64,continuous,1,0.2,149,Lab,Held for Stage 4,sensitivity
+hba1c-numeric result,float64,continuous,65,10.1,71,Lab,Held for Stage 4,sensitivity

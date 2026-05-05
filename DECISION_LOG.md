@@ -167,3 +167,99 @@ The original notebook used the dataset-max date (2025-08-16) as a proxy administ
 **RATIONALE**: Per locked SAP and Galit instruction "ולהמשיך ל־Stage 0 בלבד".
 **SOURCE**: Locked SAP + Galit go-ahead
 **OUTCOME_INFORMED**: N
+
+---
+
+## STOP-2 corrections (DEC-022 .. DEC-029) — Galit review
+
+## DEC-022 | 2026-05-05 | Stage 0 (correction) | Galit
+**DECISION**: Convert each comorbidity column to a binary indicator using `df[col].notna()`. The binary equals 1 if the source value is non-null (a date or a label like "Oncological diagnosis") and 0 otherwise. The original date column is preserved (parsed where parseable) for reference but excluded from primary modeling.
+**RATIONALE**: Explicit DEC for the binarization step (previously only implied by DEC-013). Required so the provenance file can reference a specific decision ID rather than an inferred one. Also addresses the OncologicalDiagnosis case where the source column stores text rather than dates.
+**SOURCE**: Galit STOP-2 correction, item 4
+**OUTCOME_INFORMED**: N
+
+## DEC-023 | 2026-05-05 | Stage 0 (correction) | Galit
+**DECISION**: Reclassify the following from `Candidate` to `Sensitivity / exploratory only`:
+- `RVSize` (53.5% effective missing)
+- `RVSystolicFunction` (52.9% effective missing)
+- `AorticValveRegurgitation` (53.2% effective missing)
+**RATIONALE**: Per DEC-015, variables above 50% effective missing should not enter the primary multivariable model as standard candidates. They may still be analyzed descriptively or as sensitivity.
+**SOURCE**: Galit STOP-2 correction, item 1
+**OUTCOME_INFORMED**: N
+
+## DEC-024 | 2026-05-05 | Stage 0 (correction) | Galit
+**DECISION**: Whitespace stripping must not be applied to columns whose effective dtype is `datetime`. The Stage 0 script will detect comorbidity date columns and skip them in the whitespace-strip step. Provenance entries that previously logged "whitespace_strip" on date columns will be removed; if any actual transformation occurred, it is purely cosmetic round-trip (string → datetime → string) and not a value change.
+**RATIONALE**: Galit STOP-2 correction, item 5. Avoid misleading provenance entries.
+**SOURCE**: Galit STOP-2 correction, item 5
+**OUTCOME_INFORMED**: N
+
+## DEC-025 | 2026-05-05 | Stage 0 (correction) | Galit
+**DECISION**: Add a Stage 0 QA outliers report flagging biologically implausible values for these variables, without auto-correction:
+- `BMI`: flag values < 12 or > 70
+- `Weight`: flag values < 30 kg or > 200 kg
+- `LeftVentricleInterventricularSeptumThickness` (cm): flag values > 2.5
+- `LeftVentriclePosteriorWallThickness` (cm): flag values > 2.0
+- `LeftVentricleEstimatedMass` (g): flag values > 600
+- `LeftVentricleEstimatedMassIndex` (g/m²): flag values > 300
+Produces `04_qa_outliers.csv` with patient ID, variable, value, threshold, side. Decisions about correction or exclusion of specific outliers are deferred to Stage 1 / clinician review.
+**RATIONALE**: Galit STOP-2 correction, item 2. Establishes a record of suspect values before any modeling.
+**SOURCE**: Galit STOP-2 correction, item 2
+**OUTCOME_INFORMED**: N
+
+## DEC-026 | 2026-05-05 | Stage 0 (correction) | Galit
+**DECISION**: Lock the explicit definition of `died_1year` and embed it in code + provenance:
+- `1` if `death_event==1` AND `time_to_event_days ≤ 365`
+- `0` if `death_event==0` AND `followup_days ≥ 365` (sufficient follow-up, alive at 1 year)
+- `0` if `death_event==1` AND `time_to_event_days > 365` (died, but after the 1-year window)
+- `NaN` if `death_event==0` AND `followup_days < 365` (insufficient follow-up to determine 1-year status)
+Primary 1-year-mortality analysis must restrict to patients with `died_1year ∈ {0, 1}`; the NaN subset is reported as a separate "insufficient follow-up" group.
+**RATIONALE**: Galit STOP-2 correction, item 6. Removes any ambiguity in primary outcome construction.
+**SOURCE**: Galit STOP-2 correction, item 6
+**OUTCOME_INFORMED**: N
+
+## DEC-027 | 2026-05-05 | Stage 0 (correction) | Galit
+**DECISION**: Adopt a canonical naming convention for the analytic flat file. The clean flat file produced by Stage 0 will use these names exclusively; downstream stages must use the same names:
+- `patient_id` (renamed from `patient number`)
+- `gap_echo_to_dial_days` (positive = echo before dialysis)
+- `death_event` (binary, full follow-up)
+- `time_to_event_days` (days from dialysis to death-or-censor)
+- `followup_days` (alias of time_to_event_days for clarity)
+- `died_1year` (per DEC-026)
+- `hosp_total` (canonical name; raw column `hospitalization-count` mapped to it)
+The decision log and provenance will reference these names.
+**RATIONALE**: Galit STOP-2 correction, item 7. Prevents downstream breaks.
+**SOURCE**: Galit STOP-2 correction, item 7
+**OUTCOME_INFORMED**: N
+
+## DEC-028 | 2026-05-05 | Stage 0 (correction) | Galit
+**DECISION**: The Stage 0 inventory will be split into four explicit lists, one CSV each:
+1. `inventory_main.csv` — variables eligible for the primary multivariable model
+2. `inventory_sensitivity.csv` — eligible only for sensitivity analyses
+3. `inventory_exploratory.csv` — exploratory only (very high missing or overlap)
+4. `inventory_excluded.csv` — excluded / descriptive-only
+A variable appears in exactly one list. The combined `02_variable_inventory.csv` remains for full transparency, but the four split files are the operational reference for downstream stages.
+**RATIONALE**: Galit STOP-2 correction, item 8.
+**SOURCE**: Galit STOP-2 correction, item 8
+**OUTCOME_INFORMED**: N
+
+## DEC-029 | 2026-05-05 | Stage 0 (correction) | Galit
+**DECISION**: The Stage 0 cleaning provenance file (`03_cleaning_provenance.md`) must reference an explicit DEC-NNN for every action. Any action whose mapping to a DEC-NNN was previously implicit will be re-mapped:
+- whitespace_strip → DEC-011
+- no_value_to_nan → DEC-012
+- see_below_to_nan → DEC-014
+- preserved_to_normal → DEC-018
+- mr_english_to_roman → DEC-019
+- comorb_*_to_binary → **DEC-022** (new explicit)
+- working_censor_date → DEC-020
+- echo_after_death_flag → DEC-016
+- derived_time_vars → DEC-020 + DEC-026
+- hosp_rename → DEC-027 (canonical naming)
+- patient_id_rename → DEC-027 (canonical naming)
+- skip whitespace_strip on date cols → DEC-024
+**RATIONALE**: Galit STOP-2 corrections, items 3, 4, 5.
+**SOURCE**: Galit STOP-2 correction, items 3, 4, 5
+**OUTCOME_INFORMED**: N
+
+---
+
+*Stage 0 to be re-run with these corrections before STOP-2 closure.*
