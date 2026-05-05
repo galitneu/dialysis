@@ -1,0 +1,10 @@
+comorbidity,binary_column,present,n_pos,pct_pos,matches_raw_notna,unique_vals
+MI,MI_binary,True,193,29.92,True,"[0, 1]"
+CABG,CABG_binary,True,133,20.62,True,"[0, 1]"
+IHD,IHD_binary,True,396,61.4,True,"[0, 1]"
+AFIB,AFIB_binary,True,303,46.98,True,"[0, 1]"
+HTN,HTN_binary,True,533,82.64,True,"[0, 1]"
+Diabetes mellitus,Diabetes mellitus_binary,True,410,63.57,True,"[0, 1]"
+DYSLIPIDEMIA,DYSLIPIDEMIA_binary,True,311,48.22,True,"[0, 1]"
+COPD,COPD_binary,True,105,16.28,True,"[0, 1]"
+OncologicalDiagnosis,OncologicalDiagnosis_binary,True,143,22.17,True,"[0, 1]"

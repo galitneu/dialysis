@@ -1,0 +1,3 @@
+patient_id,variable,value_before,side,threshold,unit,action,decision_id,note
+407,BMI,3.74609781477627,low,12,kg/m²,set_to_missing,DEC-030,Implausible; flagged at Stage 0; in analytic datasets the value is set to missing; patient is retained.
+362,BMI,81.2161599333611,high,70,kg/m²,set_to_missing,DEC-030,Implausible; flagged at Stage 0; in analytic datasets the value is set to missing; patient is retained.

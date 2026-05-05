@@ -1,0 +1,206 @@
+cohort,variable,n_total,n_missing,pct_missing
+full_cohort,AFIB_binary,645,0,0.0
+full_cohort,AgeAtFirstHFDate,645,0,0.0
+full_cohort,CABG_binary,645,0,0.0
+full_cohort,COPD_binary,645,0,0.0
+full_cohort,Diabetes mellitus_binary,645,0,0.0
+full_cohort,HD/PD,645,0,0.0
+full_cohort,HTN_binary,645,0,0.0
+full_cohort,IHD_binary,645,0,0.0
+full_cohort,MI_binary,645,0,0.0
+full_cohort,albumin-numeric result,645,1,0.16
+full_cohort,creatinine-numeric result,645,1,0.16
+full_cohort,crp-numeric result,645,25,3.88
+full_cohort,hb-numeric result,645,66,10.23
+full_cohort,m/f,645,1,0.16
+full_cohort,LV_EF,645,4,0.62
+full_cohort,LeftVentricleEstimatedMassIndex,645,67,10.39
+full_cohort,MitralInflowPeakEWave,645,63,9.77
+full_cohort,TissueDopplerEERatioLateral,645,122,18.91
+full_cohort,TissueDopplerEERatioSeptal,645,122,18.91
+full_cohort,TissueDopplerEVelosityLateral,645,114,17.67
+full_cohort,TissueDopplerEVelositySeptal,645,114,17.67
+full_cohort,LACavitySize,645,43,6.67
+full_cohort,ECHO_SPAP,645,119,18.45
+full_cohort,EstimatedSysPAPressure,645,108,16.74
+full_cohort,TricuspidRegurgitation,645,45,6.98
+full_cohort,MitralRegurgitation,645,48,7.44
+full_cohort,days_echo_to_dialysis,645,0,0.0
+full_cohort,BMI,645,126,19.53
+full_cohort,DYSLIPIDEMIA_binary,645,0,0.0
+full_cohort,OncologicalDiagnosis_binary,645,0,0.0
+full_cohort,Weight,645,91,14.11
+full_cohort,LeftVentricleScoreIndex,645,5,0.78
+full_cohort,LeftVentricleSystolicFunction,645,75,11.63
+full_cohort,TissueDopplerSVelocityLateral,645,131,20.31
+full_cohort,TissueDopplerSVelocitySeptal,645,204,31.63
+full_cohort,LeftVentricleCavitySize,645,74,11.47
+full_cohort,LeftVentricleEndDiastolicDiameter,645,8,1.24
+full_cohort,LeftVentricleEndSystolicDiameter,645,9,1.4
+full_cohort,LeftVentricleEstimatedMass,645,16,2.48
+full_cohort,LeftVentricleInterventricularSeptumThickness,645,8,1.24
+full_cohort,LeftVentriclePosteriorWallThickness,645,13,2.02
+full_cohort,LeftVentricleWallThickness,645,243,37.67
+full_cohort,RVSize,645,345,53.49
+full_cohort,RVSystolicFunction,645,341,52.87
+full_cohort,AorticValveRegurgitation,645,343,53.18
+full_cohort,AorticValveStructure,645,194,30.08
+full_cohort,GFR,645,1,0.16
+full_cohort,ca-numeric result,645,1,0.16
+full_cohort,dbp-numeric result,645,137,21.24
+full_cohort,hba1c-numeric result,645,65,10.08
+full_cohort,k-numeric result,645,3,0.47
+full_cohort,na-numeric result,645,3,0.47
+full_cohort,p-numeric result,645,1,0.16
+full_cohort,sbp-numeric result,645,164,25.43
+full_cohort,ua-numeric result,645,1,0.16
+full_cohort,urea-numeric result,645,4,0.62
+full_cohort,years_since_MI,645,517,80.16
+full_cohort,years_since_MI,645,517,80.16
+full_cohort,LeftVentricleSummary,645,450,69.77
+full_cohort,AorticValveSummary,645,507,78.6
+full_cohort,MitralValveSummary,645,443,68.68
+full_cohort,ProcedureSummary,645,0,0.0
+one_year_mortality,AFIB_binary,617,0,0.0
+one_year_mortality,AgeAtFirstHFDate,617,0,0.0
+one_year_mortality,CABG_binary,617,0,0.0
+one_year_mortality,COPD_binary,617,0,0.0
+one_year_mortality,Diabetes mellitus_binary,617,0,0.0
+one_year_mortality,HD/PD,617,0,0.0
+one_year_mortality,HTN_binary,617,0,0.0
+one_year_mortality,IHD_binary,617,0,0.0
+one_year_mortality,MI_binary,617,0,0.0
+one_year_mortality,albumin-numeric result,617,1,0.16
+one_year_mortality,creatinine-numeric result,617,1,0.16
+one_year_mortality,crp-numeric result,617,25,4.05
+one_year_mortality,hb-numeric result,617,66,10.7
+one_year_mortality,m/f,617,1,0.16
+one_year_mortality,LV_EF,617,4,0.65
+one_year_mortality,LeftVentricleEstimatedMassIndex,617,61,9.89
+one_year_mortality,MitralInflowPeakEWave,617,59,9.56
+one_year_mortality,TissueDopplerEERatioLateral,617,116,18.8
+one_year_mortality,TissueDopplerEERatioSeptal,617,116,18.8
+one_year_mortality,TissueDopplerEVelosityLateral,617,108,17.5
+one_year_mortality,TissueDopplerEVelositySeptal,617,108,17.5
+one_year_mortality,LACavitySize,617,39,6.32
+one_year_mortality,ECHO_SPAP,617,116,18.8
+one_year_mortality,EstimatedSysPAPressure,617,105,17.02
+one_year_mortality,TricuspidRegurgitation,617,44,7.13
+one_year_mortality,MitralRegurgitation,617,46,7.46
+one_year_mortality,days_echo_to_dialysis,617,0,0.0
+survival,AFIB_binary,644,0,0.0
+survival,AgeAtFirstHFDate,644,0,0.0
+survival,CABG_binary,644,0,0.0
+survival,COPD_binary,644,0,0.0
+survival,Diabetes mellitus_binary,644,0,0.0
+survival,HD/PD,644,0,0.0
+survival,HTN_binary,644,0,0.0
+survival,IHD_binary,644,0,0.0
+survival,MI_binary,644,0,0.0
+survival,albumin-numeric result,644,1,0.16
+survival,creatinine-numeric result,644,1,0.16
+survival,crp-numeric result,644,25,3.88
+survival,hb-numeric result,644,66,10.25
+survival,m/f,644,1,0.16
+survival,LV_EF,644,4,0.62
+survival,LeftVentricleEstimatedMassIndex,644,66,10.25
+survival,MitralInflowPeakEWave,644,63,9.78
+survival,TissueDopplerEERatioLateral,644,122,18.94
+survival,TissueDopplerEERatioSeptal,644,122,18.94
+survival,TissueDopplerEVelosityLateral,644,114,17.7
+survival,TissueDopplerEVelositySeptal,644,114,17.7
+survival,LACavitySize,644,43,6.68
+survival,ECHO_SPAP,644,119,18.48
+survival,EstimatedSysPAPressure,644,108,16.77
+survival,TricuspidRegurgitation,644,45,6.99
+survival,MitralRegurgitation,644,48,7.45
+survival,days_echo_to_dialysis,644,0,0.0
+hospitalization,AFIB_binary,644,0,0.0
+hospitalization,AgeAtFirstHFDate,644,0,0.0
+hospitalization,CABG_binary,644,0,0.0
+hospitalization,COPD_binary,644,0,0.0
+hospitalization,Diabetes mellitus_binary,644,0,0.0
+hospitalization,HD/PD,644,0,0.0
+hospitalization,HTN_binary,644,0,0.0
+hospitalization,IHD_binary,644,0,0.0
+hospitalization,MI_binary,644,0,0.0
+hospitalization,albumin-numeric result,644,1,0.16
+hospitalization,creatinine-numeric result,644,1,0.16
+hospitalization,crp-numeric result,644,25,3.88
+hospitalization,hb-numeric result,644,66,10.25
+hospitalization,m/f,644,1,0.16
+hospitalization,LV_EF,644,4,0.62
+hospitalization,LeftVentricleEstimatedMassIndex,644,66,10.25
+hospitalization,MitralInflowPeakEWave,644,63,9.78
+hospitalization,TissueDopplerEERatioLateral,644,122,18.94
+hospitalization,TissueDopplerEERatioSeptal,644,122,18.94
+hospitalization,TissueDopplerEVelosityLateral,644,114,17.7
+hospitalization,TissueDopplerEVelositySeptal,644,114,17.7
+hospitalization,LACavitySize,644,43,6.68
+hospitalization,ECHO_SPAP,644,119,18.48
+hospitalization,EstimatedSysPAPressure,644,108,16.77
+hospitalization,TricuspidRegurgitation,644,45,6.99
+hospitalization,MitralRegurgitation,644,48,7.45
+hospitalization,days_echo_to_dialysis,644,0,0.0
+main_dataset,AFIB_binary,644,0,0.0
+main_dataset,AgeAtFirstHFDate,644,0,0.0
+main_dataset,CABG_binary,644,0,0.0
+main_dataset,COPD_binary,644,0,0.0
+main_dataset,Diabetes mellitus_binary,644,0,0.0
+main_dataset,HD/PD,644,0,0.0
+main_dataset,HTN_binary,644,0,0.0
+main_dataset,IHD_binary,644,0,0.0
+main_dataset,MI_binary,644,0,0.0
+main_dataset,albumin-numeric result,644,1,0.16
+main_dataset,creatinine-numeric result,644,1,0.16
+main_dataset,crp-numeric result,644,25,3.88
+main_dataset,hb-numeric result,644,66,10.25
+main_dataset,m/f,644,1,0.16
+main_dataset,LV_EF,644,4,0.62
+main_dataset,LeftVentricleEstimatedMassIndex,644,66,10.25
+main_dataset,MitralInflowPeakEWave,644,63,9.78
+main_dataset,TissueDopplerEERatioLateral,644,122,18.94
+main_dataset,TissueDopplerEERatioSeptal,644,122,18.94
+main_dataset,TissueDopplerEVelosityLateral,644,114,17.7
+main_dataset,TissueDopplerEVelositySeptal,644,114,17.7
+main_dataset,LACavitySize,644,43,6.68
+main_dataset,ECHO_SPAP,644,119,18.48
+main_dataset,EstimatedSysPAPressure,644,108,16.77
+main_dataset,TricuspidRegurgitation,644,45,6.99
+main_dataset,MitralRegurgitation,644,48,7.45
+main_dataset,days_echo_to_dialysis,644,0,0.0
+sensitivity_dataset,BMI,644,125,19.41
+sensitivity_dataset,DYSLIPIDEMIA_binary,644,0,0.0
+sensitivity_dataset,OncologicalDiagnosis_binary,644,0,0.0
+sensitivity_dataset,Weight,644,90,13.98
+sensitivity_dataset,LeftVentricleScoreIndex,644,5,0.78
+sensitivity_dataset,LeftVentricleSystolicFunction,644,75,11.65
+sensitivity_dataset,TissueDopplerSVelocityLateral,644,131,20.34
+sensitivity_dataset,TissueDopplerSVelocitySeptal,644,203,31.52
+sensitivity_dataset,LeftVentricleCavitySize,644,74,11.49
+sensitivity_dataset,LeftVentricleEndDiastolicDiameter,644,8,1.24
+sensitivity_dataset,LeftVentricleEndSystolicDiameter,644,9,1.4
+sensitivity_dataset,LeftVentricleEstimatedMass,644,16,2.48
+sensitivity_dataset,LeftVentricleInterventricularSeptumThickness,644,8,1.24
+sensitivity_dataset,LeftVentriclePosteriorWallThickness,644,13,2.02
+sensitivity_dataset,LeftVentricleWallThickness,644,243,37.73
+sensitivity_dataset,RVSize,644,345,53.57
+sensitivity_dataset,RVSystolicFunction,644,341,52.95
+sensitivity_dataset,AorticValveRegurgitation,644,342,53.11
+sensitivity_dataset,AorticValveStructure,644,194,30.12
+sensitivity_dataset,GFR,644,1,0.16
+sensitivity_dataset,ca-numeric result,644,1,0.16
+sensitivity_dataset,dbp-numeric result,644,137,21.27
+sensitivity_dataset,hba1c-numeric result,644,64,9.94
+sensitivity_dataset,k-numeric result,644,3,0.47
+sensitivity_dataset,na-numeric result,644,3,0.47
+sensitivity_dataset,p-numeric result,644,1,0.16
+sensitivity_dataset,sbp-numeric result,644,164,25.47
+sensitivity_dataset,ua-numeric result,644,1,0.16
+sensitivity_dataset,urea-numeric result,644,4,0.62
+sensitivity_dataset,years_since_MI,644,516,80.12
+exploratory_dataset,years_since_MI,644,516,80.12
+exploratory_dataset,LeftVentricleSummary,644,449,69.72
+exploratory_dataset,AorticValveSummary,644,506,78.57
+exploratory_dataset,MitralValveSummary,644,443,68.79
+exploratory_dataset,ProcedureSummary,644,0,0.0

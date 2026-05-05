@@ -1,0 +1,9 @@
+category,n,pct
+after_dialysis,107,16.6
+same_day,11,1.7
+before_0_30d,132,20.5
+before_31_90d,90,14.0
+before_91_180d,95,14.7
+before_181_365d,209,32.4
+before_gt_365d,1,0.2
+missing,0,0.0

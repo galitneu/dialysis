@@ -1,0 +1,14 @@
+column,n_total,n_nan,n_no_value,n_see_below,n_effective_missing,pct_effective_missing,n_effective_present,pct_effective_present
+TricuspidValveStructure,645,235,339,0,574,89.0,71,11.0
+MitralValveStructure,645,197,261,5,463,71.8,182,28.2
+RVSize,645,150,195,0,345,53.5,300,46.5
+AorticValveRegurgitation,645,187,156,0,343,53.2,302,46.8
+RVSystolicFunction,645,147,194,0,341,52.9,304,47.1
+LeftVentricleWallThickness,645,100,143,0,243,37.7,402,62.3
+AorticValveStructure,645,88,106,0,194,30.1,451,69.9
+ECHO_SPAP,645,119,0,0,119,18.4,526,81.6
+LeftVentricleSystolicFunction,645,29,46,0,75,11.6,570,88.4
+LeftVentricleCavitySize,645,29,45,0,74,11.5,571,88.5
+MitralRegurgitation,645,19,29,0,48,7.4,597,92.6
+TricuspidRegurgitation,645,19,26,0,45,7.0,600,93.0
+LACavitySize,645,14,29,0,43,6.7,602,93.3

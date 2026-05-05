@@ -263,3 +263,71 @@ A variable appears in exactly one list. The combined `02_variable_inventory.csv`
 ---
 
 *Stage 0 to be re-run with these corrections before STOP-2 closure.*
+
+---
+
+## STAGE 0 LOCK-IN — Galit's authoritative decision log adopted
+
+**Status**: Stage 0 is closed. The authoritative decision log for Stage 0 is the
+`Decision log FINAL` sheet in `stage0_final_review_updated_files.xlsx` plus
+the new entries DEC-037..DEC-043 below. The earlier DEC-NNN numbering in this
+file (DEC-001..DEC-029) is preserved as a historical record of Claude's draft
+work, but where their content conflicts with Galit's authoritative log, **Galit's
+log governs**.
+
+The canonical Stage 0 dataset is `stage0_updated_clean_flat.csv` (645 × 91).
+Claude's `01_clean_flat.csv` (v2) is retained only as an external QA / audit
+comparison file.
+
+## DEC-037 | 2026-05-05 | Stage 0 → Stage 1 | Galit
+**DECISION**: Use the clinician-approved category mapping table (Echo categories.docx, summarized in Section 8 of the Stage 1 workplan) when harmonizing categorical echo variables.
+**RATIONALE**: Pre-outcome, clinically-driven category collapsing.
+**SOURCE**: Galit Stage 0 closure
+**OUTCOME_INFORMED**: N
+
+## DEC-038 | 2026-05-05 | Stage 0 → Stage 1 | Galit
+**DECISION**: For comorbidity columns, missing/empty = no condition. Binary indicator = `1` if any record is present, `0` otherwise. Applies to MI, CABG, IHD, AFIB, HTN, Diabetes mellitus, DYSLIPIDEMIA, COPD, OncologicalDiagnosis.
+**RATIONALE**: Storage convention of the source data.
+**SOURCE**: Galit Stage 0 closure
+**OUTCOME_INFORMED**: N
+
+## DEC-039 | 2026-05-05 | Stage 0 → Stage 1 | Galit
+**DECISION**: Echo values of "No Value", "See below", or otherwise unmeasurable/unreported are treated as **missing**, never as Normal. Effective missingness counts include these strings.
+**RATIONALE**: These markers indicate that a measurement was not produced, not that the patient was normal.
+**SOURCE**: Galit Stage 0 closure
+**OUTCOME_INFORMED**: N
+
+## DEC-040 | 2026-05-05 | Stage 0 → Stage 1 | Galit
+**DECISION**: Patients whose `Echo_Date` falls on the same day as `DeathDate`, **or after** `DeathDate`, are excluded from the analytic cohort for all three outcomes (1-year mortality, survival, hospitalizations). Frequencies are reported. The original record is not deleted from the source; an `exclude_same_day_or_after_death` flag drives the exclusion. This decision **resolves** OPEN-005.
+**RATIONALE**: Echo on or after the date of death is incompatible with using echo as a baseline / pre-event measurement.
+**SOURCE**: Galit Stage 0 closure
+**OUTCOME_INFORMED**: N
+
+## DEC-041 | 2026-05-05 | Stage 0 → Stage 1 | Galit
+**DECISION**: No maximum cutoff is applied to the echo-to-dialysis gap at this stage. Stage 1 produces a distribution, predefined timing categories (`after_dialysis`, `same_day`, `before_0_30d`, `before_31_90d`, `before_91_180d`, `before_181_365d`, `before_gt_365d`), and an extreme-gap list for clinician review.
+**RATIONALE**: Cutoff is itself a clinically-informed decision; deferred to Stage 4 with descriptive evidence in hand.
+**SOURCE**: Galit Stage 0 closure
+**OUTCOME_INFORMED**: N
+
+## DEC-042 | 2026-05-05 | Stage 0 → Stage 1 | Galit
+**DECISION**: Free-text echo summaries (`LeftVentricleSummary`, `AorticValveSummary`, `MitralValveSummary`, `ProcedureSummary`) are retained in the source flat file and tagged `retained_for_future_text_or_NLP_review`. They are not used as quantitative predictors at this stage.
+**RATIONALE**: Preserve information for possible later text/NLP work without touching the present quantitative pipeline.
+**SOURCE**: Galit Stage 0 closure
+**OUTCOME_INFORMED**: N
+
+## DEC-043 | 2026-05-05 | Stage 0 → Stage 1 | Galit
+**DECISION**: When applying clinician-approved category harmonization, the original variable is preserved and a parallel `<var>_clin_grouped` is produced. Frequency counts before and after harmonization are reported. No patient is dropped because of a rare category; rare categories are merged or marked `Rare/ignored` per DEC-037.
+**RATIONALE**: Transparency, reversibility, and clinician auditability.
+**SOURCE**: Galit Stage 0 closure
+**OUTCOME_INFORMED**: N
+
+## STATUS-001 | 2026-05-05 | OPEN items closed
+- **OPEN-001 (Preserved → Normal)**: closed. Verification on `stage0_updated_clean_flat.csv` shows `Preserved` is no longer present in `LeftVentricleSystolicFunction`; the merge happened upstream in Stage -1. If a Preserved-vs-Normal sensitivity is later requested, the raw is recoverable from `echo_project_update.xlsx`.
+- **OPEN-002 (administrative censor date)**: still **provisional**. Working value: 2025-08-16. Final confirmation deferred (does not block Stage 1).
+- **OPEN-003 (>50% missing handling)**: closed by DEC-033 (RVSize, RVSystolicFunction, AorticValveRegurgitation → exploratory/sensitivity).
+- **OPEN-004 (Preserved upstream verification)**: closed (see OPEN-001 above).
+- **OPEN-005 (same-day echo/death exclusion rule)**: closed by DEC-040.
+
+---
+
+*Stage 0 lock complete. Stage 1 (Notebook 1) commences next.*

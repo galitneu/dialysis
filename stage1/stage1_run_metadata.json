@@ -1,0 +1,27 @@
+{
+  "run_datetime_utc": "2026-05-05T10:45:58.789100",
+  "source_csv": "stage0_updated_clean_flat.csv",
+  "source_md5": "85b3eeeb42a718453c8ba35ffc2159fc",
+  "source_n_rows": 645,
+  "source_n_cols": 91,
+  "main_n": 27,
+  "sensitivity_n": 30,
+  "excluded_n": 45,
+  "decisions_applied": [
+    "DEC-029",
+    "DEC-030",
+    "DEC-031",
+    "DEC-032",
+    "DEC-033",
+    "DEC-034",
+    "DEC-035",
+    "DEC-036",
+    "DEC-037",
+    "DEC-038",
+    "DEC-039",
+    "DEC-040",
+    "DEC-041",
+    "DEC-042",
+    "DEC-043"
+  ]
+}

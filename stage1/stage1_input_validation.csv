@@ -1,0 +1,15 @@
+column,present,n_missing,pct_missing
+patient_id,True,0,0.0
+Dialysis_Start_Date,True,0,0.0
+Echo_Date,True,0,0.0
+DeathDate,True,139,21.55
+days_echo_to_dialysis,True,0,0.0
+event,True,0,0.0
+event_1y,True,0,0.0
+died_1year,True,27,4.19
+death_event,True,0,0.0
+time_to_event_days,True,0,0.0
+followup_days,True,0,0.0
+hosp_total,True,0,0.0
+LV_EF,True,4,0.62
+AgeAtFirstHFDate,True,0,0.0

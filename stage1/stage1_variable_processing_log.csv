@@ -1,0 +1,109 @@
+column,source_or_derived,final_role
+patient_id,source,outcome
+Dialysis_Start_Date,source,outcome
+Echo_Date,source,outcome
+DeathDate,source,outcome
+data_cutoff_date,source,outcome
+event,source,outcome
+event_1y,source,outcome
+time_to_event_days,source,outcome
+time_to_event_years,source,outcome
+days_echo_to_dialysis,source,main
+months_echo_to_dialysis,source,other
+HD/PD,source,main
+m/f,source,main
+AgeAtFirstHFDate,source,main
+LeftVentricleCavitySize,source,sensitivity
+LeftVentricleWallThickness,source,sensitivity
+LeftVentricleSystolicFunction,source,sensitivity
+LeftVentricleSummary,source,text
+LV_EF,source,main
+RVSize,source,sensitivity
+RVSystolicFunction,source,sensitivity
+LACavitySize,source,main
+AorticValveStructure,source,sensitivity
+AorticValveRegurgitation,source,sensitivity
+AorticValveSummary,source,text
+MitralValveStructure,source,other
+MitralRegurgitation,source,main
+MitralValveSummary,source,text
+TricuspidValveStructure,source,other
+TricuspidRegurgitation,source,main
+ECHO_SPAP,source,main
+LeftVentricleEndDiastolicDiameter,source,sensitivity
+LeftVentricleEndSystolicDiameter,source,sensitivity
+LeftVentricleInterventricularSeptumThickness,source,sensitivity
+LeftVentriclePosteriorWallThickness,source,sensitivity
+LeftVentricleEstimatedMass,source,sensitivity
+LeftVentricleEstimatedMassIndex,source,main
+LeftVentricleScoreIndex,source,sensitivity
+EstimatedSysPAPressure,source,main
+MitralInflowPeakEWave,source,main
+TissueDopplerSVelocitySeptal,source,sensitivity
+TissueDopplerEVelositySeptal,source,main
+TissueDopplerEERatioSeptal,source,main
+TissueDopplerSVelocityLateral,source,sensitivity
+TissueDopplerEVelosityLateral,source,main
+TissueDopplerEERatioLateral,source,main
+ProcedureSummary,source,text
+Weight,source,sensitivity
+BMI,source,sensitivity
+MI,source,other
+CABG,source,other
+IHD,source,other
+AFIB,source,other
+HTN,source,other
+Diabetes mellitus,source,other
+DYSLIPIDEMIA,source,other
+COPD,source,other
+OncologicalDiagnosis,source,other
+sbp-numeric result,source,sensitivity
+dbp-numeric result,source,sensitivity
+hospitalization-count,source,other
+GFR,source,sensitivity
+na-numeric result,source,sensitivity
+k-numeric result,source,sensitivity
+albumin-numeric result,source,main
+hb-numeric result,source,main
+urea-numeric result,source,sensitivity
+creatinine-numeric result,source,main
+ca-numeric result,source,sensitivity
+p-numeric result,source,sensitivity
+ua-numeric result,source,sensitivity
+crp-numeric result,source,main
+hba1c-numeric result,source,sensitivity
+months_dialysis_to_echo,source,other
+MI_binary,source,main
+CABG_binary,source,main
+IHD_binary,source,main
+AFIB_binary,source,main
+HTN_binary,source,main
+Diabetes mellitus_binary,source,main
+DYSLIPIDEMIA_binary,source,sensitivity
+COPD_binary,source,main
+years_since_MI,source,sensitivity
+OncologicalDiagnosis_binary,source,sensitivity
+flag_echo_after_death,source,other
+gap_echo_to_dial_days,source,other
+censor_or_event_date,source,other
+death_event,source,outcome
+followup_days,source,outcome
+died_1year,source,outcome
+hosp_total,source,outcome
+flag_echo_after_death_d1,source,outcome
+flag_echo_same_day_as_death,source,outcome
+exclude_same_day_or_after_death,source,outcome
+echo_timing_cat,source,outcome
+LeftVentricleCavitySize_clin_grouped,derived,grouped
+LeftVentricleWallThickness_clin_grouped,derived,grouped
+LeftVentricleSystolicFunction_clin_grouped,derived,grouped
+RVSize_clin_grouped,derived,grouped
+AorticValveStructure_clin_grouped,derived,grouped
+AorticValveRegurgitation_clin_grouped,derived,grouped
+MitralRegurgitation_clin_grouped,derived,grouped
+TricuspidRegurgitation_clin_grouped,derived,grouped
+LACavitySize_clin_grouped,derived,grouped
+RVSystolicFunction_clin_grouped,derived,grouped
+ECHO_SPAP_clin_grouped,derived,grouped
+followup_years,derived,other
+log_followup_years,derived,other

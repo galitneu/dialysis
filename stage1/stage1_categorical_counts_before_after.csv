@@ -1,0 +1,134 @@
+variable,phase,level,n,pct
+LeftVentricleCavitySize,before,Normal,363,56.3
+LeftVentricleCavitySize,before,Mildly dilated,140,21.7
+LeftVentricleCavitySize,before,No Value,45,7.0
+LeftVentricleCavitySize,before,Moderately dilated,37,5.7
+LeftVentricleCavitySize,before,nan,29,4.5
+LeftVentricleCavitySize,before,Severely dilated,27,4.2
+LeftVentricleCavitySize,before,Small,4,0.6
+LeftVentricleCavitySize,after,Normal,363,56.3
+LeftVentricleCavitySize,after,Mildly dilated,140,21.7
+LeftVentricleCavitySize,after,nan,78,12.1
+LeftVentricleCavitySize,after,Moderately-Severely dilated,64,9.9
+LeftVentricleWallThickness,before,Mildly increased,215,33.3
+LeftVentricleWallThickness,before,Normal,143,22.2
+LeftVentricleWallThickness,before,No Value,143,22.2
+LeftVentricleWallThickness,before,nan,100,15.5
+LeftVentricleWallThickness,before,Moderately increased,39,6.0
+LeftVentricleWallThickness,before,Severely increased,5,0.8
+LeftVentricleWallThickness,after,nan,243,37.7
+LeftVentricleWallThickness,after,Mildly increased,215,33.3
+LeftVentricleWallThickness,after,Normal,143,22.2
+LeftVentricleWallThickness,after,Moderately-Severely increased,44,6.8
+LeftVentricleSystolicFunction,before,Normal,292,45.3
+LeftVentricleSystolicFunction,before,Severely reduced,112,17.4
+LeftVentricleSystolicFunction,before,Moderately reduced,47,7.3
+LeftVentricleSystolicFunction,before,No Value,46,7.1
+LeftVentricleSystolicFunction,before,Mildly reduced,36,5.6
+LeftVentricleSystolicFunction,before,Mild-moderately reduced,36,5.6
+LeftVentricleSystolicFunction,before,Moderate-severely reduced,34,5.3
+LeftVentricleSystolicFunction,before,nan,29,4.5
+LeftVentricleSystolicFunction,before,Increased (hyperdynamic),13,2.0
+LeftVentricleSystolicFunction,after,Normal,292,45.3
+LeftVentricleSystolicFunction,after,Severely reduced,112,17.4
+LeftVentricleSystolicFunction,after,nan,75,11.6
+LeftVentricleSystolicFunction,after,Moderately reduced,47,7.3
+LeftVentricleSystolicFunction,after,Mildly reduced,36,5.6
+LeftVentricleSystolicFunction,after,Mild-moderately reduced,36,5.6
+LeftVentricleSystolicFunction,after,Moderate-severely reduced,34,5.3
+LeftVentricleSystolicFunction,after,Increased (hyperdynamic),13,2.0
+RVSize,before,No Value,195,30.2
+RVSize,before,Normal,152,23.6
+RVSize,before,nan,150,23.3
+RVSize,before,Dilated,90,14.0
+RVSize,before,Mildly dilated,57,8.8
+RVSize,before,RVH,1,0.2
+RVSize,after,nan,346,53.6
+RVSize,after,Normal,152,23.6
+RVSize,after,Dilated,90,14.0
+RVSize,after,Mildly dilated,57,8.8
+AorticValveStructure,before,Calcified,298,46.2
+AorticValveStructure,before,No Value,106,16.4
+AorticValveStructure,before,nan,88,13.6
+AorticValveStructure,before,Thickened,65,10.1
+AorticValveStructure,before,Normal,31,4.8
+AorticValveStructure,before,Bioprosthesis,24,3.7
+AorticValveStructure,before,Focal calcification,21,3.3
+AorticValveStructure,before,Prosthetic,10,1.6
+AorticValveStructure,before,Bicuspid,1,0.2
+AorticValveStructure,before,Not well seen,1,0.2
+AorticValveStructure,after,Calcified,298,46.2
+AorticValveStructure,after,nan,217,33.6
+AorticValveStructure,after,Thickened,65,10.1
+AorticValveStructure,after,Prosthetic_or_Bioprosthesis,34,5.3
+AorticValveStructure,after,Normal,31,4.8
+AorticValveRegurgitation,before,nan,187,29.0
+AorticValveRegurgitation,before,No Value,156,24.2
+AorticValveRegurgitation,before,Trivial,141,21.9
+AorticValveRegurgitation,before,Mild (I),128,19.8
+AorticValveRegurgitation,before,Mild-to-moderate (I-II),23,3.6
+AorticValveRegurgitation,before,Moderate (II),6,0.9
+AorticValveRegurgitation,before,Moderately-severe (III),3,0.5
+AorticValveRegurgitation,before,Severe (IV),1,0.2
+AorticValveRegurgitation,after,nan,343,53.2
+AorticValveRegurgitation,after,Mild_or_Mild-to-moderate,151,23.4
+AorticValveRegurgitation,after,Trivial,141,21.9
+AorticValveRegurgitation,after,Moderate-Severe,10,1.6
+MitralRegurgitation,before,Mild (I),229,35.5
+MitralRegurgitation,before,Trivial,137,21.2
+MitralRegurgitation,before,Mild-to-moderate (I-II),106,16.4
+MitralRegurgitation,before,Moderate (II),67,10.4
+MitralRegurgitation,before,Severe (IV),34,5.3
+MitralRegurgitation,before,No Value,29,4.5
+MitralRegurgitation,before,Moderately-severe (III),24,3.7
+MitralRegurgitation,before,nan,19,2.9
+MitralRegurgitation,after,Mild (I),229,35.5
+MitralRegurgitation,after,Trivial,137,21.2
+MitralRegurgitation,after,Moderate-Severe,125,19.4
+MitralRegurgitation,after,Mild-to-moderate (I-II),106,16.4
+MitralRegurgitation,after,nan,48,7.4
+TricuspidRegurgitation,before,Mild (I),197,30.5
+TricuspidRegurgitation,before,Trivial,164,25.4
+TricuspidRegurgitation,before,Mild-to-moderate (I-II),93,14.4
+TricuspidRegurgitation,before,Moderate (II),64,9.9
+TricuspidRegurgitation,before,Severe (IV),51,7.9
+TricuspidRegurgitation,before,Moderately-severe (III),31,4.8
+TricuspidRegurgitation,before,No Value,26,4.0
+TricuspidRegurgitation,before,nan,19,2.9
+TricuspidRegurgitation,after,Mild (I),197,30.5
+TricuspidRegurgitation,after,Trivial,164,25.4
+TricuspidRegurgitation,after,Moderate-Severe,146,22.6
+TricuspidRegurgitation,after,Mild-to-moderate (I-II),93,14.4
+TricuspidRegurgitation,after,nan,45,7.0
+LACavitySize,before,Mildly dilated,324,50.2
+LACavitySize,before,Moderately dilated,170,26.4
+LACavitySize,before,Normal,68,10.5
+LACavitySize,before,Severely dilated,40,6.2
+LACavitySize,before,No Value,29,4.5
+LACavitySize,before,nan,14,2.2
+LACavitySize,after,Mildly dilated,324,50.2
+LACavitySize,after,Moderately dilated,170,26.4
+LACavitySize,after,Normal,68,10.5
+LACavitySize,after,nan,43,6.7
+LACavitySize,after,Severely dilated,40,6.2
+RVSystolicFunction,before,No Value,194,30.1
+RVSystolicFunction,before,nan,147,22.8
+RVSystolicFunction,before,Normal,144,22.3
+RVSystolicFunction,before,Moderately reduced,62,9.6
+RVSystolicFunction,before,Mildly reduced,57,8.8
+RVSystolicFunction,before,Severely reduced,41,6.4
+RVSystolicFunction,after,nan,341,52.9
+RVSystolicFunction,after,Normal,144,22.3
+RVSystolicFunction,after,Moderately reduced,62,9.6
+RVSystolicFunction,after,Mildly reduced,57,8.8
+RVSystolicFunction,after,Severely reduced,41,6.4
+ECHO_SPAP,before,Severely increased,150,23.3
+ECHO_SPAP,before,Moderately increased,142,22.0
+ECHO_SPAP,before,Mildly increased,135,20.9
+ECHO_SPAP,before,nan,119,18.4
+ECHO_SPAP,before,Normal,99,15.3
+ECHO_SPAP,after,Severely increased,150,23.3
+ECHO_SPAP,after,Moderately increased,142,22.0
+ECHO_SPAP,after,Mildly increased,135,20.9
+ECHO_SPAP,after,nan,119,18.4
+ECHO_SPAP,after,Normal,99,15.3

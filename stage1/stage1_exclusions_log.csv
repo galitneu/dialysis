@@ -1,0 +1,2 @@
+patient_id,Echo_Date,DeathDate,reason,decision_id,applies_to
+261,2022-03-13 00:00:00,2022-03-13 00:00:00,echo_same_day_as_death,DEC-040,all_three_outcomes
