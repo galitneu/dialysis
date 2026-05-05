@@ -1,0 +1,2 @@
+patient_id,exclusion_reason,stage,applies_to_analysis,excluded_from_main,excluded_from_oneyear_mortality,excluded_from_survival,excluded_from_hospitalization,Echo_Date,DeathDate,decision
+261,echo_same_calendar_date_as_death,Stage 1,"main, one-year mortality, survival, hospitalization",True,True,True,True,2022-03-13,2022-03-13,DEC-040

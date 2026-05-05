@@ -1,0 +1,126 @@
+original_variable,grouped_variable,stage,category,n
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,before,,343
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,before,Trivial,141
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,before,Mild (I),128
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,before,Mild-to-moderate (I-II),23
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,before,Moderate (II),6
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,before,Moderately-severe (III),3
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,before,Severe (IV),1
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,after,,343
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,after,Mild-or-MildModerate,151
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,after,Trivial,141
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,after,Moderate-to-Severe,10
+AorticValveStructure,aortic_valve_structure_clin_grouped,before,Calcified,298
+AorticValveStructure,aortic_valve_structure_clin_grouped,before,,195
+AorticValveStructure,aortic_valve_structure_clin_grouped,before,Thickened,65
+AorticValveStructure,aortic_valve_structure_clin_grouped,before,Normal,31
+AorticValveStructure,aortic_valve_structure_clin_grouped,before,Bioprosthesis,24
+AorticValveStructure,aortic_valve_structure_clin_grouped,before,Focal calcification,21
+AorticValveStructure,aortic_valve_structure_clin_grouped,before,Prosthetic,10
+AorticValveStructure,aortic_valve_structure_clin_grouped,before,Bicuspid,1
+AorticValveStructure,aortic_valve_structure_clin_grouped,after,Calcified,298
+AorticValveStructure,aortic_valve_structure_clin_grouped,after,,195
+AorticValveStructure,aortic_valve_structure_clin_grouped,after,Thickened,65
+AorticValveStructure,aortic_valve_structure_clin_grouped,after,Prosthetic/Bioprosthetic,34
+AorticValveStructure,aortic_valve_structure_clin_grouped,after,Normal,31
+AorticValveStructure,aortic_valve_structure_clin_grouped,after,Rare/ignored,22
+ECHO_SPAP,ECHO_SPAP,before,Severely increased,150
+ECHO_SPAP,ECHO_SPAP,before,Moderately increased,142
+ECHO_SPAP,ECHO_SPAP,before,Mildly increased,135
+ECHO_SPAP,ECHO_SPAP,before,,119
+ECHO_SPAP,ECHO_SPAP,before,Normal,99
+ECHO_SPAP,ECHO_SPAP,after,Severely increased,150
+ECHO_SPAP,ECHO_SPAP,after,Moderately increased,142
+ECHO_SPAP,ECHO_SPAP,after,Mildly increased,135
+ECHO_SPAP,ECHO_SPAP,after,,119
+ECHO_SPAP,ECHO_SPAP,after,Normal,99
+LACavitySize,LACavitySize,before,Mildly dilated,324
+LACavitySize,LACavitySize,before,Moderately dilated,170
+LACavitySize,LACavitySize,before,Normal,68
+LACavitySize,LACavitySize,before,,43
+LACavitySize,LACavitySize,before,Severely dilated,40
+LACavitySize,LACavitySize,after,Mildly dilated,324
+LACavitySize,LACavitySize,after,Moderately dilated,170
+LACavitySize,LACavitySize,after,Normal,68
+LACavitySize,LACavitySize,after,,43
+LACavitySize,LACavitySize,after,Severely dilated,40
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,before,Normal,363
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,before,Mildly dilated,140
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,before,,74
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,before,Moderately dilated,37
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,before,Severely dilated,27
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,before,Small,4
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,after,Normal,363
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,after,Mildly dilated,140
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,after,,74
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,after,Moderate-Severe dilated,64
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,after,Rare/ignored,4
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,before,Normal,292
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,before,Severely reduced,112
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,before,,75
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,before,Moderately reduced,47
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,before,Mildly reduced,36
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,before,Mild-moderately reduced,36
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,before,Moderate-severely reduced,34
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,before,Increased (hyperdynamic),13
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,after,Normal,292
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,after,Severely reduced,112
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,after,,75
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,after,Moderately reduced,47
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,after,Mildly reduced,36
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,after,Mild-moderately reduced,36
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,after,Moderate-severely reduced,34
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,after,Increased (hyperdynamic),13
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,before,,243
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,before,Mildly increased,215
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,before,Normal,143
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,before,Moderately increased,39
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,before,Severely increased,5
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,after,,243
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,after,Mildly increased,215
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,after,Normal,143
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,after,Moderate-Severe increased,44
+MitralRegurgitation,mitral_regurgitation_clin_grouped,before,Mild (I),229
+MitralRegurgitation,mitral_regurgitation_clin_grouped,before,Trivial,137
+MitralRegurgitation,mitral_regurgitation_clin_grouped,before,Mild-to-moderate (I-II),106
+MitralRegurgitation,mitral_regurgitation_clin_grouped,before,Moderate (II),67
+MitralRegurgitation,mitral_regurgitation_clin_grouped,before,,48
+MitralRegurgitation,mitral_regurgitation_clin_grouped,before,Severe (IV),34
+MitralRegurgitation,mitral_regurgitation_clin_grouped,before,Moderately-severe (III),24
+MitralRegurgitation,mitral_regurgitation_clin_grouped,after,Mild (I),229
+MitralRegurgitation,mitral_regurgitation_clin_grouped,after,Trivial,137
+MitralRegurgitation,mitral_regurgitation_clin_grouped,after,Moderate-to-Severe,125
+MitralRegurgitation,mitral_regurgitation_clin_grouped,after,Mild-to-mod,106
+MitralRegurgitation,mitral_regurgitation_clin_grouped,after,,48
+RVSize,rv_size_clin_grouped,before,,345
+RVSize,rv_size_clin_grouped,before,Normal,152
+RVSize,rv_size_clin_grouped,before,Dilated,90
+RVSize,rv_size_clin_grouped,before,Mildly dilated,57
+RVSize,rv_size_clin_grouped,before,RVH,1
+RVSize,rv_size_clin_grouped,after,,345
+RVSize,rv_size_clin_grouped,after,Normal,152
+RVSize,rv_size_clin_grouped,after,Dilated,90
+RVSize,rv_size_clin_grouped,after,Mildly dilated,57
+RVSize,rv_size_clin_grouped,after,Rare/ignored,1
+RVSystolicFunction,RVSystolicFunction,before,,341
+RVSystolicFunction,RVSystolicFunction,before,Normal,144
+RVSystolicFunction,RVSystolicFunction,before,Moderately reduced,62
+RVSystolicFunction,RVSystolicFunction,before,Mildly reduced,57
+RVSystolicFunction,RVSystolicFunction,before,Severely reduced,41
+RVSystolicFunction,RVSystolicFunction,after,,341
+RVSystolicFunction,RVSystolicFunction,after,Normal,144
+RVSystolicFunction,RVSystolicFunction,after,Moderately reduced,62
+RVSystolicFunction,RVSystolicFunction,after,Mildly reduced,57
+RVSystolicFunction,RVSystolicFunction,after,Severely reduced,41
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,before,Mild (I),197
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,before,Trivial,164
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,before,Mild-to-moderate (I-II),93
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,before,Moderate (II),64
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,before,Severe (IV),51
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,before,,45
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,before,Moderately-severe (III),31
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,after,Mild (I),197
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,after,Trivial,164
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,after,Moderate-to-Severe,146
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,after,Mild-to-mod,93
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,after,,45

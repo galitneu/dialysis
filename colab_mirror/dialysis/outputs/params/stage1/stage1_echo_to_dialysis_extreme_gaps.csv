@@ -1,0 +1,2 @@
+patient_id,Echo_Date,Dialysis_Start_Date,days_echo_to_dialysis,echo_to_dialysis_timing_category
+127,2019-11-06,2020-11-06,-366,before_gt_365d

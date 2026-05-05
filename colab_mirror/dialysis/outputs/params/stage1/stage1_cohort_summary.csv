@@ -1,0 +1,8 @@
+dataset,n_rows,n_cols
+input_full,645,107
+analysis_base_after_DEC040_exclusion,644,107
+stage1_main_analysis,644,35
+stage1_oneyear_mortality,617,31
+stage1_survival_analysis,644,32
+stage1_hospitalization_analysis,644,34
+stage1_sensitivity_analysis,644,65

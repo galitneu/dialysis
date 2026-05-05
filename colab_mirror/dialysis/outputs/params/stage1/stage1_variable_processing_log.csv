@@ -1,0 +1,12 @@
+variable,new_variable,action,decision,note
+AorticValveRegurgitation,aortic_regurgitation_clin_grouped,clinician_category_mapping_applied,DEC-037/DEC-043,All observed mapped categories were covered after canonical label normalization.
+AorticValveStructure,aortic_valve_structure_clin_grouped,clinician_category_mapping_applied,DEC-037/DEC-043,All observed mapped categories were covered after canonical label normalization.
+ECHO_SPAP,ECHO_SPAP,no_grouping_requested_original_categories_retained,DEC-037/DEC-043,Clinician decision: no category grouping requested; original cleaned categories retained.
+LACavitySize,LACavitySize,no_grouping_requested_original_categories_retained,DEC-037/DEC-043,Clinician decision: no category grouping requested; original cleaned categories retained.
+LeftVentricleCavitySize,lv_cavity_size_clin_grouped,clinician_category_mapping_applied,DEC-037/DEC-043,All observed mapped categories were covered after canonical label normalization.
+LeftVentricleSystolicFunction,LeftVentricleSystolicFunction,no_grouping_requested_original_categories_retained,DEC-037/DEC-043,Clinician decision: no category grouping requested; original cleaned categories retained.
+LeftVentricleWallThickness,lv_wall_thickness_clin_grouped,clinician_category_mapping_applied,DEC-037/DEC-043,All observed mapped categories were covered after canonical label normalization.
+MitralRegurgitation,mitral_regurgitation_clin_grouped,clinician_category_mapping_applied,DEC-037/DEC-043,All observed mapped categories were covered after canonical label normalization.
+RVSize,rv_size_clin_grouped,clinician_category_mapping_applied,DEC-037/DEC-043,All observed mapped categories were covered after canonical label normalization.
+RVSystolicFunction,RVSystolicFunction,no_grouping_requested_original_categories_retained,DEC-037/DEC-043,Clinician decision: no category grouping requested; original cleaned categories retained.
+TricuspidRegurgitation,tricuspid_regurgitation_clin_grouped,clinician_category_mapping_applied,DEC-037/DEC-043,All observed mapped categories were covered after canonical label normalization.

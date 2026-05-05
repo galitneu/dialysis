@@ -1,0 +1,31 @@
+stage1_sensitivity_exploratory_predictor
+BMI
+DYSLIPIDEMIA_binary
+OncologicalDiagnosis_binary
+Weight
+LeftVentricleScoreIndex
+LeftVentricleSystolicFunction
+TissueDopplerSVelocityLateral
+TissueDopplerSVelocitySeptal
+lv_cavity_size_clin_grouped
+LeftVentricleEndDiastolicDiameter
+LeftVentricleEndSystolicDiameter
+LeftVentricleEstimatedMass
+LeftVentricleInterventricularSeptumThickness
+LeftVentriclePosteriorWallThickness
+lv_wall_thickness_clin_grouped
+rv_size_clin_grouped
+RVSystolicFunction
+aortic_regurgitation_clin_grouped
+aortic_valve_structure_clin_grouped
+GFR
+ca-numeric result
+dbp-numeric result
+hba1c-numeric result
+k-numeric result
+na-numeric result
+p-numeric result
+sbp-numeric result
+ua-numeric result
+urea-numeric result
+years_since_MI

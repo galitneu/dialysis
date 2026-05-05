@@ -1,0 +1,20 @@
+{
+  "run_datetime": "2026-05-05T12:13:18",
+  "input_data": "/home/user/dialysis/colab_mirror/dialysis/outputs/params/stage0/stage0_updated_clean_flat.csv",
+  "input_dir": "/home/user/dialysis/colab_mirror/dialysis/outputs/params/stage0",
+  "output_dir": "/home/user/dialysis/colab_mirror/dialysis/outputs/params/stage1",
+  "notebook": "stage1_prepare_analytic_datasets_FIXED_v2_DRIVE_stage0_inputs.ipynb",
+  "decision_scope": "DEC-038 through DEC-044 plus prior Stage 0 decisions",
+  "approved_input_path": "MyDrive/dialysis/outputs/params/stage0",
+  "approved_output_path": "MyDrive/dialysis/outputs/params/stage1",
+  "input_shape_rows": 645,
+  "input_shape_columns": 91,
+  "processed_shape_rows": 645,
+  "processed_shape_columns": 107,
+  "n_excluded_same_day_or_after_death": 1,
+  "n_main_predictors": 27,
+  "n_sensitivity_exploratory_predictors": 30,
+  "n_one_year_mortality": 617,
+  "n_survival": 644,
+  "n_hospitalization": 644
+}
