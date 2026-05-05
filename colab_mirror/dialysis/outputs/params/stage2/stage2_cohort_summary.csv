@@ -1,0 +1,6 @@
+dataset,n,description,n_events_1y,oneyear_mortality_pct,n_events_total,pct_events,median_followup_days,q1_followup,q3_followup,total_hospitalizations,mean_hosp_per_patient,median_hosp_per_patient,max_hosp_per_patient,sum_followup_years,rate_per_person_year
+main_analysis,644,after DEC-040 exclusion,,,,,,,,,,,,,
+one_year_mortality,617,died_1year not missing,239.0,38.74,,,,,,,,,,,
+survival,644,event valid + time_to_event>=0,,,505.0,78.42,556.0,125.75,1307.5,,,,,,
+hospitalization,644,hosp_total valid + followup_days>0,,,,,,,,1177.0,1.828,1.0,10.0,1623.49,0.725
+sensitivity,644,all main + sens predictors,,,,,,,,,,,,,

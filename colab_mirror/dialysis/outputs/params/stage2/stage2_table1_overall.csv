@@ -1,0 +1,42 @@
+variable,type,n,n_missing,pct_missing,mean,sd,median,q1,q3,min,max,n_pos,pct_pos,level,n_in_level,pct_of_nonmissing
+AgeAtFirstHFDate,continuous,644.0,0,0.0,70.567,11.566,71.0,63.849,79.246,26.0,95.439,,,,,
+creatinine-numeric result,continuous,643.0,1,0.2,5.178,2.072,5.07,3.72,6.47,0.96,13.83,,,,,
+albumin-numeric result,continuous,643.0,1,0.2,3.09,0.548,3.1,2.8,3.5,1.5,4.8,,,,,
+hb-numeric result,continuous,578.0,66,10.2,9.928,1.872,9.695,8.7,11.0,4.5,16.0,,,,,
+crp-numeric result,continuous,619.0,25,3.9,65.989,76.03,38.06,13.945,94.975,0.27,688.32,,,,,
+LV_EF,continuous,640.0,4,0.6,46.737,15.808,50.0,35.0,60.0,7.0,75.0,,,,,
+LeftVentricleEstimatedMassIndex,continuous,578.0,66,10.2,119.614,34.977,113.5,95.25,138.75,23.0,294.0,,,,,
+EstimatedSysPAPressure,continuous,536.0,108,16.8,49.957,14.985,49.0,38.0,60.0,19.0,105.0,,,,,
+MitralInflowPeakEWave,continuous,581.0,63,9.8,105.414,31.388,104.0,83.9,125.0,38.0,230.0,,,,,
+TissueDopplerEERatioSeptal,continuous,522.0,122,18.9,21.49,9.431,19.835,14.94,26.152,4.31,66.96,,,,,
+TissueDopplerEERatioLateral,continuous,522.0,122,18.9,15.797,6.947,14.25,11.235,19.17,4.44,45.08,,,,,
+TissueDopplerEVelositySeptal,continuous,530.0,114,17.7,5.383,1.914,5.0,4.0,6.31,2.0,16.0,,,,,
+TissueDopplerEVelosityLateral,continuous,530.0,114,17.7,7.347,2.618,7.0,5.445,8.715,2.0,18.0,,,,,
+days_echo_to_dialysis,continuous,644.0,0,0.0,-117.489,125.052,-70.0,-227.5,-5.0,-366.0,67.0,,,,,
+MI_binary,binary,644.0,0,0.0,,,,,,,,193.0,30.0,,,
+CABG_binary,binary,644.0,0,0.0,,,,,,,,133.0,20.7,,,
+IHD_binary,binary,644.0,0,0.0,,,,,,,,396.0,61.5,,,
+AFIB_binary,binary,644.0,0,0.0,,,,,,,,303.0,47.0,,,
+HTN_binary,binary,644.0,0,0.0,,,,,,,,533.0,82.8,,,
+Diabetes mellitus_binary,binary,644.0,0,0.0,,,,,,,,410.0,63.7,,,
+COPD_binary,binary,644.0,0,0.0,,,,,,,,105.0,16.3,,,
+m/f,categorical,,1,0.2,,,,,,,,,,m,447.0,69.5
+m/f,categorical,,1,0.2,,,,,,,,,,f,196.0,30.5
+HD/PD,categorical,,0,0.0,,,,,,,,,,HD,512.0,79.5
+HD/PD,categorical,,0,0.0,,,,,,,,,,PD,132.0,20.5
+LACavitySize,categorical,,43,6.7,,,,,,,,,,Mildly dilated,324.0,53.9
+LACavitySize,categorical,,43,6.7,,,,,,,,,,Moderately dilated,170.0,28.3
+LACavitySize,categorical,,43,6.7,,,,,,,,,,Normal,67.0,11.1
+LACavitySize,categorical,,43,6.7,,,,,,,,,,Severely dilated,40.0,6.7
+ECHO_SPAP,categorical,,119,18.5,,,,,,,,,,Severely increased,150.0,28.6
+ECHO_SPAP,categorical,,119,18.5,,,,,,,,,,Moderately increased,142.0,27.0
+ECHO_SPAP,categorical,,119,18.5,,,,,,,,,,Mildly increased,134.0,25.5
+ECHO_SPAP,categorical,,119,18.5,,,,,,,,,,Normal,99.0,18.9
+mitral_regurgitation_clin_grouped,categorical,,48,7.5,,,,,,,,,,Mild (I),229.0,38.4
+mitral_regurgitation_clin_grouped,categorical,,48,7.5,,,,,,,,,,Trivial,136.0,22.8
+mitral_regurgitation_clin_grouped,categorical,,48,7.5,,,,,,,,,,Moderate-to-Severe,125.0,21.0
+mitral_regurgitation_clin_grouped,categorical,,48,7.5,,,,,,,,,,Mild-to-mod,106.0,17.8
+tricuspid_regurgitation_clin_grouped,categorical,,45,7.0,,,,,,,,,,Mild (I),197.0,32.9
+tricuspid_regurgitation_clin_grouped,categorical,,45,7.0,,,,,,,,,,Trivial,164.0,27.4
+tricuspid_regurgitation_clin_grouped,categorical,,45,7.0,,,,,,,,,,Moderate-to-Severe,145.0,24.2
+tricuspid_regurgitation_clin_grouped,categorical,,45,7.0,,,,,,,,,,Mild-to-mod,93.0,15.5

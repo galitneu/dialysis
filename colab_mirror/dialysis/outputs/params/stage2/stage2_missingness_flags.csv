@@ -1,0 +1,58 @@
+variable,role,pct_missing_main,over_20,over_50,flag_for_model_readiness
+HTN_binary,main,0.0,False,False,False
+TissueDopplerEERatioSeptal,main,18.94,False,False,False
+CABG_binary,main,0.0,False,False,False
+TissueDopplerSVelocityLateral,sensitivity,,False,False,False
+hb-numeric result,main,10.25,False,False,False
+BMI,sensitivity,,False,False,False
+aortic_valve_structure_clin_grouped,sensitivity,,False,False,False
+years_since_MI,sensitivity,,False,False,False
+crp-numeric result,main,3.88,False,False,False
+RVSystolicFunction,sensitivity,,False,False,False
+LACavitySize,main,6.68,False,False,False
+Weight,sensitivity,,False,False,False
+LeftVentricleEstimatedMassIndex,main,10.25,False,False,False
+urea-numeric result,sensitivity,,False,False,False
+ca-numeric result,sensitivity,,False,False,False
+days_echo_to_dialysis,main,0.0,False,False,False
+LeftVentricleEstimatedMass,sensitivity,,False,False,False
+sbp-numeric result,sensitivity,,False,False,False
+LV_EF,main,0.62,False,False,False
+EstimatedSysPAPressure,main,16.77,False,False,False
+TissueDopplerEVelositySeptal,main,17.7,False,False,False
+LeftVentricleSystolicFunction,sensitivity,,False,False,False
+DYSLIPIDEMIA_binary,sensitivity,,False,False,False
+IHD_binary,main,0.0,False,False,False
+AgeAtFirstHFDate,main,0.0,False,False,False
+ECHO_SPAP,main,18.48,False,False,False
+dbp-numeric result,sensitivity,,False,False,False
+LeftVentricleInterventricularSeptumThickness,sensitivity,,False,False,False
+MitralInflowPeakEWave,main,9.78,False,False,False
+mitral_regurgitation_clin_grouped,main,7.45,False,False,False
+hba1c-numeric result,sensitivity,,False,False,False
+TissueDopplerSVelocitySeptal,sensitivity,,False,False,False
+LeftVentricleScoreIndex,sensitivity,,False,False,False
+na-numeric result,sensitivity,,False,False,False
+LeftVentricleEndDiastolicDiameter,sensitivity,,False,False,False
+TissueDopplerEERatioLateral,main,18.94,False,False,False
+lv_cavity_size_clin_grouped,sensitivity,,False,False,False
+GFR,sensitivity,,False,False,False
+OncologicalDiagnosis_binary,sensitivity,,False,False,False
+MI_binary,main,0.0,False,False,False
+LeftVentriclePosteriorWallThickness,sensitivity,,False,False,False
+lv_wall_thickness_clin_grouped,sensitivity,,False,False,False
+TissueDopplerEVelosityLateral,main,17.7,False,False,False
+LeftVentricleEndSystolicDiameter,sensitivity,,False,False,False
+rv_size_clin_grouped,sensitivity,,False,False,False
+p-numeric result,sensitivity,,False,False,False
+COPD_binary,main,0.0,False,False,False
+ua-numeric result,sensitivity,,False,False,False
+aortic_regurgitation_clin_grouped,sensitivity,,False,False,False
+m/f,main,0.16,False,False,False
+albumin-numeric result,main,0.16,False,False,False
+tricuspid_regurgitation_clin_grouped,main,6.99,False,False,False
+k-numeric result,sensitivity,,False,False,False
+AFIB_binary,main,0.0,False,False,False
+creatinine-numeric result,main,0.16,False,False,False
+HD/PD,main,0.0,False,False,False
+Diabetes mellitus_binary,main,0.0,False,False,False

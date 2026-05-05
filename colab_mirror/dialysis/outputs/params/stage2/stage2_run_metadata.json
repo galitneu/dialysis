@@ -1,0 +1,13 @@
+{
+  "run_datetime": "2026-05-05T12:16:45",
+  "inputs_dir": "/home/user/dialysis/colab_mirror/dialysis/outputs/params/stage1",
+  "outputs_dir": "/home/user/dialysis/colab_mirror/dialysis/outputs/params/stage2",
+  "stage1_source": "stage1_prepare_analytic_datasets_FIXED_v2 (DEC-044 alias mapping)",
+  "decisions_applied": [
+    "DEC-045",
+    "DEC-046",
+    "DEC-047",
+    "DEC-048",
+    "DEC-044"
+  ]
+}

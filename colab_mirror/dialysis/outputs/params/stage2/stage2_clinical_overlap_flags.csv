@@ -1,0 +1,8 @@
+family,vars,note,enforced
+Kidney function,creatinine + GFR,main: creatinine; sensitivity: GFR (per DEC-034),True
+Pulmonary pressure,EstimatedSysPAPressure + ECHO_SPAP,"do not include together; one is numeric, one is categorical of same construct",False
+LV mass,LeftVentricleEstimatedMass + LeftVentricleEstimatedMassIndex,prefer LVMI; main is LVMI per Stage 0,True
+Timing,"days_echo_to_dialysis + (months variants, gap variant)",use days_echo_to_dialysis only (DEC-032),True
+Outcomes vs predictors,event/event_1y/hosp_total/hospitalization-count,never used as predictors (DEC-031),True
+EF/systolic function,LV_EF + LeftVentricleSystolicFunction,high overlap; LV_EF is benchmark; LeftVentricleSystolicFunction is in sensitivity,True
+Diastolic function,TissueDoppler E/e ratio septal/lateral + e velocities,overlap within Echo: LV diastolic axis; Stage 4 should pick one representative,False

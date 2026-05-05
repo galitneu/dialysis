@@ -1,0 +1,4 @@
+outcome,n_cohort,n_events,n_candidate_predictors_main,events_per_variable_main_only,recommended_max_predictors,flag_low_epv,note,total_hospitalizations,mean_hosp_total,var_hosp_total,overdispersion_ratio_var_over_mean,sum_followup_years,rate_per_person_year,overdispersion_flag,candidate_predictor_capacity_note
+one_year_mortality,617,239.0,27,8.85,23.0,True,Conservative rule of thumb: >=10 events per variable.,,,,,,,,
+survival_full_followup,644,505.0,27,18.7,50.0,False,Conservative rule of thumb: >=10 events per variable.,,,,,,,,
+hospitalization_count_NB,644,,27,,,,,1177.0,1.828,5.082,2.781,1623.49,0.725,True,Total events (1177); EPV not directly applicable to NB. Aim for parsimonious model. Suggested max predictors ~ 27

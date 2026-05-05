@@ -1,0 +1,11 @@
+variable,level,n,pct_of_total,rare_under_5pct,is_rare_ignored,is_missing
+mitral_regurgitation_clin_grouped,Mild (I),229,35.6,False,False,False
+mitral_regurgitation_clin_grouped,Trivial,136,21.1,False,False,False
+mitral_regurgitation_clin_grouped,Moderate-to-Severe,125,19.4,False,False,False
+mitral_regurgitation_clin_grouped,Mild-to-mod,106,16.5,False,False,False
+mitral_regurgitation_clin_grouped,nan,48,7.5,False,False,True
+tricuspid_regurgitation_clin_grouped,Mild (I),197,30.6,False,False,False
+tricuspid_regurgitation_clin_grouped,Trivial,164,25.5,False,False,False
+tricuspid_regurgitation_clin_grouped,Moderate-to-Severe,145,22.5,False,False,False
+tricuspid_regurgitation_clin_grouped,Mild-to-mod,93,14.4,False,False,False
+tricuspid_regurgitation_clin_grouped,nan,45,7.0,False,False,True

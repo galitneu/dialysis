@@ -1,0 +1,35 @@
+variable,level,n,pct_of_nonmissing,pct_missing
+m/f,m,447,69.5,0.2
+m/f,f,196,30.5,0.2
+HD/PD,HD,512,79.5,0.0
+HD/PD,PD,132,20.5,0.0
+LACavitySize,Mildly dilated,324,53.9,6.7
+LACavitySize,Moderately dilated,170,28.3,6.7
+LACavitySize,Normal,67,11.1,6.7
+LACavitySize,Severely dilated,40,6.7,6.7
+ECHO_SPAP,Severely increased,150,28.6,18.5
+ECHO_SPAP,Moderately increased,142,27.0,18.5
+ECHO_SPAP,Mildly increased,134,25.5,18.5
+ECHO_SPAP,Normal,99,18.9,18.5
+mitral_regurgitation_clin_grouped,Mild (I),229,38.4,7.5
+mitral_regurgitation_clin_grouped,Trivial,136,22.8,7.5
+mitral_regurgitation_clin_grouped,Moderate-to-Severe,125,21.0,7.5
+mitral_regurgitation_clin_grouped,Mild-to-mod,106,17.8,7.5
+tricuspid_regurgitation_clin_grouped,Mild (I),197,32.9,7.0
+tricuspid_regurgitation_clin_grouped,Trivial,164,27.4,7.0
+tricuspid_regurgitation_clin_grouped,Moderate-to-Severe,145,24.2,7.0
+tricuspid_regurgitation_clin_grouped,Mild-to-mod,93,15.5,7.0
+MI_binary,1,193,30.0,0.0
+MI_binary,0,451,70.0,0.0
+CABG_binary,1,133,20.7,0.0
+CABG_binary,0,511,79.3,0.0
+IHD_binary,1,396,61.5,0.0
+IHD_binary,0,248,38.5,0.0
+AFIB_binary,1,303,47.0,0.0
+AFIB_binary,0,341,53.0,0.0
+HTN_binary,1,533,82.8,0.0
+HTN_binary,0,111,17.2,0.0
+Diabetes mellitus_binary,1,410,63.7,0.0
+Diabetes mellitus_binary,0,234,36.3,0.0
+COPD_binary,1,105,16.3,0.0
+COPD_binary,0,539,83.7,0.0
