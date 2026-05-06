@@ -1,0 +1,2 @@
+n_patients,pct_zero_hospitalizations,mean_hospitalizations,median_hospitalizations,iqr_hospitalizations,max_hospitalizations,top_1pct_hospitalization_share,comment
+644,38.81987577639752,1.8276397515527951,1.0,0.0-3.0,10.0,0.05862361937128292,Consultation diagnostic for NB overdispersion / zero inflation

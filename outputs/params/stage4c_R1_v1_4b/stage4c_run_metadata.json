@@ -1,0 +1,41 @@
+{
+  "stage": "Stage 4c Consultation Package",
+  "version": "DEC093_R1_v1_4_committee_checked",
+  "run_timestamp": "2026-05-06T15:00:19",
+  "purpose": "Consultation package, not final Stage 5 model fitting",
+  "oneyear_path": "/content/drive/MyDrive/dialysis/outputs/params/stage1/stage1_oneyear_mortality.csv",
+  "survival_path": "/content/drive/MyDrive/dialysis/outputs/params/stage1/stage1_survival_analysis.csv",
+  "hospitalization_path": "/content/drive/MyDrive/dialysis/outputs/params/stage4c_consultation_package_DEC093_R1_v1_5_second_review_checked/stage4c_hospitalization_model_comparison.csv",
+  "inferred_columns": [
+    {
+      "role": "patient_id",
+      "column": "patient_id"
+    },
+    {
+      "role": "one_year_event",
+      "column": "died_1year"
+    },
+    {
+      "role": "survival_time",
+      "column": "time_to_event_days"
+    },
+    {
+      "role": "survival_event",
+      "column": "event"
+    },
+    {
+      "role": "hosp_count",
+      "column": "hosp_total"
+    },
+    {
+      "role": "hosp_followup_years",
+      "column": "followup_years"
+    }
+  ],
+  "run_mi": true,
+  "mi_m": 40,
+  "lifelines_available": true,
+  "sklearn_mi_available": true,
+  "outputs_dir": "/content/drive/MyDrive/dialysis/outputs/params/stage4c_consultation_package_DEC093_R1_v1_5_second_review_checked",
+  "guardrail": "Not final Stage 5; predictor tiers are hierarchical predictor sets; no new variable selection; hospitalization remains count/rate outcome; NB and ZINB compared empirically; NB dispersion uses NB variance; ZINB count-part estimates exported; 6-month survivor sensitivity added; substitution table is for clinical-domain/missingness consultation only."
+}

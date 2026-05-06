@@ -1,0 +1,13 @@
+outcome,model_tier,model_type,n_total,n_complete,n_lost,complete_case_loss_pct,events_or_counts,df,events_per_df_or_counts_per_df,convergence_status,warnings,pearson_dispersion,pearson_dispersion_scale,pearson_dispersion_poisson_scale,nb_alpha
+one_year_mortality,Model_B,logistic,617,612,5,0.8103727714748784,237.0,6,39.5,OK,,,,,
+survival,Model_B,cox,644,639,5,0.7763975155279503,501.0,6,83.5,OK,,,,,
+hospitalization,Model_B,negative_binomial,644,639,5,0.7763975155279503,1164.0,6,194.0,OK,NB_Pearson_dispersion=7.817; Poisson_scale_dispersion=7.817; alpha=3.117e-08,7.81714302216332,negative_binomial_variance,7.817143262687281,3.1165458987441114e-08
+one_year_mortality,C_minimal,logistic,617,497,120,19.448946515397083,185.0,7,26.428571428571427,OK,,,,,
+survival,C_minimal,cox,644,518,126,19.565217391304348,405.0,7,57.857142857142854,OK,,,,,
+hospitalization,C_minimal,negative_binomial,644,518,126,19.565217391304348,955.0,7,136.42857142857142,OK,NB_Pearson_dispersion=1.761; Poisson_scale_dispersion=4.516; alpha=1.497,1.7614537291366292,negative_binomial_variance,4.5159647979701045,1.4965448275503288
+one_year_mortality,C_lite,logistic,617,398,219,35.49432739059968,164.0,10,16.4,OK,,,,,
+survival,C_lite,cox,644,415,229,35.559006211180126,340.0,10,34.0,OK,,,,,
+hospitalization,C_lite,negative_binomial,644,415,229,35.559006211180126,781.0,10,78.1,OK,NB_Pearson_dispersion=7.261; Poisson_scale_dispersion=7.261; alpha=1.988e-28,7.26091635906927,negative_binomial_variance,7.26091635906927,1.9883257982422906e-28
+one_year_mortality,C_full,logistic,617,391,226,36.6288492706645,163.0,11,14.818181818181818,OK,,,,,
+survival,C_full,cox,644,408,236,36.64596273291925,335.0,11,30.454545454545453,OK,,,,,
+hospitalization,C_full,negative_binomial,644,408,236,36.64596273291925,766.0,11,69.63636363636364,OK,NB_Pearson_dispersion=7.348; Poisson_scale_dispersion=7.348; alpha=1.262e-26,7.347547890160359,negative_binomial_variance,7.347547890160359,1.2620240080744712e-26

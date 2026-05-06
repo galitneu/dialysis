@@ -1,0 +1,7 @@
+role,column
+patient_id,patient_id
+one_year_event,died_1year
+survival_time,time_to_event_days
+survival_event,event
+hosp_count,hosp_total
+hosp_followup_years,followup_years

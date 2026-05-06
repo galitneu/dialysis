@@ -1,0 +1,5 @@
+model_tier,AIC_NB,AIC_ZINB,delta_AIC_ZINB_minus_NB,AIC_favored_model,BIC_NB,BIC_ZINB,delta_BIC_ZINB_minus_NB,BIC_favored_model,note
+C_full,,1590.683315281804,,no_clear_difference,,1646.8410557234622,,no_clear_difference,descriptive_only; no formal Vuong test in Stage4c; final choice requires convergence and clinical plausibility review
+C_lite,,1621.3141088334874,,no_clear_difference,,1673.6817295964863,,no_clear_difference,descriptive_only; no formal Vuong test in Stage4c; final choice requires convergence and clinical plausibility review
+C_minimal,2000.1217467990293,2002.121746810581,2.0000000115517196,NB,2038.3715239793646,2044.6214992331759,6.249975253811272,NB,descriptive_only; no formal Vuong test in Stage4c; final choice requires convergence and clinical plausibility review
+Model_B,3431.4169135468337,2494.5113129032034,-936.9056006436304,ZINB,3467.096149181854,2534.650452992601,-932.4456961892529,ZINB,descriptive_only; no formal Vuong test in Stage4c; final choice requires convergence and clinical plausibility review
