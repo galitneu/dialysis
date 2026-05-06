@@ -1,0 +1,35 @@
+{
+  "run_version": "DEC111_v1_8_1_COMMITTEE_REVIEWED",
+  "committee_review_level": "v1.8.1 adds NB flags, PH interpretation, hospitalization decision table, and separated manuscript draft tables",
+  "run_timestamp": "2026-05-06T17:58:05",
+  "input_paths": {
+    "oneyear": "/content/drive/MyDrive/dialysis/outputs/params/stage1/stage1_oneyear_mortality.csv",
+    "survival": "/content/drive/MyDrive/dialysis/outputs/params/stage1/stage1_survival_analysis.csv",
+    "hospitalization": "/content/drive/MyDrive/dialysis/outputs/params/stage1/stage1_hospitalization_analysis.csv"
+  },
+  "output_dir": "/content/drive/MyDrive/dialysis/outputs/params/stage5/outputs/DEC111_v1_8_1_COMMITTEE_REVIEWED",
+  "protocol_summary": {
+    "primary_predictor_set": "C_minimal",
+    "primary_incremental_test": "LR test C_minimal vs Model_B on matched complete-case N",
+    "hospitalization_primary_cohort": "full cohort",
+    "hospitalization_mandatory_sensitivity": ">=6 months observed/survivor cohort",
+    "hospitalization_primary_model": "negative binomial if diagnostics acceptable",
+    "survival_ph_handling": "albumin time-varying coefficient module + landmark sensitivity",
+    "mi_role": "sensitivity only, gated; not primary"
+  },
+  "shapes": {
+    "oneyear": [
+      617,
+      31
+    ],
+    "survival": [
+      644,
+      32
+    ],
+    "hospitalization": [
+      644,
+      34
+    ]
+  },
+  "complete_case_audit_file": "stage5_complete_case_audit.csv"
+}

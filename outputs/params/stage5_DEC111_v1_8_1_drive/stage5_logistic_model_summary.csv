@@ -1,0 +1,5 @@
+outcome,model_name,tier,sample_label,n_initial,n_complete,n_lost,pct_lost,events,non_events,llf,aic,auc_c_stat,converged
+one_year_mortality,logistic,Model_B,own_complete_case,617,612,5,0.8103727714748784,237,375,-356.3836299788797,726.7672599577594,0.7402644163150491,True
+one_year_mortality,logistic,C_minimal,own_complete_case,617,497,120,19.448946515397083,185,312,-280.13398220642887,576.2679644128577,0.7603257103257104,True
+one_year_mortality,logistic,C_lite_supportive,own_complete_case,617,398,219,35.49432739059968,164,234,-235.63804499933633,495.27608999867266,0.7416614550760892,True
+one_year_mortality,logistic,C_full_exploratory,own_complete_case,617,391,226,36.6288492706645,163,228,-229.11961819824393,488.23923639648785,0.7491658594338608,True

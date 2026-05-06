@@ -1,0 +1,3 @@
+outcome,model_name,tier,sample_label,n_initial,n_complete,n_lost,pct_lost,events,llf,aic_partial,harrell_c,converged,landmark_period
+survival,cox_regular,C_minimal_early_0_to_6m,own_complete_case,644,518,126,19.565217391304348,136,-787.4987377639344,1588.9974755278688,0.7286423079450615,True,early_0_to_6m
+survival,cox_regular,C_minimal_late_after_6m,own_complete_case,452,371,81,17.920353982300885,269,-1338.3153032219798,2690.6306064439596,0.6792636013921963,True,late_after_6m

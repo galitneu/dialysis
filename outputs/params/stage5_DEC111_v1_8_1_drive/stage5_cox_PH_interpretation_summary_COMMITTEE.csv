@@ -1,0 +1,33 @@
+tier,sample_label,source_variable,min_ph_p,ph_violation_p_lt_0_05,committee_PH_status,committee_recommendation
+Model_B,own_complete_case,AFIB_binary,0.9137199337794941,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+Model_B,own_complete_case,AgeAtFirstHFDate,0.1349616710820513,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+Model_B,own_complete_case,LV_EF,0.00279676305903648,True,PH_violation_key_covariate_interpret_as_time_dependent_signal,Do not change predictor set post hoc. Report regular Cox HR as time-averaged and review landmark/early-late sensitivity.
+Model_B,own_complete_case,albumin-numeric result,1.6991679618230955e-05,True,PH_violation_handled_primary_time_varying_albumin,Albumin remains in the model; use albumin time-varying module for primary survival interpretation.
+Model_B,own_complete_case,creatinine-numeric result,0.22424102561495138,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+Model_B,own_complete_case,m/f,0.7079693256969464,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_minimal,own_complete_case,AFIB_binary,0.9885723991751452,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_minimal,own_complete_case,AgeAtFirstHFDate,0.174022599245233,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_minimal,own_complete_case,LV_EF,0.003167277618832926,True,PH_violation_key_covariate_interpret_as_time_dependent_signal,Do not change predictor set post hoc. Report regular Cox HR as time-averaged and review landmark/early-late sensitivity.
+C_minimal,own_complete_case,TissueDopplerEERatioSeptal,0.01976095891108371,True,PH_violation_key_covariate_interpret_as_time_dependent_signal,Do not change predictor set post hoc. Report regular Cox HR as time-averaged and review landmark/early-late sensitivity.
+C_minimal,own_complete_case,albumin-numeric result,0.0002899607055969409,True,PH_violation_handled_primary_time_varying_albumin,Albumin remains in the model; use albumin time-varying module for primary survival interpretation.
+C_minimal,own_complete_case,creatinine-numeric result,0.019926740870200535,True,PH_violation_key_covariate_interpret_as_time_dependent_signal,Do not change predictor set post hoc. Report regular Cox HR as time-averaged and review landmark/early-late sensitivity.
+C_minimal,own_complete_case,m/f,0.805388910580618,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_lite_supportive,own_complete_case,AFIB_binary,0.9954058131695062,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_lite_supportive,own_complete_case,AgeAtFirstHFDate,0.5666447889542978,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_lite_supportive,own_complete_case,EstimatedSysPAPressure,0.736644259076094,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_lite_supportive,own_complete_case,LACavitySize,0.05302467852741528,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_lite_supportive,own_complete_case,LV_EF,0.0263330415655871,True,PH_violation_key_covariate_interpret_as_time_dependent_signal,Do not change predictor set post hoc. Report regular Cox HR as time-averaged and review landmark/early-late sensitivity.
+C_lite_supportive,own_complete_case,TissueDopplerEERatioSeptal,0.04462241999973326,True,PH_violation_key_covariate_interpret_as_time_dependent_signal,Do not change predictor set post hoc. Report regular Cox HR as time-averaged and review landmark/early-late sensitivity.
+C_lite_supportive,own_complete_case,albumin-numeric result,0.013063853003688026,True,PH_violation_handled_primary_time_varying_albumin,Albumin remains in the model; use albumin time-varying module for primary survival interpretation.
+C_lite_supportive,own_complete_case,creatinine-numeric result,0.14189936591775515,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_lite_supportive,own_complete_case,m/f,0.7515768676814478,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_full_exploratory,own_complete_case,AFIB_binary,0.885131443862937,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_full_exploratory,own_complete_case,AgeAtFirstHFDate,0.6111112683434053,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_full_exploratory,own_complete_case,EstimatedSysPAPressure,0.8130303001936738,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_full_exploratory,own_complete_case,LACavitySize,0.1487392845807183,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_full_exploratory,own_complete_case,LV_EF,0.060146815258067386,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_full_exploratory,own_complete_case,TissueDopplerEERatioSeptal,0.033694788606908777,True,PH_violation_key_covariate_interpret_as_time_dependent_signal,Do not change predictor set post hoc. Report regular Cox HR as time-averaged and review landmark/early-late sensitivity.
+C_full_exploratory,own_complete_case,albumin-numeric result,0.01480509998818847,True,PH_violation_handled_primary_time_varying_albumin,Albumin remains in the model; use albumin time-varying module for primary survival interpretation.
+C_full_exploratory,own_complete_case,creatinine-numeric result,0.1813594081836523,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_full_exploratory,own_complete_case,m/f,0.7660480581020985,False,no_PH_violation_detected,Regular Cox HR may be interpreted as proportional within usual caution.
+C_full_exploratory,own_complete_case,tricuspid_regurgitation_clin_grouped,0.04664214548690672,True,PH_violation_review,Review clinically; treat as sensitivity/interpretation issue unless it affects primary echo inference.

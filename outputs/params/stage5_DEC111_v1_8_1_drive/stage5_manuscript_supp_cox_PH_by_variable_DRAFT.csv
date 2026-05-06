@@ -1,0 +1,33 @@
+tier,sample_label,source_variable,min_ph_p,n_terms,ph_violation_p_lt_0_05
+Model_B,own_complete_case,AFIB_binary,0.9137199337794941,1,False
+Model_B,own_complete_case,AgeAtFirstHFDate,0.1349616710820513,1,False
+Model_B,own_complete_case,LV_EF,0.00279676305903648,1,True
+Model_B,own_complete_case,albumin-numeric result,1.6991679618230955e-05,1,True
+Model_B,own_complete_case,creatinine-numeric result,0.22424102561495138,1,False
+Model_B,own_complete_case,m/f,0.7079693256969464,1,False
+C_minimal,own_complete_case,AFIB_binary,0.9885723991751452,1,False
+C_minimal,own_complete_case,AgeAtFirstHFDate,0.174022599245233,1,False
+C_minimal,own_complete_case,LV_EF,0.003167277618832926,1,True
+C_minimal,own_complete_case,TissueDopplerEERatioSeptal,0.01976095891108371,1,True
+C_minimal,own_complete_case,albumin-numeric result,0.0002899607055969409,1,True
+C_minimal,own_complete_case,creatinine-numeric result,0.019926740870200535,1,True
+C_minimal,own_complete_case,m/f,0.805388910580618,1,False
+C_lite_supportive,own_complete_case,AFIB_binary,0.9954058131695062,1,False
+C_lite_supportive,own_complete_case,AgeAtFirstHFDate,0.5666447889542978,1,False
+C_lite_supportive,own_complete_case,EstimatedSysPAPressure,0.736644259076094,1,False
+C_lite_supportive,own_complete_case,LACavitySize,0.05302467852741528,3,False
+C_lite_supportive,own_complete_case,LV_EF,0.0263330415655871,1,True
+C_lite_supportive,own_complete_case,TissueDopplerEERatioSeptal,0.04462241999973326,1,True
+C_lite_supportive,own_complete_case,albumin-numeric result,0.013063853003688026,1,True
+C_lite_supportive,own_complete_case,creatinine-numeric result,0.14189936591775515,1,False
+C_lite_supportive,own_complete_case,m/f,0.7515768676814478,1,False
+C_full_exploratory,own_complete_case,AFIB_binary,0.885131443862937,1,False
+C_full_exploratory,own_complete_case,AgeAtFirstHFDate,0.6111112683434053,1,False
+C_full_exploratory,own_complete_case,EstimatedSysPAPressure,0.8130303001936738,1,False
+C_full_exploratory,own_complete_case,LACavitySize,0.1487392845807183,3,False
+C_full_exploratory,own_complete_case,LV_EF,0.060146815258067386,1,False
+C_full_exploratory,own_complete_case,TissueDopplerEERatioSeptal,0.033694788606908777,1,True
+C_full_exploratory,own_complete_case,albumin-numeric result,0.01480509998818847,1,True
+C_full_exploratory,own_complete_case,creatinine-numeric result,0.1813594081836523,1,False
+C_full_exploratory,own_complete_case,m/f,0.7660480581020985,1,False
+C_full_exploratory,own_complete_case,tricuspid_regurgitation_clin_grouped,0.04664214548690672,3,True

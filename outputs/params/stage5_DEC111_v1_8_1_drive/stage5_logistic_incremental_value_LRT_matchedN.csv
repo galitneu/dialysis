@@ -1,0 +1,2 @@
+ll_reduced,ll_full,lr_stat,df_diff,lr_p_value,outcome,model_family,comparison,matched_tier,n_matched,events,aic_model_b_matched,aic_c_minimal_matched,delta_aic_full_minus_reduced,auc_model_b_matched,auc_c_minimal_matched
+-280.5705590572767,-280.13398220642887,0.8731537016956281,1,0.3500837077769976,one_year_mortality,logistic,C_minimal_vs_Model_B,C_minimal,497,185,575.1411181145534,576.2679644128577,1.1268462983043719,0.7610706860706861,0.7603257103257104

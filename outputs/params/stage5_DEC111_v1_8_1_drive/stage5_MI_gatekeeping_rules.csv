@@ -1,0 +1,6 @@
+criterion,required_for_interpretation,description
+finite_estimates,True,"No inf, -inf, NaN in central estimates or confidence intervals."
+model_convergence,True,Models converge in the large majority of imputations.
+direction_consistency,True,Direction of C-minimal effect is broadly consistent with complete-case primary model.
+plausible_ci,True,Confidence intervals are finite and clinically plausible.
+hospitalization_mi_caution,True,"Hospitalization MI remains sensitivity only; if unstable, report as diagnostic rather than interpretive."

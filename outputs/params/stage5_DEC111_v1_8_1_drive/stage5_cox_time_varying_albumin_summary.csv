@@ -1,0 +1,3 @@
+outcome,model_name,tier,n_subjects,n_intervals,events,llf,n_params,converged
+survival,cox_time_varying_albumin,Model_B_matched_to_C_minimal,518,86568,405,-2138.0402368405444,7,True
+survival,cox_time_varying_albumin,C_minimal_matched,518,86568,405,-2132.288048842839,8,True

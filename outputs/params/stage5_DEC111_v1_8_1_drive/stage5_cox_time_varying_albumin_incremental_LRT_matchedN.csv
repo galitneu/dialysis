@@ -1,0 +1,2 @@
+ll_reduced,ll_full,lr_stat,df_diff,lr_p_value,outcome,model_family,comparison,matched_tier,n_matched,events
+-2138.0402368405444,-2132.288048842839,11.504375995410555,1,0.0006943253525548301,survival,cox_time_varying_albumin,C_minimal_vs_Model_B,C_minimal,518,405
