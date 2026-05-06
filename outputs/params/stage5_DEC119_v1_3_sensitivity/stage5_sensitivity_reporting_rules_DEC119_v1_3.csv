@@ -1,0 +1,5 @@
+topic,locked_rule,interpretation
+primary_model,C-minimal remains the primary clinically guided model,Sensitivity results cannot replace C-minimal post hoc.
+hospitalization_estimand,Full cohort remains primary; ≥6m cohort is mandatory sensitivity,"If full-cohort NB is flagged, report full and ≥6m side-by-side; do not silently switch primary cohort."
+time_dependent_pattern,PH/landmark findings are interpreted as time-dependent signal,"E/e′ and albumin may operate at different time windows; this is a biological/clinical interpretation, not a model-selection rule."
+C_lite_C_full,C-lite/C-full are supportive/exploratory,"They test whether SPAP, LA size and TR support or modify the C-minimal story, not whether they replace it."

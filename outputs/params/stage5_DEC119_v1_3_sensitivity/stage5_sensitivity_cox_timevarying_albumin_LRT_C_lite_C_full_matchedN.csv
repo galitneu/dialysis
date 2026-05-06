@@ -1,0 +1,3 @@
+ll_reduced,ll_full,lr_stat,df_diff,lr_p_value,outcome,model_family,comparison,role,matched_tier,n_matched,events,added_variables,committee_status
+-1702.811941094398,-1701.2843397032811,3.055202782233664,4,0.5486302263059524,survival,cox_time_varying_albumin,C_lite_vs_C_minimal,supportive_sensitivity,C_lite_supportive,415,340,EstimatedSysPAPressure + LACavitySize,no_supportive_incremental_signal
+-1670.1072420039764,-1665.2505716603982,9.713340687156233,3,0.021166803419712363,survival,cox_time_varying_albumin,C_full_vs_C_lite,exploratory_sensitivity,C_full_exploratory,408,335,tricuspid_regurgitation_clin_grouped,supportive_signal_exploratory_not_primary

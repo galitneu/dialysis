@@ -1,0 +1,17 @@
+dataset,tier,n_initial,n_complete,n_lost,pct_lost
+oneyear,Model_B,617,612,5,0.8103727714748784
+oneyear,C_minimal_primary_reference,617,497,120,19.448946515397083
+oneyear,C_lite_supportive,617,398,219,35.49432739059968
+oneyear,C_full_exploratory,617,391,226,36.6288492706645
+survival,Model_B,644,639,5,0.7763975155279503
+survival,C_minimal_primary_reference,644,518,126,19.565217391304348
+survival,C_lite_supportive,644,415,229,35.55900621118012
+survival,C_full_exploratory,644,408,236,36.64596273291926
+hospitalization_full,Model_B,644,639,5,0.7763975155279503
+hospitalization_full,C_minimal_primary_reference,644,518,126,19.565217391304348
+hospitalization_full,C_lite_supportive,644,415,229,35.55900621118012
+hospitalization_full,C_full_exploratory,644,408,236,36.64596273291926
+hospitalization_ge6m,Model_B,452,448,4,0.8849557522123894
+hospitalization_ge6m,C_minimal_primary_reference,452,371,81,17.920353982300885
+hospitalization_ge6m,C_lite_supportive,452,287,165,36.50442477876106
+hospitalization_ge6m,C_full_exploratory,452,281,171,37.83185840707964

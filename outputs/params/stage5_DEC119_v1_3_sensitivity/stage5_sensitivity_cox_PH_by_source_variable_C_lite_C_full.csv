@@ -1,0 +1,27 @@
+tier,source_variable,min_ph_p,any_ph_violation,n_terms
+C_minimal_primary_reference,AFIB_binary,0.9885723991751452,False,1
+C_minimal_primary_reference,AgeAtFirstHFDate,0.174022599245233,False,1
+C_minimal_primary_reference,LV_EF,0.003167277618832926,True,1
+C_minimal_primary_reference,TissueDopplerEERatioSeptal,0.01976095891108371,True,1
+C_minimal_primary_reference,albumin-numeric result,0.0002899607055969409,True,1
+C_minimal_primary_reference,creatinine-numeric result,0.019926740870200535,True,1
+C_minimal_primary_reference,m/f,0.805388910580618,False,1
+C_lite_supportive,AFIB_binary,0.9954058131695062,False,1
+C_lite_supportive,AgeAtFirstHFDate,0.5666447889542978,False,1
+C_lite_supportive,EstimatedSysPAPressure,0.736644259076094,False,1
+C_lite_supportive,LACavitySize,0.05302467852741528,False,3
+C_lite_supportive,LV_EF,0.0263330415655871,True,1
+C_lite_supportive,TissueDopplerEERatioSeptal,0.04462241999973326,True,1
+C_lite_supportive,albumin-numeric result,0.013063853003688026,True,1
+C_lite_supportive,creatinine-numeric result,0.14189936591775515,False,1
+C_lite_supportive,m/f,0.7515768676814478,False,1
+C_full_exploratory,AFIB_binary,0.885131443862937,False,1
+C_full_exploratory,AgeAtFirstHFDate,0.6111112683434053,False,1
+C_full_exploratory,EstimatedSysPAPressure,0.8130303001936738,False,1
+C_full_exploratory,LACavitySize,0.1487392845807183,False,3
+C_full_exploratory,LV_EF,0.060146815258067386,False,1
+C_full_exploratory,TissueDopplerEERatioSeptal,0.033694788606908777,True,1
+C_full_exploratory,albumin-numeric result,0.01480509998818847,True,1
+C_full_exploratory,creatinine-numeric result,0.1813594081836523,False,1
+C_full_exploratory,m/f,0.7660480581020985,False,1
+C_full_exploratory,tricuspid_regurgitation_clin_grouped,0.04664214548690672,True,3

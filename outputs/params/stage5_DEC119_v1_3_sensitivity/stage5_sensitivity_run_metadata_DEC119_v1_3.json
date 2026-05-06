@@ -1,0 +1,42 @@
+{
+  "run_version": "DEC119_v1_3_SENSITIVITY_MODELS_DRIVE_SAFE",
+  "run_timestamp": "2026-05-06T18:51:37",
+  "notebook_role": "post-primary sensitivity/supportive analyses; not primary model selection",
+  "one_year_path": "/content/drive/MyDrive/dialysis/outputs/params/stage1/stage1_oneyear_mortality.csv",
+  "survival_path": "/content/drive/MyDrive/dialysis/outputs/params/stage1/stage1_survival_analysis.csv",
+  "hospitalization_path": "/content/drive/MyDrive/dialysis/outputs/params/stage1/stage1_hospitalization_analysis.csv",
+  "local_output_dir": "/content/DEC119_v1_3_SENSITIVITY_MODELS_DRIVE_SAFE",
+  "drive_output_dir": "/content/drive/MyDrive/dialysis/outputs/params/stage5/outputs/DEC119_v1_3_SENSITIVITY_MODELS_DRIVE_SAFE",
+  "primary_model_reference": "C_minimal = clinical baseline + EF + E/e_prime septal",
+  "sensitivity_tiers": [
+    "Model_B",
+    "C_minimal_primary_reference",
+    "C_lite_supportive",
+    "C_full_exploratory"
+  ],
+  "comparisons": [
+    {
+      "comparison": "C_lite_vs_C_minimal",
+      "reduced_tier": "C_minimal_primary_reference",
+      "full_tier": "C_lite_supportive",
+      "matched_tier": "C_lite_supportive",
+      "added_variables": [
+        "EstimatedSysPAPressure",
+        "LACavitySize"
+      ],
+      "role": "supportive_sensitivity"
+    },
+    {
+      "comparison": "C_full_vs_C_lite",
+      "reduced_tier": "C_lite_supportive",
+      "full_tier": "C_full_exploratory",
+      "matched_tier": "C_full_exploratory",
+      "added_variables": [
+        "tricuspid_regurgitation_clin_grouped"
+      ],
+      "role": "exploratory_sensitivity"
+    }
+  ],
+  "interpretation_rule": "C-lite/C-full/no-albumin analyses are supportive/exploratory and do not replace the primary C-minimal analysis.",
+  "drive_safe_note": "Outputs were written locally first. A ZIP is copied to Drive at the end to reduce Google Drive connection-abort errors."
+}
