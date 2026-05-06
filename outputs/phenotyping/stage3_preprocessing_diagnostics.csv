@@ -1,0 +1,19 @@
+variable,n_pre_drop,n_post_drop,n_missing_pre_drop,pct_missing_pre_drop,imputation_method,in_final_matrix
+AgeAtFirstHFDate,645,602,0,0.0,drop_patients_with_missing,True
+LV_EF,645,602,4,0.6201550387596899,drop_patients_with_missing,True
+LeftVentricleEndDiastolicDiameter,645,602,8,1.2403100775193798,drop_patients_with_missing,True
+LeftVentriclePosteriorWallThickness,645,602,13,2.0155038759689923,drop_patients_with_missing,True
+LeftVentricleEstimatedMass,645,602,16,2.4806201550387597,drop_patients_with_missing,True
+MitralInflowPeakEWave,645,602,63,9.767441860465116,kNN(k=5),True
+TissueDopplerEERatioSeptal,645,602,122,18.914728682170544,kNN(k=5),True
+EstimatedSysPAPressure,645,602,108,16.74418604651163,kNN(k=5),True
+albumin-numeric result,645,602,1,0.15503875968992248,drop_patients_with_missing,True
+creatinine-numeric result,645,602,1,0.15503875968992248,drop_patients_with_missing,True
+crp-numeric result,645,602,25,3.875968992248062,drop_patients_with_missing,True
+hb-numeric result,645,602,66,10.232558139534884,kNN(k=5),True
+AFIB_binary,645,602,0,0.0,drop_patients_with_missing,True
+Diabetes mellitus_binary,645,602,0,0.0,drop_patients_with_missing,True
+sex_male,645,602,1,0.15503875968992248,drop_patients_with_missing,True
+HD_binary,645,602,0,0.0,drop_patients_with_missing,True
+LACavity_dilated,645,602,43,6.666666666666667,kNN(k=5),True
+TR_moderate_or_severe,645,602,45,6.976744186046512,kNN(k=5),True

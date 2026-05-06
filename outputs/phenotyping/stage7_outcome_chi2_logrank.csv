@@ -1,0 +1,4 @@
+test,statistic,p_value,note
+chi2_one_year_mortality,3.0264853004180505,0.08191528378188338,descriptive only
+multivariate_logrank_overall_survival,3.824221738998346,0.050516803055943305,descriptive only
+kruskal_wallis_hosp_count,0.31802951204176766,0.5727942493045104,descriptive only

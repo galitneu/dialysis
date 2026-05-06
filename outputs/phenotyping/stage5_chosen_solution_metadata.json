@@ -1,0 +1,19 @@
+{
+  "algorithm": "gmm",
+  "K": 2,
+  "silhouette": 0.06478291263584,
+  "mean_stability": 1.0,
+  "min_cluster_size": 65,
+  "rationale": "multi-criterion best per algorithm + cross-algorithm modal K + highest-stability algorithm",
+  "cross_algo_ARI": {
+    "kmeans__ward": 0.2488204639732234,
+    "kmeans__gmm": -0.03651419544526777,
+    "ward__gmm": -0.08070355552520331
+  },
+  "consensus_status": "WEAK_consensus_results_exploratory",
+  "best_K_per_algo": {
+    "kmeans": 2,
+    "ward": 2,
+    "gmm": 2
+  }
+}
