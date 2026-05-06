@@ -1,0 +1,5 @@
+model_tier,variables,n_variables
+Model_B,AgeAtFirstHFDate | m/f | albumin-numeric result | creatinine-numeric result | AFIB_binary | LV_EF,6
+C_minimal,AgeAtFirstHFDate | m/f | albumin-numeric result | creatinine-numeric result | AFIB_binary | LV_EF | TissueDopplerEERatioSeptal,7
+C_lite,AgeAtFirstHFDate | m/f | albumin-numeric result | creatinine-numeric result | AFIB_binary | LV_EF | TissueDopplerEERatioSeptal | EstimatedSysPAPressure | LACavitySize,9
+C_full,AgeAtFirstHFDate | m/f | albumin-numeric result | creatinine-numeric result | AFIB_binary | LV_EF | TissueDopplerEERatioSeptal | EstimatedSysPAPressure | tricuspid_regurgitation_clin_grouped | LACavitySize,10

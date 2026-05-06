@@ -1,0 +1,64 @@
+outcome,model_tier,model_type,variable_or_term,effect_measure,estimate_MI,ci_lower_MI,ci_upper_MI,MI_M,MI_note
+one_year_mortality,C_lite,logistic,C(Q('AFIB_binary'))[T.1],OR,1.226355650421471,0.8465255534850294,1.7766128560787342,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_lite,logistic,C(Q('LACavitySize'))[T.Moderate_or_Severe],OR,1.2475184239568746,0.8350437897036697,1.863737252227367,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_lite,logistic,C(Q('LACavitySize'))[T.Normal],OR,0.8726102891798048,0.450214623556919,1.6913016080344965,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_lite,logistic,C(Q('m/f'))[T.m],OR,0.8705948647171288,0.5831752290808903,1.2996701174471612,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_lite,logistic,Q('AgeAtFirstHFDate'),OR,1.052816708964554,1.034172076258283,1.0717974775390542,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_lite,logistic,Q('EstimatedSysPAPressure'),OR,1.0006100578864827,0.9871450275914045,1.0142587562706256,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_lite,logistic,Q('LV_EF'),OR,0.9737902039180927,0.9616707631223943,0.986062379777425,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_lite,logistic,Q('TissueDopplerEERatioSeptal'),OR,1.0045470789513293,0.9830255755178589,1.0265397553853526,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_lite,logistic,Q('albumin-numeric result'),OR,0.4549338248818518,0.32398332186798473,0.6388130840450006,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_lite,logistic,Q('creatinine-numeric result'),OR,0.8248261180405044,0.7480808780416711,0.9094446135059084,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_lite,cox,AFIB_binary,HR,1.2120037610213086,1.0101651813093198,1.4541712027985587,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_lite,cox,AgeAtFirstHFDate,HR,1.0391899874193662,1.03008239418943,1.0483781064935551,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_lite,cox,EstimatedSysPAPressure,HR,1.0029248906004504,0.9951734360232994,1.0107367216365049,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_lite,cox,LACavitySize_Moderate_or_Severe,HR,1.1151959699816596,0.9100049402485056,1.3666541756616326,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_lite,cox,LACavitySize_Normal,HR,1.012494911884217,0.7232480135551778,1.417419650490638,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_lite,cox,LV_EF,HR,0.984475494112854,0.9784828172294778,0.9905048728938988,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_lite,cox,TissueDopplerEERatioSeptal,HR,1.0156180881477168,1.0043366934582902,1.0270262031561037,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_lite,cox,albumin-numeric result,HR,0.7549885103440197,0.6379694854109186,0.8934716530906455,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_lite,cox,creatinine-numeric result,HR,0.9219819517946976,0.878427073078009,0.9676964035916854,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_lite,cox,m/f_m,HR,0.9669829875608258,0.7931118812768067,1.1789712401316468,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_lite,negative_binomial,C(Q('AFIB_binary'))[T.1],IRR,0.0,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_lite,negative_binomial,C(Q('LACavitySize'))[T.Moderate_or_Severe],IRR,0.0,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_lite,negative_binomial,C(Q('LACavitySize'))[T.Normal],IRR,369686334.67913705,2.0132633480353663e-66,6.788380972705965e+82,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_lite,negative_binomial,C(Q('m/f'))[T.m],IRR,inf,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_lite,negative_binomial,Q('AgeAtFirstHFDate'),IRR,,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_lite,negative_binomial,Q('EstimatedSysPAPressure'),IRR,2.7943231906803854e-22,1.991864943718549e-149,3.92006602586074e+105,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_lite,negative_binomial,Q('LV_EF'),IRR,inf,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_lite,negative_binomial,Q('TissueDopplerEERatioSeptal'),IRR,inf,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_lite,negative_binomial,Q('albumin-numeric result'),IRR,0.0,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_lite,negative_binomial,Q('creatinine-numeric result'),IRR,0.0,,,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_full,logistic,C(Q('AFIB_binary'))[T.1],OR,1.225776929058102,0.8445944600979075,1.7789947137907278,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_full,logistic,C(Q('LACavitySize'))[T.Moderate_or_Severe],OR,1.2446448219460855,0.8349388810063744,1.855394170804433,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_full,logistic,C(Q('LACavitySize'))[T.Normal],OR,0.8539062755625204,0.4371338278687447,1.6680382092597825,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_full,logistic,C(Q('m/f'))[T.m],OR,0.8737244171068469,0.5844052786673456,1.306275601735688,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_full,logistic,C(Q('tricuspid_regurgitation_clin_grouped'))[T.None_Trace_Mild],OR,1.0222026640530826,0.7054952184354294,1.4810848593906578,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_full,logistic,Q('AgeAtFirstHFDate'),OR,1.0525829783225555,1.0339013673052484,1.0716021482224003,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_full,logistic,Q('EstimatedSysPAPressure'),OR,1.0009765349763742,0.9872859312070601,1.0148569850968248,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_full,logistic,Q('LV_EF'),OR,0.9741258930094084,0.9619177117794812,0.9864890144042975,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_full,logistic,Q('TissueDopplerEERatioSeptal'),OR,1.0044865832309577,0.9827115810874443,1.0267440776208996,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_full,logistic,Q('albumin-numeric result'),OR,0.4540818083522896,0.322883844685187,0.6385896726345099,40,consultation_grade_approximation_confirm_with_biostatistician
+one_year_mortality,C_full,logistic,Q('creatinine-numeric result'),OR,0.8250799226443867,0.7480356291094281,0.9100594306735637,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_full,cox,AFIB_binary,HR,1.2125280275956642,1.0098480990792558,1.4558865031736266,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_full,cox,AgeAtFirstHFDate,HR,1.0395334627398034,1.0303670015198867,1.0487814716132962,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_full,cox,EstimatedSysPAPressure,HR,1.002989271071146,0.9955267288620461,1.010507753050227,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_full,cox,LACavitySize_Moderate_or_Severe,HR,1.1052733074153367,0.9027784527954854,1.3531881274990776,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_full,cox,LACavitySize_Normal,HR,1.0053242492575432,0.7184272527224516,1.4067907951923075,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_full,cox,LV_EF,HR,0.9843782122028222,0.9783756062948797,0.9904176457641263,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_full,cox,TissueDopplerEERatioSeptal,HR,1.0158424933614376,1.0046560370895645,1.0271535064958615,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_full,cox,albumin-numeric result,HR,0.7520999215510417,0.6352023611015924,0.89051037375885,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_full,cox,creatinine-numeric result,HR,0.9245952952696045,0.8809137975292003,0.9704428088565044,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_full,cox,m/f_m,HR,0.9691883094697931,0.7949536470975354,1.1816110066825904,40,consultation_grade_approximation_confirm_with_biostatistician
+survival,C_full,cox,tricuspid_regurgitation_clin_grouped_None_Trace_Mild,HR,0.9223341254088223,0.764181261913964,1.1132178728944468,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_full,negative_binomial,C(Q('AFIB_binary'))[T.1],IRR,0.0,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_full,negative_binomial,C(Q('LACavitySize'))[T.Moderate_or_Severe],IRR,0.0,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_full,negative_binomial,C(Q('LACavitySize'))[T.Normal],IRR,inf,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_full,negative_binomial,C(Q('m/f'))[T.m],IRR,inf,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_full,negative_binomial,C(Q('tricuspid_regurgitation_clin_grouped'))[T.None_Trace_Mild],IRR,inf,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_full,negative_binomial,Q('AgeAtFirstHFDate'),IRR,,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_full,negative_binomial,Q('EstimatedSysPAPressure'),IRR,0.0,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_full,negative_binomial,Q('LV_EF'),IRR,inf,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_full,negative_binomial,Q('TissueDopplerEERatioSeptal'),IRR,,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_full,negative_binomial,Q('albumin-numeric result'),IRR,0.0,,,40,consultation_grade_approximation_confirm_with_biostatistician
+hospitalization,C_full,negative_binomial,Q('creatinine-numeric result'),IRR,0.0,,,40,consultation_grade_approximation_confirm_with_biostatistician
