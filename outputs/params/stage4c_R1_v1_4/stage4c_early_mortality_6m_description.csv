@@ -1,0 +1,2 @@
+n_total_hospitalization_dataset,survival_time_column,survival_time_unit_inferred,six_month_threshold_used,n_with_observed_survival_at_least_6m,pct_with_observed_survival_at_least_6m,n_death_before_6m,pct_death_before_6m,n_survival_time_less_than_6m_any_status,pct_survival_time_less_than_6m_any_status,note
+644,time_to_event_days,days,182.625,452,70.1863354037267,177,27.48447204968944,192,29.81366459627329,6-month survivor sensitivity for hospitalization burden; exclude time<6m from sensitivity cohort
